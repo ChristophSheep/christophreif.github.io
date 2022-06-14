@@ -1,11 +1,25 @@
-function create() {
-  var menu = document.getElementById("menu")
-  var a = document.createElement('a');
-  var text = document.createTextNode("bio");
-  a.appendChild(text);
-  a.title = "my title text";
-  a.href = "http://example.com";
-  menu.appendChild(a);
+var menu = document.getElementById("menu");
+
+var items = {
+
+   "bio": "http://orf.at",
+"essays": "http://orf.at",
+ "books": "http://orf.at",
+  "cell": "http://orf.at",
+"quotes": "http://orf.at",
+
+}
+
+function createItem(name, link) {
+  var text = document.createTextNode(name);
+  var anch = document.createElement('a');
+  anch.appendChild(text);
+  anch.href = link;
+  menu.appendChild(anch);
+}
+
+function createMenu() {
+  items.forEach((key, value) => { createItem(key, value); } );
 }
   
-create();
+createMenu();
