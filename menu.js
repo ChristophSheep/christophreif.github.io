@@ -11,18 +11,23 @@ var items = {
 };
 
 function createItem(name, link) {
-  var text = document.createTextNode(name);
+  
   var a = document.createElement('a');
   a.href = link;
-  a.appendChild(text);
-  menu.appendChild(a);
+  a.innerHtml = text;
+   
+  var li = document.createElement('li');
+  li.appendChild(a)
+  
+  return li
 }
 
 function createMenu() {
    Object
       .keys(items)
       .forEach( function(key) { 
-         createItem(key, items[key]); 
+         var item = createItem(key, items[key]);
+         menu.appendChild(item);
       });
 }
   
