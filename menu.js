@@ -12,17 +12,17 @@ var items = {
 
 function createItem(name, link) {
   var text = document.createTextNode(name);
-  var anch = document.createElement('a');
-  anch.href = link;
-  anch.appendChild(text);
-  menu.appendChild(anch);
+  var a = document.createElement('a');
+  a.href = link;
+  a.appendChild(text);
+  menu.appendChild(a);
 }
 
 function createMenu() {
    Object
       .keys(items)
       .forEach( function(key) { 
-         alert(key); 
+         crateItem(key, items[key]); 
       });
 }
   
