@@ -12,12 +12,13 @@ var items = {
 
 function createItem(name, link) {
   
-  var a = document.createElement('a');
-  a.href = link;
-  a.innerHTML = name;
-   
+  var aa = document.createElement('a');
   var li = document.createElement('li');
-  li.appendChild(a)
+   
+  li.appendChild(aa);
+  
+  aa.innerHTML = name;
+  aa.href = link;
   
   return li
 }
