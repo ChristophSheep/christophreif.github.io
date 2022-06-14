@@ -22,7 +22,7 @@ function createMenu() {
    Object
       .keys(items)
       .forEach( function(key) { 
-         crateItem(key, items[key]); 
+         createItem(key, items[key]); 
       });
 }
   
