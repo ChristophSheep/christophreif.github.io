@@ -12,4 +12,6 @@
   
   create();
   
+  alert("Hello");
+  
 })()
