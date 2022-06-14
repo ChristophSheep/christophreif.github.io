@@ -12,7 +12,8 @@ var items = {
 
 function createItem(name, link) {
   var text = document.createTextNode(name);
-  var anch = document.createElement('a').href = link;
+  var anch = document.createElement('a');
+  anch.href = link;
   anch.appendChild(text);
   menu.appendChild(anch);
 }
