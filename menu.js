@@ -14,7 +14,7 @@ function createItem(name, link) {
   
   var a = document.createElement('a');
   a.href = link;
-  a.innerHtml = text;
+  a.innerHtml = name;
    
   var li = document.createElement('li');
   li.appendChild(a)
