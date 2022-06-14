@@ -8,7 +8,7 @@ var items = {
   "cell": "http://orf.at",
 "quotes": "http://orf.at",
 
-}
+};
 
 function createItem(name, link) {
   var text = document.createTextNode(name);
@@ -21,7 +21,7 @@ function createMenu() {
    Object
       .keys(items)
       .forEach( function(key) { 
-         createItem(key, items[key]); 
+         alert(key); 
       });
 }
   
