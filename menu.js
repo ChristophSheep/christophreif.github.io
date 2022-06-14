@@ -1,4 +1,4 @@
-function menu() {
+(function() {
 
   function create() {
     var menu = document.getElementById("menu")
@@ -10,4 +10,6 @@ function menu() {
     menu.appendChild(a);
   }
   
-}()
+  create();
+  
+})()
