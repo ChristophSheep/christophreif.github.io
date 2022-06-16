@@ -14,3 +14,7 @@
 .sidebar {
   background-color: grey; 
 }
+
+.sidebar > ul {
+  list-style: none;
+}
