@@ -12,15 +12,13 @@ var items = {
 };
 
 function createItem(name, link) {
-  
-  var aa = document.createElement('a');
+  var a = document.createElement('a');
+  a.innerHTML = name;
+  a.href = link;
+ 
   var li = document.createElement('li');
-   
-  li.appendChild(aa);
-  
-  aa.innerHTML = name;
-  aa.href = link;
-  
+  li.appendChild(a);
+ 
   return li
 }
 
@@ -28,8 +26,7 @@ function createMenu() {
    Object
       .keys(items)
       .forEach( function(key) { 
-         var item = createItem(key, items[key]);
-         menu.appendChild(item);
+         menu.appendChild(createItem(key, items[key]));
       });
 }
   
