@@ -18,7 +18,7 @@ function createMenu() {
         "essays": "./essays.html",
         "history": "./hist.html",
         "poeple": "./people.html",
-        "quotes": "./quotes.html,
+        "quotes": "./quotes.html",
     };
 
     let nav = document.getElementById('menu');
