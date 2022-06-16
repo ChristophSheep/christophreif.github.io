@@ -2,12 +2,13 @@ var menu = document.getElementById("menu");
 
 var items = {
 
-   "bio": "http://orf.at",
-"essays": "http://orf.at",
- "books": "http://orf.at",
-  "cell": "http://orf.at",
-"quotes": "http://orf.at",
-
+    "cel": "./cel.html",
+    "bio": "./bio.html",
+  "books": "./books.html",
+ "essays": "./essays.html",
+"history": "./hist.html",
+ "poeple": "./people.html"
+ "quotes": "./quotes.html,
 };
 
 function createItem(name, link) {
