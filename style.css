@@ -18,3 +18,7 @@
 .sidebar > ul {
   list-style: none;
 }
+
+header > h1 {
+  text-color: #ccc;
+}
