@@ -1,3 +1,15 @@
+var items = {
+    "cel": "./cel.html",
+    "bio": "./bio.html",
+    "books": "./books.html",
+    "essays": "./essays.html",
+    "history": "./hist.html",
+    "poeple": "./people.html",
+    "quotes": "./quotes.html",
+};
+
+let nav = document.getElementById('menu');
+
 function createItem(name, link) {
     var a = document.createElement('a');
     a.innerHTML = name;
@@ -9,19 +21,8 @@ function createItem(name, link) {
     return li;
 }
 
-function createMenu() {
+function createMenu(nav, items) {
 
-    var items = {
-        "cel": "./cel.html",
-        "bio": "./bio.html",
-        "books": "./books.html",
-        "essays": "./essays.html",
-        "history": "./hist.html",
-        "poeple": "./people.html",
-        "quotes": "./quotes.html",
-    };
-
-    let nav = document.getElementById('menu');
     var ul = document.createElement('ul');
     nav.appendChild(ul);
 
@@ -32,4 +33,4 @@ function createMenu() {
         });
 }
 
-createMenu();
+createMenu(nav, items);
