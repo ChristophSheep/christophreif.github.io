@@ -7,7 +7,7 @@ var items = {
   "books": "./books.html",
  "essays": "./essays.html",
 "history": "./hist.html",
- "poeple": "./people.html"
+ "poeple": "./people.html",
  "quotes": "./quotes.html,
 };
 
