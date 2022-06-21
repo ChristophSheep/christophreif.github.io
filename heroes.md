@@ -1,6 +1,8 @@
-# True Heroes
+# Pioneers of Computer Science
 
-These are are a small amoung of hero people. There are many more.
+This is a partial list of notable figures in computer science.
+
+[List of pioneers in computer science](https://en.wikipedia.org/wiki/List_of_pioneers_in_computer_science)
 
 ## Paul Graham
 
@@ -8,6 +10,16 @@ These are are a small amoung of hero people. There are many more.
 * [The Root of Lisp](http://www.paulgraham.com/rootsoflisp.html)
 * [Arc](http://paulgraham.com/arc.html)
 * [Bel](http://paulgraham.com/bel.html)
+
+## John McCarthy
+
+* [Home](http://www-formal.stanford.edu/jmc/index.html)
+* [Roots of Lisp](http://www.paulgraham.com/rootsoflisp.html)
+* [Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language))
+* [Garbage Collection](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science))
+* [John McCarthy, on Philosophy of AI](https://www.youtube.com/watch?v=K13_sWm_gZw)
+* [AI winter](https://en.wikipedia.org/wiki/AI_winter)
+
 
 ## Gerald Jay Sussmann	
 
@@ -24,6 +36,18 @@ These are are a small amoung of hero people. There are many more.
 ## Rob Pike
 
 * [The Good, the Bad, and the Ugly: The Unix Legacy](http://herpolhode.com/rob/ugly.pdf)
+* [Go](https://en.wikipedia.org/wiki/Go_(programming_language))
+* [Plan 9](https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs)
+
+## Dennis Ritchie
+
+* [Home](https://www.bell-labs.com/usr/dmr/www/)
+* [The C Programming Language, Second Edition](https://s3-us-west-2.amazonaws.com/belllabs-microsite-dritchie/cbook/index.html)
+
+## Ken Thompson
+
+ * [Go](https://en.wikipedia.org/wiki/Go_(programming_language))
+ * [Plan 9](https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs)
 
 ## Gerald M. Weinberg	
 
@@ -40,13 +64,18 @@ These are are a small amoung of hero people. There are many more.
 
 * [About](https://www.crockford.com/about.html)
 * [JavaScript: The World's Most Misunderstood Programming Language](http://www.crockford.com/javascript/javascript.html)
+* [How JavaScript Works](https://howjavascriptworks.com)
+* [The Post JavaScript Apocalypse](https://www.youtube.com/watch?v=NPB34lDZj3E)
+* [Principles of Security](https://www.youtube.com/watch?v=zKuFu19LgZA)
 
 ## Niklaus Wirth
 
 * [Home at ETH Zürich](https://people.inf.ethz.ch/wirth/)
 * [A Plea for Lean Software](https://cr.yp.to/bib/1995/wirth.pdf)
 * [Oberon](https://people.inf.ethz.ch/wirth/Oberon/index.html)
-* [Project Oberon - The Design of an Operating System, a Compiler, and a Computer]https://people.inf.ethz.ch/wirth/ProjectOberon/PO.System.pdf
+* [Project Oberon - The Design of an Operating System, a Compiler, and a Computer](https://people.inf.ethz.ch/wirth/ProjectOberon/PO.System.pdf)
+* [Compiler Construction](https://people.inf.ethz.ch/wirth/CompilerConstruction/CompilerConstruction1.pdf)
+* [Algorithms and Data Structures](https://people.inf.ethz.ch/wirth/AD.pdf)
 
 ## Tony Hoare
 
@@ -54,15 +83,31 @@ These are are a small amoung of hero people. There are many more.
 
 ## Jef Raskin	
 
+* [The Humane Interface](https://en.wikipedia.org/wiki/The_Humane_Interface)
+* [Archy](https://en.wikipedia.org/wiki/Archy_(software))
+* [Zooming User Interface](https://en.wikipedia.org/wiki/Zooming_user_interface)
+
+## Aza Raskin (Son Jef Raskin)
+
+* [Home](https://aza.wtf)
 
 ## Edsger W. Dijkstra	
 
 * [Go To Statement Considered Harmful](https://homepages.cwi.nl/~storm/teaching/reader/Dijkstra68.pdf)
 
+## Eric S. Raymond
 
-## Donald E. Norman		
+* [The Art of Unix Programming](https://nakamotoinstitute.org/static/docs/taoup.pdf)
+* [Revolution OS](https://youtu.be/NrI-0u4npGo)
 
-## John McCarthy	
+## Donald E. Norman	
+
+* [The Design of Everyday Things](https://jnd.org/the-design-of-everyday-things-revised-and-expanded-edition/)
+* [The Design of Future Things](https://jnd.org/the-design-of-future-things/)
+
+
+
+## Bjarne Stroustrup
 
 ## M. Douglas McIlroy	
 
@@ -81,22 +126,6 @@ These are are a small amoung of hero people. There are many more.
 ## James Gosling		
 
 ## Martin Odersky		
-
-## Bjarne Stroustrup	
-
-
-
-	
-
-
-
-## Eric S. Raymond		
-
-	
-
-
-
-## Dennis Ritchie		
 
 ## Ken Perlin		
 
