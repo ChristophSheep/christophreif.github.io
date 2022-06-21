@@ -27,6 +27,7 @@ This is a partial list of notable figures in computer science.
 * [Home](https://groups.csail.mit.edu/mac/users/gjs/)
 * [Flexible Systems, The Power of Generic Operations](https://vimeo.com/151465912)
 * [We Really Don't Know How To Compute!](https://www.infoq.com/presentations/We-Really-Dont-Know-How-To-Compute/)
+* [Revised Report on the Propagator Model](https://groups.csail.mit.edu/mac/users/gjs/propagators/revised-html.html)
 
 ## Donald E. Knuth		
 
