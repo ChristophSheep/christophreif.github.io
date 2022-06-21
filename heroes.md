@@ -16,6 +16,7 @@ This is a partial list of notable figures in computer science.
 * [Home](http://www-formal.stanford.edu/jmc/index.html)
 * [Roots of Lisp](http://www.paulgraham.com/rootsoflisp.html)
 * [Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language))
+* [Recursive Functions of Symbolic Expressions and Their Computation by Machine](http://jmc.stanford.edu/articles/recursive/recursive.pdf)
 * [Garbage Collection](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science))
 * [John McCarthy, on Philosophy of AI](https://www.youtube.com/watch?v=K13_sWm_gZw)
 * [AI winter](https://en.wikipedia.org/wiki/AI_winter)
@@ -90,6 +91,10 @@ This is a partial list of notable figures in computer science.
 ## Aza Raskin (Son Jef Raskin)
 
 * [Home](https://aza.wtf)
+
+
+## Tim Berners-Lee
+
 
 ## Edsger W. Dijkstra	
 
