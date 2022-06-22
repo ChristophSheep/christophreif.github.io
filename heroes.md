@@ -42,7 +42,7 @@ If all these people would work together how would it change the computing indust
 
 ## Alan Kay
 
-
+* [Power of Simplicity](https://www.youtube.com/watch?v=NdSD07U5uBs)
 
 ## Rob Pike
 
