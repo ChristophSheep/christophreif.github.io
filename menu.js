@@ -1,11 +1,11 @@
 var items = {
     "cel": "./cel.html",
-    "bio": "./bio.html",
-    "books": "./books.html",
-    "essays": "./essays.html",
-    "history": "./hist.html",
-    "poeple": "./people.html",
-    "quotes": "./quotes.html",
+    "bio": "./bio.md",
+    "books": "./books.md",
+    "essays": "./essays.md",
+    "history": "./hist.md",
+    "poeple": "./heroes.md",
+    "quotes": "./quotes.md",
 };
 
 let nav = document.getElementById('menu');
