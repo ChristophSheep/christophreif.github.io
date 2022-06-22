@@ -1,5 +1,5 @@
 var items = {
-    "cel": "./cel.html",
+    "cel": "./cel.md",
     "bio": "./bio.md",
     "books": "./books.md",
     "essays": "./essays.md",
