@@ -22,6 +22,10 @@ If all these people would work together how would it change the computing indust
 * [John McCarthy, on Philosophy of AI](https://www.youtube.com/watch?v=K13_sWm_gZw)
 * [AI winter](https://en.wikipedia.org/wiki/AI_winter)
 
+## Barbara Liskov
+
+* [Homepage](https://pmg.csail.mit.edu/~liskov/)
+* [How Data Abstraction changed Computing forever](https://www.youtube.com/watch?v=_jTc1BTFdIo)
 
 ## Gerald Jay Sussmann	
 
