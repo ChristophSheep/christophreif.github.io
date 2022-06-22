@@ -1,19 +1,19 @@
 # Pioneers of Computer Science
 
 This is a partial list of notable figures in computer science.
-
-[List of pioneers in computer science](https://en.wikipedia.org/wiki/List_of_pioneers_in_computer_science)
+If all these people would work together how would it change the computing industrie?
 
 ## Paul Graham
 
-* [Home](http://www.paulgraham.com/index.html)
+* [Homepage](http://www.paulgraham.com/index.html)
 * [The Root of Lisp](http://www.paulgraham.com/rootsoflisp.html)
+* [What Made Lisp Different](http://www.paulgraham.com/diff.html)
 * [Arc](http://paulgraham.com/arc.html)
 * [Bel](http://paulgraham.com/bel.html)
 
 ## John McCarthy
 
-* [Home](http://www-formal.stanford.edu/jmc/index.html)
+* [Homepage](http://www-formal.stanford.edu/jmc/index.html)
 * [Roots of Lisp](http://www.paulgraham.com/rootsoflisp.html)
 * [Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language))
 * [Recursive Functions of Symbolic Expressions and Their Computation by Machine](http://jmc.stanford.edu/articles/recursive/recursive.pdf)
@@ -24,14 +24,14 @@ This is a partial list of notable figures in computer science.
 
 ## Gerald Jay Sussmann	
 
-* [Home](https://groups.csail.mit.edu/mac/users/gjs/)
+* [Homepage](https://groups.csail.mit.edu/mac/users/gjs/)
 * [Flexible Systems, The Power of Generic Operations](https://vimeo.com/151465912)
 * [We Really Don't Know How To Compute!](https://www.infoq.com/presentations/We-Really-Dont-Know-How-To-Compute/)
 * [Revised Report on the Propagator Model](https://groups.csail.mit.edu/mac/users/gjs/propagators/revised-html.html)
 
 ## Donald E. Knuth		
 
-* [Home](https://cs.stanford.edu/~knuth/)
+* [Homepage](https://cs.stanford.edu/~knuth/)
 * [The Art of Computer Programming (TAOCP)](https://cs.stanford.edu/~knuth/taocp.html)
 * [A RISC computer for the new millennium](http://www.mmix.cs.hm.edu)
 
@@ -43,7 +43,7 @@ This is a partial list of notable figures in computer science.
 
 ## Dennis Ritchie
 
-* [Home](https://www.bell-labs.com/usr/dmr/www/)
+* [Homepage](https://www.bell-labs.com/usr/dmr/www/)
 * [The C Programming Language, Second Edition](https://s3-us-west-2.amazonaws.com/belllabs-microsite-dritchie/cbook/index.html)
 
 ## Ken Thompson
@@ -64,7 +64,7 @@ This is a partial list of notable figures in computer science.
 
 ## Douglas Crockford
 
-* [About](https://www.crockford.com/about.html)
+* [Homepage](https://www.crockford.com/)
 * [JavaScript: The World's Most Misunderstood Programming Language](http://www.crockford.com/javascript/javascript.html)
 * [How JavaScript Works](https://howjavascriptworks.com)
 * [The Post JavaScript Apocalypse](https://www.youtube.com/watch?v=NPB34lDZj3E)
@@ -91,7 +91,7 @@ This is a partial list of notable figures in computer science.
 
 ## Aza Raskin (Son Jef Raskin)
 
-* [Home](https://aza.wtf)
+* [Homepage](https://aza.wtf)
 
 
 ## Tim Berners-Lee
@@ -110,8 +110,6 @@ This is a partial list of notable figures in computer science.
 
 * [The Design of Everyday Things](https://jnd.org/the-design-of-everyday-things-revised-and-expanded-edition/)
 * [The Design of Future Things](https://jnd.org/the-design-of-future-things/)
-
-
 
 ## Bjarne Stroustrup
 
@@ -142,3 +140,6 @@ This is a partial list of notable figures in computer science.
 ## Evan Czaplicki	
 
 ## (Christoph Reif) Me
+
+[List of pioneers in computer science](https://en.wikipedia.org/wiki/List_of_pioneers_in_computer_science)
+
