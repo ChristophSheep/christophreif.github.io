@@ -1,7 +1,8 @@
 # Pioneers of Computer Science
 
 This is a partial list of notable figures in computer science.
-If all these people would work together how would it change the computing industrie?
+
+If all these people would work together how would it change the computing industry?
 
 ## Paul Graham
 
