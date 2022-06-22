@@ -40,6 +40,10 @@ If all these people would work together how would it change the computing indust
 * [The Art of Computer Programming (TAOCP)](https://cs.stanford.edu/~knuth/taocp.html)
 * [A RISC computer for the new millennium](http://www.mmix.cs.hm.edu)
 
+## Alan Kay
+
+
+
 ## Rob Pike
 
 * [The Good, the Bad, and the Ugly: The Unix Legacy](http://herpolhode.com/rob/ugly.pdf)
@@ -130,7 +134,7 @@ If all these people would work together how would it change the computing indust
 
 ## Steve Woz
 
-## Alan Kay		
+		
 
 ## James Gosling		
 
