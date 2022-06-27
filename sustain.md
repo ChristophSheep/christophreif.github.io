@@ -2,7 +2,7 @@
 
 Sustainable code is software that is made with long term thinking of business.
 
-What are the attributes of Sustainable code:
+What are the attributes of sustainable code:
 
 * Flexible
 * Robust
@@ -14,6 +14,8 @@ What are the attributes of Sustainable code:
 * Maintainable
 * Independent
 * ...
+
+All these stuff is so important and is not teach in classes.
 
 ## Flexible
 
