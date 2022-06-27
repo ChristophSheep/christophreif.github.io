@@ -20,6 +20,7 @@
 ## Lisp
 * [What Made Lisp Different](http://www.paulgraham.com/diff.html)
 * [The Root of Lisp - Paul Graham](http://www.paulgraham.com/rootsoflisp.html)
+* [Lisp FAQ](http://www.paulgraham.com/lispfaq1.html)
 * [Arc](http://www.paulgraham.com/arc.html) | [Bel](http://www.paulgraham.com/bel.html)
 
 ## JavaScript
