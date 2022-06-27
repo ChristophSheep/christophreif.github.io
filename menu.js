@@ -7,6 +7,7 @@ var items = {
     "poeple": "./heroes.md",
     "quotes": "./quotes.md",
     "articles": "./articles.md",
+    "sustainable": "./sustain.md",
 };
 
 let nav = document.getElementById('menu');
