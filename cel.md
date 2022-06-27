@@ -21,12 +21,14 @@ There are a huge amount of cells that are connected together
 
 A simple cell adds to inputs (a, b) and produce an output c
 
-        +-----+
-   a -->|     |
-        |  +  o--> c
-   b -->|     |
-        +-----+
-       
+```
+      +-----+
+ a -->|     |
+      |  +  o--> c
+ b -->|     |
+      +-----+
+```
+   
   When data is flowing through channel a and data is flowing throug channel b
   then it coult produce an output otherwise not.
  
