@@ -3,7 +3,7 @@ var items = {
     "bio": "./bio.md",
     "books": "./books.md",
     "essays": "./essays.md",
-    "history": "./hist.md",
+    "history": "./history.md",
     "poeple": "./heroes.md",
     "quotes": "./quotes.md",
     "articles": "./articles.md",
