@@ -42,6 +42,9 @@ muscle for flexibility. Both things work hand in hand. Without bones the
 muscle have nothing to attach. The bones alone without muscle can not move
 or rotate. And the flesh and the skin glue everything together.
 
+A robust software has a very small and simple abstract core. This core
+is very stable over the time.
+
 ## Changable
 
 Because you does not know what the future brings. You need to be able to change
