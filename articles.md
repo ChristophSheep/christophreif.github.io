@@ -20,6 +20,10 @@
 ## Lisp
 
 * [The Root of Lisp - Paul Graham](http://www.paulgraham.com/rootsoflisp.html)
+
+## JavaScript
+
 * [JavaScript: The World's Most Misunderstood Programming Language](http://www.crockford.com/javascript/javascript.html)
 * [The World's Most Misunderstood Programming Language Has Become the World's Most Popular Programming Language](https://www.crockford.com/javascript/popular.html)
+* [Douglas Crockford - Create Object Recipe](https://gist.github.com/benpriebe/55b7e950b5e9d056b47e)
 
