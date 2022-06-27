@@ -12,4 +12,13 @@ The history should teach us something that we does not make the same mistakes an
 
 ## Programming Languages
 
-## ...
+## Mistakes
+
+### OO
+
+* I made up the term 'object-oriented', and I can tell you I didn't have C++ in mind
+  -- Alan Kay, OOPSLA '97
+
+### Lisp
+
+* People do not like Lisp because of the parenthises, because they do not understand why they are there.
