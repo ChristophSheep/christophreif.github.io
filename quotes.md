@@ -1,5 +1,5 @@
 # "Legacy code is an attidute."
-It starts with your attitude the first day of coding,
+It starts with your attitude the first day you start coding,
 do you want legacy or you want sustainable code.
 
 # "Keep it simple as possible"
