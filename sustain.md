@@ -28,8 +28,10 @@ Because you does not know what the future will bring.
 So interfaces or the concept of an interface create a big role.
 Interfaces are something like template.
 
+```
   (deftem obj id 0 name "not set")
   (inst obj 'id 1 name "foo")
+```
 
 ## Robust
 
