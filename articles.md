@@ -1,5 +1,11 @@
 # Articles
 
+## Sustainable
+
+* [A Plea for Lean Software](https://cr.yp.to/bib/1995/wirth.pdf)
+* [Maya Architecture Overview](https://help.autodesk.com/view/MAYAUL/2016/ENU/?guid=__files_GUID_F584322E_4A12_4995_9F4E_A38D4331808F_htm)
+* [Object and Functions Sets](https://help.autodesk.com/view/MAYAUL/2016/ENU/?guid=__files_API_Objects_and_Function_Sets_htm)
+
 ## Error
 
 * [Exception Handling Considered Harmful](https://www.lighterra.com/papers/exceptionsharmful/)
@@ -15,7 +21,3 @@
 
 * [The Root of Lisp - Paul Graham](http://www.paulgraham.com/rootsoflisp.html)
 
-## Interesting
-
-* [Maya Architecture Overview](https://help.autodesk.com/view/MAYAUL/2016/ENU/?guid=__files_GUID_F584322E_4A12_4995_9F4E_A38D4331808F_htm)
-* [Object and Functions Sets](https://help.autodesk.com/view/MAYAUL/2016/ENU/?guid=__files_API_Objects_and_Function_Sets_htm)
