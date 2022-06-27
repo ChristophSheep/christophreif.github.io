@@ -15,7 +15,7 @@ What are the attributes of sustainable code:
 * independent
 * abstract
 
-All these stuff is so important and is not teach in classes.
+All these stuff is so important, but often not teached in classes.
 
 ## Flexible
 
