@@ -17,9 +17,16 @@ Following sentences define the paradigm of so called cells
  
 There are a huge amount of cells that are connected together
 
-       +-----+
-  a -->|     |
-       | add o--> c
-  b -->|     |
-       +-----+
+## Example
+
+A simple cell adds to inputs (a, b) and produce an output c
+
+        +-----+
+   a -->|     |
+        |  +  o--> c
+   b -->|     |
+        +-----+
+       
+  When data is flowing through channel a and data is flowing throug channel b
+  then it coult produce an output otherwise not.
  
