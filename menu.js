@@ -6,6 +6,7 @@ var items = {
     "history": "./hist.md",
     "poeple": "./heroes.md",
     "quotes": "./quotes.md",
+    "articles": "./articles.md",
 };
 
 let nav = document.getElementById('menu');
