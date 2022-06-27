@@ -29,6 +29,6 @@ A simple cell adds to inputs (a, b) and produce an output c
       +-----+
 ```
    
-  When data is flowing through channel a and data is flowing throug channel b
-  then it coult produce an output otherwise not.
+  When data is flowing through channel a and data is flowing through channel b
+  then also computed data is flowing out of channel c.
  
