@@ -20,4 +20,5 @@
 ## Lisp
 
 * [The Root of Lisp - Paul Graham](http://www.paulgraham.com/rootsoflisp.html)
+* [JavaScript: The World's Most Misunderstood Programming Language](http://www.crockford.com/javascript/javascript.html)
 
