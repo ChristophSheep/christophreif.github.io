@@ -4,16 +4,16 @@ Sustainable code is software that is made with long term thinking of business.
 
 What are the attributes of sustainable code:
 
-* Flexible
-* Robust
-* Changeable
-* Clear
-* Simple
-* Readable
-* Understandable
-* Maintainable
-* Independent
-* ...
+* flexible
+* robust
+* changeable
+* clear
+* simple
+* readable
+* understandable
+* maintainable
+* independent
+* abstract
 
 All these stuff is so important and is not teach in classes.
 
@@ -49,7 +49,7 @@ or rotate. And the flesh and the skin glue everything together.
 A robust software has a very small and simple abstract core. This core
 is very stable over the time.
 
-## Changable
+## Changeable
 
 Because you does not know what the future brings. You need to be able to change
 the software.
@@ -95,3 +95,21 @@ joined later to the project does not understand or have hard time to understand.
 
 No software is fully free of bugs. But if believe you can develope
 software in a way that you have not many bugs.
+
+## Independent
+
+Sometimes you need the opposite to understand a concept. The opposite
+of independent is depent. A dependet code is better known as spagetti
+code. Everthing depend on anything and so if you change later something
+you break the whole things. To manage your dependencies in a software
+project is very important things to make your software changeable and
+flexible.
+
+## Abstract
+
+Abstract is the power you need to make a sustainable code. Because you
+don't know the future. But if you make an abstract data type for instance
+Animal you can later add Dogs, Lions, Birds, Cats whatever. All these
+objects fit into the abstract type Animal. And the most abstract data type
+is an Object. And the all most abstract data type are list of bytes. So
+called byte streams. In Unix everything is a file (a stream of bytes).
