@@ -22,3 +22,7 @@
 header > h1 {
   text-color: #ccc;
 }
+
+body {
+  text-family: Monaco, Arial, sans-serif;
+}
