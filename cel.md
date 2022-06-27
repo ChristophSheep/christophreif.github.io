@@ -1,21 +1,21 @@
 
 # Draft of cell paradigm
 
-Following sentences define the paradigm of so called cells
+Following sentences define the paradigm of so called cells:
 
- * Each cell is independen
- * Each cell is simple amd stupid
- * Each cell doesn't know that other cells exists
+ * Each cell is independent
+ * Each cell is simple and stupid
+ * Each cell does not know that there are other cells
  * Each cell has no side effects
  * Each cell has its own memory
  * Each cell has 0 to N inputs
  * Each cell has 0 to 1 outputs
- * Each cell calc output from inputs
- * Each cell runs parallel but concurrent to other cells
- * Each cell has 0 to N in connections to other cells
- * Each cell has 0 to M out connections to other cells
+ * Each cell calculates the output from the inputs.
+ * Each cell runs in parallel, but simultaneously to other cells.
+ * Each cell has 0 to N in connections to other cells.
+ * Each cell has 0 to M output connections to other cells.
  
-There are a huge amount of cells that are connected together
+There are a huge amount of cells that are connected together.
 
 ## Example
 
