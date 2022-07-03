@@ -146,13 +146,14 @@ No you build concrete types like an image object in html
   <img src="./foo.png" "style="color:red">
 ```  
 Then you build a button with a link and a box
- ``` 
+``` 
   <div class="button">
     <a href="www.foo.orf">
       <img src="./foo.png" "style="color:red">
     </a>
   </div>
-
+```
 #### Examples
+
  - Paul Graham talk about bottom up design of Arc or Bel. 
  - How TeX is build by Donald Knuth.
