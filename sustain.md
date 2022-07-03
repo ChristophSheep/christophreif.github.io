@@ -119,11 +119,39 @@ objects fit into the abstract type Animal. And the most abstract data type
 is an Object. And the all most abstract data type are list of bytes. So
 called byte streams. In Unix everything is a file (a stream of bytes).
 
-### Layer of Abstraction
+### Layers of Abstraction
 
-If you build your application out of layer of abstraction where the
-core is the most abstract part and the higher it goes the more
-concrete it goes. 
+```
+  +------------+ Layer2
+  | +--------+ | Layer1
+  | | [core] | | Layer0
+  | +--------+ | Layer1
+  +------------+ Layer2
+```
+Layers of abstraction is a very important concept to make your
+software architecture sustainable. The core (layer0) is your
+most abstract layer. The higher in goes the less abstract it goes
+and the layer gets more concrete to fullfill your business.
+
+For instance in layer core there is a string class or module.
+This string module does not anything about for what it is used.
+Then you build an object with attributes. 
+Like 
+
+  <obj attr1 attr2> 
+  <obj key1=value1 key2=value2>
+  
+No you build concrete types like an image object in html 
+ 
+  <img src="./foo.png" "style="color:red">
+  
+Then you build a button with a link and a box
+  
+  <div class="button">
+    <a href="www.foo.orf">
+      <img src="./foo.png" "style="color:red">
+    </a>
+  </div>
 
 #### Examples
  - Paul Graham talk about bottom up design of Arc or Bel. 
