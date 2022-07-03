@@ -118,3 +118,13 @@ Animal you can later add Dogs, Lions, Birds, Cats whatever. All these
 objects fit into the abstract type Animal. And the most abstract data type
 is an Object. And the all most abstract data type are list of bytes. So
 called byte streams. In Unix everything is a file (a stream of bytes).
+
+### Layer of Abstraction
+
+If you build your application out of layer of abstraction where the
+core is the most abstract part and the higher it goes the more
+concrete it goes. 
+
+#### Examples
+ - Paul Graham talk about bottom up design of Arc or Bel. 
+ - How TeX is build by Donald Knuth.
