@@ -10,4 +10,5 @@
 * [Douglas Crockford - Principles of Security](https://www.youtube.com/watch?v=zKuFu19LgZA)
 * [John Ousterhout - A Philosophy of Software Design](https://www.youtube.com/watch?v=bmSAYlu0NcY)
 * [Martin Fowler - Making Architecture Matter](https://www.youtube.com/watch?v=DngAZyWMGR0)
+* [Dave Farley - TODO]
 
