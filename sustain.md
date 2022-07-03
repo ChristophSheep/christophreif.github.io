@@ -1,6 +1,11 @@
 # Sustainable Code
 
-Sustainable code is software that is made with long term thinking of business.
+Sustainable code is software that is made with *long term* thinking of business.
+
+```
+The short time minded person perhpas get a single point for the fastest lap, but the long term headed wins the race.
+```
+
 
 What are the attributes of sustainable code:
 
