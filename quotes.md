@@ -10,3 +10,6 @@ Everyone knows it, but nobody do it. Why?
 
 # The short time minded person perhaps get a single point for the fastest lap, but the long term thinker wins the race.
 -- Formula One thinking
+
+# Software development can be very easy when you do it right, but on the others very complicated if you do it wrong.
+-- Keep it simple thinking
