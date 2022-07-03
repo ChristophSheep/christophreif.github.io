@@ -137,16 +137,16 @@ For instance in layer core there is a string class or module.
 This string module does not anything about for what it is used.
 Then you build an object with attributes. 
 Like 
-
+```
   <obj attr1 attr2> 
   <obj key1=value1 key2=value2>
-  
+```  
 No you build concrete types like an image object in html 
- 
+``` 
   <img src="./foo.png" "style="color:red">
-  
+```  
 Then you build a button with a link and a box
-  
+ ``` 
   <div class="button">
     <a href="www.foo.orf">
       <img src="./foo.png" "style="color:red">
