@@ -3,6 +3,7 @@
 ## Sustainable
 
 * [Uncle Bob, Robert Martin - The Future of Programming](https://www.youtube.com/watch?v=ecIWPzGEbFc)
+* [Uncle Bob, Robert Martin - The Future of Programming - 2021-06-22](https://www.youtube.com/watch?v=uOVoWCPOcUY)
 * [Uncle Bob, Robert Martin - Clean Code](https://www.youtube.com/watch?v=7EmboKQH8lM&list=PLmmYSbUCWJ4x1GO839azG_BBw8rkh-zOj)
 * [Uncle Bob, Robert Martin - The Last Programming Language](https://www.youtube.com/watch?v=P2yr-3F6PQo)
 * [Gerald Sussman - "We Really Don't Know How to Compute!"](https://www.youtube.com/watch?v=HB5TrK7A4pI)
