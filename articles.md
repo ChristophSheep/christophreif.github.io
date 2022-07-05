@@ -37,6 +37,7 @@
 * [The Root of Lisp - Paul Graham](http://www.paulgraham.com/rootsoflisp.html)
 * [Lisp FAQ](http://www.paulgraham.com/lispfaq1.html)
 * [Lisp in Web-Based Applications](http://www.paulgraham.com/lwba.html)
+* [If Lisp is So great](http://www.paulgraham.com/iflisp.html)
 
 ### Arc
 
