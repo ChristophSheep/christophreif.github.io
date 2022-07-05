@@ -36,7 +36,7 @@
 * [What Made Lisp Different](http://www.paulgraham.com/diff.html)
 * [The Root of Lisp - Paul Graham](http://www.paulgraham.com/rootsoflisp.html)
 * [Lisp FAQ](http://www.paulgraham.com/lispfaq1.html)
-* [Lisp in Web-Based Applications](https://sep.yimg.com/ty/cdn/paulgraham/bbnexcerpts.txt?t=1595850613&)
+* [Lisp in Web-Based Applications](http://www.paulgraham.com/lwba.html)
 
 ### Arc
 
