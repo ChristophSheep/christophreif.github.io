@@ -10,10 +10,10 @@ Following sentences define the paradigm of so called cells:
  * Each cell has its own memory
  * Each cell has 0 to N inputs
  * Each cell has 0 to 1 outputs
- * Each cell calculates the output from the inputs.
- * Each cell runs in parallel, but simultaneously to other cells.
- * Each cell has 0 to N in connections to other cells.
- * Each cell has 0 to M output connections to other cells.
+ * Each cell calculates the output from the inputs
+ * Each cell runs parallel, but concurrent to other cells
+ * Each cell has 0 to N in connections to other cells
+ * Each cell has 0 to M output connections to other cells
  
 There are a huge amount of cells that are connected together.
 
