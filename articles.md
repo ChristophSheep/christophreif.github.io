@@ -55,5 +55,6 @@
 ## Java
 
 * [Berners-Lee Re:Java](http://www.paulgraham.com/bljava.html)
+* [Java's Cover](http://www.paulgraham.com/javacover.html)
 
 
