@@ -1,12 +1,12 @@
 # Bio
 
-Christoph Reif is private researcher in computing and writer.
+My name is Christoph Reif and I am private researcher in computing.
 
-Inside the word of a researcher there is the word "search".
+The word of a re(search)er include the word "search".
 
-I am just search for peaces that fit in a jigsaw puzzle about computing.
+I am just *search* for peaces that fit in a jigsaw puzzle about the *truth about computing*.
 
-I am searching for the good parts and try to understand which are the bad parts
+I am looking for the good parts and try to understand which are the bad parts
 to remove this parts out of my brain. Or at least try to understand, what we
 thinks is not true.
 
