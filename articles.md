@@ -18,14 +18,27 @@
 * [Parseq - Douglas Crockford](https://www.crockford.com/parseq.html)
 
 ## Lisp
+
 * [What Made Lisp Different](http://www.paulgraham.com/diff.html)
 * [The Root of Lisp - Paul Graham](http://www.paulgraham.com/rootsoflisp.html)
 * [Lisp FAQ](http://www.paulgraham.com/lispfaq1.html)
-* [Arc](http://www.paulgraham.com/arc.html) | [Bel](http://www.paulgraham.com/bel.html)
+
+### Arc
+
+* [Arc](http://www.paulgraham.com/arc.html) 
+
+### Bel
+
+* [Bel](http://www.paulgraham.com/bel.html)
 
 ## JavaScript
 
 * [JavaScript: The World's Most Misunderstood Programming Language](http://www.crockford.com/javascript/javascript.html)
 * [The World's Most Misunderstood Programming Language Has Become the World's Most Popular Programming Language](https://www.crockford.com/javascript/popular.html)
 * [Douglas Crockford - Create Object Recipe](https://gist.github.com/benpriebe/55b7e950b5e9d056b47e)
+
+## OO
+
+* [Why Arc Isn't Especially Object Orientated](http://paulgraham.com/noop.html)
+* [Rees Re: OO](http://paulgraham.com/reesoo.html)
 
