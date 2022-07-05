@@ -1,6 +1,7 @@
 var items = {
-    "cel": "./cel.md",
     "bio": "./bio.md",
+    "cel": "./cel.md",
+    "hardware": "./hardware.md",
     "books": "./books.md",
     "essays": "./essays.md",
     "history": "./history.md",
