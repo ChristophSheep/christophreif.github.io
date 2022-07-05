@@ -2,7 +2,7 @@
 
 ## Architecture
 
-* <img width="100" src= "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F41SV6NlvMvL._SX258_BO1%2C204%2C203%2C200_.jpg&f=1&nofb=1"> Clean Architecture 
+* <figure><img width="100" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F41SV6NlvMvL._SX258_BO1%2C204%2C203%2C200_.jpg&f=1&nofb=1"><figure-caption>Clean Architecture</figure-caption></figure>
 
 ## Attitude
 
