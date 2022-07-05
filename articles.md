@@ -24,7 +24,7 @@
 
 ## Languages
 
- * [The Hundred Year Language](http://www.paulgraham.com/hundred.html)
+ * [The Hundred-Year Language](http://www.paulgraham.com/hundred.html)
  * [What Languages Fix](http://www.paulgraham.com/fix.html)
 
 ### OO
