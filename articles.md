@@ -5,6 +5,7 @@
 ### Articles
 
 * [A Plea for Lean Software](https://cr.yp.to/bib/1995/wirth.pdf)
+* [Taste for Makers - Good Design is ...](http://www.paulgraham.com/taste.html)
 
 ### Technics
 
