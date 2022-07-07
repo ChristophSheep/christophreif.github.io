@@ -1,3 +1,8 @@
+---
+layout: default
+title: History
+---
+
 # History
 
 The history is a teacher.
