@@ -1,3 +1,8 @@
+---
+layout: default
+title: People
+---
+
 # Pioneers of Computer Science
 
 This is a partial list of notable figures in computer science.
