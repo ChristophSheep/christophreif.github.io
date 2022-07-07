@@ -3,13 +3,7 @@ layout: post
 title:  "Books"
 ---
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+
 
 # Books
 
@@ -28,3 +22,11 @@ title:  "Books"
 ## Programming Language
 
 * <img width="100" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F41nq8D8ESjL._SX218_BO1%2C204%2C203%2C200_QL40_ML2_.jpg&f=1&nofb=1"> The Little Schemer
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
