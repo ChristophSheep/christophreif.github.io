@@ -1,4 +1,9 @@
 
+---
+layout: default
+title: Cel
+---
+
 # Draft of (i/o) cell paradigm
 
 Following sentences define the paradigm of so called cells:
