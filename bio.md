@@ -1,3 +1,8 @@
+---
+layout: default
+title: Bio
+---
+
 # Bio
 
 My name is __Christoph Reif__ and I am __private researcher__ in computing.
