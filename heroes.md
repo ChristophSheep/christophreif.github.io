@@ -70,6 +70,7 @@ If all these people would work together how would it change the computing indust
 * [cleancoders.com](https://cleancoders.com)
 * [Future of Programming](https://youtu.be/ecIWPzGEbFc)
 * [Clean Architecture and Design](https://www.youtube.com/watch?v=2dKZ-dWaCiU)
+* [The Last Programming Language](https://www.youtube.com/watch?v=P2yr-3F6PQo)
 
 ## Douglas Crockford
 
