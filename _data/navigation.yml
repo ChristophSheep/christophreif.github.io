@@ -1,4 +1,16 @@
 - name: Home
   link: /
-- name: About
-  link: /about.html
+- name: Bio
+  link: /bio.md
+- name: Cel
+  link: /cel.md
+- name: Hardware
+  link: /hardware.md
+- name: Lisp
+  link: /lisp.md
+- name: People
+  link: /people.md
+- name: Sustainable
+  link: /sustain.md
+- name: Videos
+  link: /videos.md
