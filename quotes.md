@@ -1,3 +1,8 @@
+---
+layout: default
+title: Quotes
+---
+
 # Attitude
 
 ## "Legacy code is an attidute."
