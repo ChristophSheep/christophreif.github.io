@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Books"
+url: ./books
 tags: Architecture OS Programming
 ---
 
