@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: page
 title: "Books"
-url: ./books
+permalink: /books
 tags: Architecture OS Programming
 ---
 
