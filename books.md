@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Books"
+title: "Books"
 url: ./books
 tags: Architecture OS Programming
 ---
