@@ -1,3 +1,8 @@
+---
+layout: default
+title: Hardware
+---
+
 # Hardware
 
 In the future according to Moore's Law we with have computer with many cores.
