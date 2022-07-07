@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Books"
 url: ./books
 tags: Architecture OS Programming
@@ -23,19 +23,4 @@ tags: Architecture OS Programming
 
 * <img width="100" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F41nq8D8ESjL._SX218_BO1%2C204%2C203%2C200_QL40_ML2_.jpg&f=1&nofb=1"> The Little Schemer
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
 
-{% for tag in site.tags %}
-  <h3>{{ tag[0] }}</h3>
-  <ul>
-    {% for post in tag[1] %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-{% endfor %}
