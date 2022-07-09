@@ -1,7 +1,6 @@
-
 ---
 layout: default
-title: Cel
+title: Cell
 ---
 
 # Draft of (i/o) cell paradigm
@@ -25,15 +24,18 @@ There are a huge amount of cells that are connected together.
 ## Example
 
 A simple cell adds to inputs (a, b) and produce an output c
+The cell is running in a loop parallel to other cells.
+It produces output from input.
 
 ```
-        +-----+
-   a -->|     |
-        |  +  o--> c
-   b -->|     |
-        +-----+
+        +-------+
+   a -->| +-<-+ |
+        | | + | o--> c
+   b -->| -->-+ |
+        +-------+
 ```
    
   When data is flowing through channel a and data is flowing through channel b
   then also computed data is flowing out of channel c.
  
+

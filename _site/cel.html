@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Cell</title>
+        <link rel="stylesheet" href="/assets/css/styles.css">
+    </head>
+
+    <body>
+        <div id="header"><nav>
+    <a href="/"><img src="/assets/images/home.png">Home</a>
+    <a href="/bio"><img src="/assets/images/person.png">Bio</a>
+    <a href="/cel"><img src="/assets/images/components.png">Cel</a>
+    <a href="/lisp"><img src="/assets/images/lambda.png" style="margin-right: 0px;">Lisp</a>
+    <a href="/people"><img src="/assets/images/people.png">People</a>
+    <a href="/books"><img src="/assets/images/books.png">Books</a>
+    <a href="/history"><img src="/assets/images/temple.png">History</a>
+    <a href="/quotes"><img src="/assets/images/quotes2.png">Quotes</a>
+    <a href="/sustain"><img src="/assets/images/eco.png">Sustainable</a>
+    <a href="/videos"><img src="/assets/images/videos.png">Videos</a>
+</nav></div>
+        <div id="conten"><h1 id="draft-of-io-cell-paradigm">Draft of (i/o) cell paradigm</h1>
+
+<p>Following sentences define the paradigm of so called cells:</p>
+
+<ul>
+  <li>Each cell is independent</li>
+  <li>Each cell is simple and stupid</li>
+  <li>Each cell does not know that there are other cells</li>
+  <li>Each cell has no side effects</li>
+  <li>Each cell has its own memory</li>
+  <li>Each cell has 0 to N inputs</li>
+  <li>Each cell has 0 to 1 outputs (or M outputs)</li>
+  <li>Each cell calculates the output from the inputs</li>
+  <li>Each cell runs parallel, but concurrent to other cells</li>
+  <li>Each cell has 0 to N in connections to other cells</li>
+  <li>Each cell has 0 to M output connections to other cells</li>
+</ul>
+
+<p>There are a huge amount of cells that are connected together.</p>
+
+<h2 id="example">Example</h2>
+
+<p>A simple cell adds to inputs (a, b) and produce an output c
+The cell is running in a loop parallel to other cells.
+It produces output from input.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>        +-------+
+   a --&gt;| +-&lt;-+ |
+        | | + | o--&gt; c
+   b --&gt;| --&gt;-+ |
+        +-------+
+</code></pre></div></div>
+
+<p>When data is flowing through channel a and data is flowing through channel b
+  then also computed data is flowing out of channel c.</p>
+
+</div>
+    </body>
+
+</html>

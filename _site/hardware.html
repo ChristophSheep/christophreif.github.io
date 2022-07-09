@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Hardware</title>
+        <link rel="stylesheet" href="/assets/css/styles.css">
+    </head>
+
+    <body>
+        <div id="header"><nav>
+    <a href="/"><img src="/assets/images/home.png">Home</a>
+    <a href="/bio"><img src="/assets/images/person.png">Bio</a>
+    <a href="/cel"><img src="/assets/images/components.png">Cel</a>
+    <a href="/lisp"><img src="/assets/images/lambda.png" style="margin-right: 0px;">Lisp</a>
+    <a href="/people"><img src="/assets/images/people.png">People</a>
+    <a href="/books"><img src="/assets/images/books.png">Books</a>
+    <a href="/history"><img src="/assets/images/temple.png">History</a>
+    <a href="/quotes"><img src="/assets/images/quotes2.png">Quotes</a>
+    <a href="/sustain"><img src="/assets/images/eco.png">Sustainable</a>
+    <a href="/videos"><img src="/assets/images/videos.png">Videos</a>
+</nav></div>
+        <div id="conten"><h1 id="hardware">Hardware</h1>
+
+<p>In the future according to Moore’s Law we with have computer with many cores.
+Today (2022) we have for instance a MacBook with 8 Cores<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">1</a></sup>. If every two the
+size doubles. Then we have in 10 years 256 cores and in 20 years 8192 cores.
+But in 40 years we break wall with an order of 1 million cores in a cpu.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   Now                      
+    8, 16, 32, 64, 128, 256 Cores (Now+10 years)
+    256, 512, 1024, 2048, 4096, 8192 Cores (Now+20 years)
+</code></pre></div></div>
+
+<p>For these new very fast computers we need a different ways of programming<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">2</a></sup>.</p>
+
+<h2 id="new">New</h2>
+
+<p>A computer with let says 100.000 smalls little simple processors with its own <a href="https://en.wikipedia.org/wiki/Magnetic-core_memory">core memory</a>.</p>
+
+<p>You can programm each small processors and you can connect the output to input of other processors.
+While data is flowing from one “i/o cell” to the next.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  IN --&gt; [fn(x)(+ x 1)] --&gt; [fn(x y)(+ x y)] --&gt; OUT
+</code></pre></div></div>
+
+<h2 id="risc">RISC</h2>
+
+<p>I should be a small fast, maybe a <a href="https://en.wikipedia.org/wiki/Reduced_instruction_set_computer">RISC</a> architectire like MMIX<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">3</a></sup>.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:3" role="doc-endnote">
+      <p><a href="https://everymac.com/systems/apple/macbook-air/specs/macbook-air-m1-8-core-8-core-gpu-13-retina-display-2020-specs.html">“Apple MacBook Air “M1” 8 CPU/8 GPU 13” Specs”</a> <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:1" role="doc-endnote">
+      <p><a href="http://www.paulgraham.com/hundred.html">“The Hundred-Year Language” - Paul Graham</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p><a href="https://mmix.cs.hm.edu/index.html">“MMIX - A RISC Computer for the 3rd Millennium” - Donald Knuth</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+</div>
+    </body>
+
+</html>

@@ -9,10 +9,8 @@ title: Sustainable
 
 Sustainable code is software that is made with *long term* thinking of business.
 
-```
-The short time minded person perhpas get a single point for the fastest lap, but the long term headed wins the race.
-```
-
+*The short time minded person gets perhaps a single point for the fastest lap, <br>
+but the long term headed wins the race or even the season.*
 
 What are the attributes of sustainable code:
 

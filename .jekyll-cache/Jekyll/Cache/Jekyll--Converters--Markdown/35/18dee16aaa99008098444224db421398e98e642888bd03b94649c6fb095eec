@@ -1,0 +1,159 @@
+I"�<h1 id="sustainable">Sustainable</h1>
+
+<h2 id="code">Code</h2>
+
+<p>Sustainable code is software that is made with <em>long term</em> thinking of business.</p>
+
+<p><em>The short time minded person perhpas get a single point for the fastest lap, 
+but the long term headed wins the race.</em></p>
+
+<p>What are the attributes of sustainable code:</p>
+
+<ul>
+  <li>flexible</li>
+  <li>robust</li>
+  <li>changeable</li>
+  <li>clear</li>
+  <li>simple</li>
+  <li>readable</li>
+  <li>understandable</li>
+  <li>maintainable</li>
+  <li>independent</li>
+  <li>abstract</li>
+</ul>
+
+<p>All these stuff is so important, but often not teached in classes.</p>
+
+<h3 id="flexible">Flexible</h3>
+
+<p>How to get you source code flexible. Flexible means that you can change you
+code if the enviroment change so you are flexible to the world outside around you.</p>
+
+<p>Some create flexible code by making plugins. Plugins are often build around a
+small abstract core. For plugins you need an future safe abstract interface.</p>
+
+<p>Because you does not know what the future will bring.</p>
+
+<p>So interfaces or the concept of an interface create a big role.
+Interfaces are something like template.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  (deftem obj id 0 name "not set")
+  (inst obj 'id 1 name "foo")
+</code></pre></div></div>
+
+<h3 id="robust">Robust</h3>
+
+<p>A sustainable needs not to be flexible, but also robust. If you only flexible
+alone that you can not stand against a storm. A robust things does not break
+in a storm.</p>
+
+<p>I always use the picture of our humane body. We have bones for robustness and
+muscle for flexibility. Both things work hand in hand. Without bones the
+muscle have nothing to attach. The bones alone without muscle can not move
+or rotate. And the flesh and the skin glue everything together.</p>
+
+<p>A robust software has a very small and simple abstract core. This core
+is very stable over the time.</p>
+
+<h3 id="changeable">Changeable</h3>
+
+<p>Because you does not know what the future brings. You need to be able to change
+the software.</p>
+
+<p>For instance you will change you database from MSSQL or Oracle to Postgre or
+MySQL. Or even to other None-SQL data storages. Another example would be to 
+user interface web framework. Because there is knew very good on the market.
+So that it is so important that your design and archicture allow to change
+things later.</p>
+
+<h3 id="simple">Simple</h3>
+
+<p>Eric Raymond wrote in his book about “The Art of Unix programming” that
+robustness is a child of simplicity. Nearly every said keep it simple.
+And Einstein said: Keep it simple, as possible. So everything could not
+be very simple. But it is an attitude to keep things simple. Only pride
+people believe they can handle a huge amount of complicated things. We
+can handle complex things, but only by divide it into smaller simpler
+things in form of layers.</p>
+
+<h2 id="clear">Clear</h2>
+
+<p>A software should clear. Clear means that it is clear to understand. Celar
+means also clear like a glas compared to a foggy or nebulous view of the things.
+Clearity is really very important.</p>
+
+<h3 id="readable">Readable</h3>
+
+<p>Readability is very important. All say we read more software the we write.
+For instance if you have a document and nobody could read your handwriting
+then this is a problem.</p>
+
+<h3 id="understandable">Understandable</h3>
+
+<p>Understandable is a child of readability. If you can not read the code then
+it is impossible to understand the code. Understandable has more to do with
+getting an overview and the relationsship of the parts of the software and
+what the software is doing or what it should doing.
+Often only the implementer understand what they did and new developer they
+joined later to the project does not understand or have hard time to understand.</p>
+
+<h3 id="maintainable">Maintainable</h3>
+
+<p>No software is fully free of bugs. But if believe you can develope
+software in a way that you have not many bugs.</p>
+
+<h3 id="independent">Independent</h3>
+
+<p>Sometimes you need the opposite to understand a concept. The opposite
+of independent is depent. A dependet code is better known as spagetti
+code. Everthing depend on anything and so if you change later something
+you break the whole things. To manage your dependencies in a software
+project is very important things to make your software changeable and
+flexible.</p>
+
+<h3 id="abstract">Abstract</h3>
+
+<p>Abstract is the power you need to make a sustainable code. Because you
+don’t know the future. But if you make an abstract data type for instance
+Animal you can later add Dogs, Lions, Birds, Cats whatever. All these
+objects fit into the abstract type Animal. And the most abstract data type
+is an Object. And the all most abstract data type are list of bytes. So
+called byte streams. In Unix everything is a file (a stream of bytes).</p>
+
+<h4 id="layers-of-abstraction">Layers of Abstraction</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  +------------+ Layer2
+  | +--------+ | Layer1
+  | | [core] | | Layer0
+  | +--------+ | Layer1
+  +------------+ Layer2
+</code></pre></div></div>
+<p>Layers of abstraction is a very important concept to make your
+software architecture sustainable. The core (layer0) is your
+most abstract layer. The higher in goes the less abstract it goes
+and the layer gets more concrete to fullfill your business.</p>
+
+<p>For instance in layer core there is a string class or module.
+This string module does not anything about for what it is used.
+Then you build an object with attributes. 
+Like</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  &lt;obj attr1 attr2&gt; 
+  &lt;obj key1=value1 key2=value2&gt;
+</code></pre></div></div>
+<p>No you build concrete types like an image object in html</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  &lt;img src="./foo.png" "style="color:red"&gt;
+</code></pre></div></div>
+<p>Then you build a button with a link and a box</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  &lt;div class="button"&gt;
+    &lt;a href="www.foo.orf"&gt;
+      &lt;img src="./foo.png" "style="color:red"&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+</code></pre></div></div>
+<h4 id="examples">Examples</h4>
+
+<ul>
+  <li>Paul Graham talk about bottom up design of Arc or Bel.</li>
+  <li>How TeX is build by Donald Knuth.</li>
+</ul>
+:ET
