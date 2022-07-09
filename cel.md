@@ -5,19 +5,21 @@ title: Cell
 
 # Draft of (i/o) cell paradigm
 
-Following sentences define the paradigm of so called cells:
+Following sentences define the paradigm of so called cells.
 
- * Each cell is independent
- * Each cell is simple and stupid
- * Each cell does not know that there are other cells
- * Each cell has no side effects
- * Each cell has its own memory
- * Each cell has 0 to N inputs
- * Each cell has 0 to 1 outputs (or M outputs)
- * Each cell calculates the output from the inputs
- * Each cell runs parallel, but concurrent to other cells
- * Each cell has 0 to N in connections to other cells
- * Each cell has 0 to M output connections to other cells
+Each cell is ...
+
+ * is independent
+ * is simple and stupid
+ * does not know that there are other cells
+ * has no side effects
+ * has its own memory
+ * has 0 to N inputs
+ * has 0 to 1 outputs (or M outputs)
+ * calculates the output from the inputs
+ * runs parallel, but concurrent to other cells
+ * has 0 to N in connections to other cells
+ * has 0 to M output connections to other cells
  
 There are a huge amount of cells that are connected together.
 
@@ -28,6 +30,13 @@ The cell is running in a loop parallel to other cells.
 It produces output from input.
 
 ```
+
+        ┌───────┐
+   b ──>│       │
+        │  add  o──> c
+   a ──>│       │
+        └───────┘
+
         +-------+
    a -->| +-<-+ |
         | | + | o--> c

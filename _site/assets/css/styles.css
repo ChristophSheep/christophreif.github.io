@@ -12,13 +12,21 @@
 
 #content {
     position:static;
+    width: 800px;
+/*
+    column-count: 2;
+    column-gap: 20px;
+    column-rule: 5px solid gainsboro; 
+    */
 }
+
+
 
 body {
     font-family:system-ui, -apple-system, 'Helvetica Neue', sans-serif;
     margin-right: 35%;
     margin-left: 5em;
-    margin-top: 4em;
+    margin-top: 5em;
     border-right: #777;
     line-height: 1.25;
     counter-reset: chapter 1 section 0 slide 0;

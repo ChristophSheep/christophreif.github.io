@@ -9,6 +9,8 @@ This is a partial list of notable figures in computer science.
 
 If all these people would work together how would it change the computing industry?
 
+<img src="./assets/images/test.jpg">
+
 ## Paul Graham
 
 * [Homepage](http://www.paulgraham.com/index.html)
