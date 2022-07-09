@@ -1,3 +1,4 @@
-theme: jekyll-theme-minimal
-title: Christoph Reif's homepage
-description: Bookmark this to keep an eye on my project updates!
+title: Christoph Reif
+description: Christoph Reif's homepage about sustainable computing
+markdown: kramdown
+theme: jekyll-theme-cayman
