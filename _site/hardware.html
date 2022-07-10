@@ -27,10 +27,7 @@
         </div>
         <div id="content"><h1 id="hardware">Hardware</h1>
 
-<p>In the future according to Moore’s Law we with have computer with many cores.
-Today (2022) we have for instance a MacBook with 8 Cores<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">1</a></sup>. If every two the
-size doubles. Then we have in 10 years 256 cores and in 20 years 8192 cores.
-But in 40 years we break wall with an order of 1 million cores in a cpu.</p>
+<p>In the future according to <a href="https://en.wikipedia.org/wiki/Moore%27s_law">Moore’s Law</a> we with have computer with many <a href="https://en.wikipedia.org/wiki/Central_processing_unit">cores</a>. Today <small>(2022)</small>  we have for instance a MacBook with 8 cores<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">1</a></sup>. If every two the size doubles. Then we have in 10 years 256 cores and in 20 years 8192 cores. But in 40 <small>(2062)</small> years we break wall with an order of 1 million cores in a <a href="https://en.wikipedia.org/wiki/Central_processing_unit">cpu</a>.</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   Now                      
     8, 16, 32, 64, 128, 256 Cores (Now+10 years)
@@ -49,20 +46,33 @@ While data is flowing from one “i/o cell” to the next.</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  IN --&gt; [fn(x)(+ x 1)] --&gt; [fn(x y)(+ x y)] --&gt; OUT
 </code></pre></div></div>
 
+<h2 id="data-flow-hardware">Data-Flow Hardware</h2>
+
+<p>Preliminary Architecture for a Basic Data-Flow Processor<sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote" rel="footnote">3</a></sup>.</p>
+
+<p><small>
+  Processor is described which can achieve highly parallel execution of programs represented in data- flow form. The language implemented incorporates conditional and iteration mechanisms, and the processor is a step toward a practical data-flow processor for a Fortran-level data-flow language. The processor has a unique archi- tecture which avoids the problems of processor switching and memory/processor interconnecion that usually limit the degree of realizable concurrent processing. The architecture offers an unusual solution to the problem of struc- turing and managing a two-level memory system.
+</small></p>
+
 <h2 id="risc">RISC</h2>
 
-<p>I should be a small fast, maybe a <a href="https://en.wikipedia.org/wiki/Reduced_instruction_set_computer">RISC</a> architectire like MMIX<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">3</a></sup>.</p>
+<p>I should be a small fast, maybe a <a href="https://en.wikipedia.org/wiki/Reduced_instruction_set_computer">RISC</a> architectire like MMIX<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">4</a></sup>.</p>
+
+<hr />
 
 <div class="footnotes" role="doc-endnotes">
   <ol>
     <li id="fn:3" role="doc-endnote">
-      <p><a href="https://everymac.com/systems/apple/macbook-air/specs/macbook-air-m1-8-core-8-core-gpu-13-retina-display-2020-specs.html">“Apple MacBook Air “M1” 8 CPU/8 GPU 13” Specs”</a> <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+      <p><a href="https://everymac.com/systems/apple/macbook-air/specs/macbook-air-m1-8-core-8-core-gpu-13-retina-display-2020-specs.html">Apple MacBook Air “M1” 8 CPU/8 GPU 13” Specs</a> <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
     <li id="fn:1" role="doc-endnote">
-      <p><a href="http://www.paulgraham.com/hundred.html">“The Hundred-Year Language” - Paul Graham</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+      <p><a href="http://www.paulgraham.com/hundred.html">The Hundred-Year Language - Paul Graham</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:4" role="doc-endnote">
+      <p><a href="https://dl.acm.org/doi/pdf/10.1145/641675.642111">Preliminary Architecture for a Basic Data-Flow Processor</a> <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
     <li id="fn:2" role="doc-endnote">
-      <p><a href="https://mmix.cs.hm.edu/index.html">“MMIX - A RISC Computer for the 3rd Millennium” - Donald Knuth</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+      <p><a href="https://mmix.cs.hm.edu/index.html">MMIX - A RISC Computer for the 3rd Millennium - Donald Knuth</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
 </div>

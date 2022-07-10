@@ -5,10 +5,7 @@ title: Hardware
 
 # Hardware
 
-In the future according to Moore's Law we with have computer with many cores.
-Today (2022) we have for instance a MacBook with 8 Cores[^3]. If every two the
-size doubles. Then we have in 10 years 256 cores and in 20 years 8192 cores.
-But in 40 years we break wall with an order of 1 million cores in a cpu.
+In the future according to [Moore's Law](https://en.wikipedia.org/wiki/Moore%27s_law) we with have computer with many [cores](https://en.wikipedia.org/wiki/Central_processing_unit). Today <small>(2022)</small>  we have for instance a MacBook with 8 cores[^3]. If every two the size doubles. Then we have in 10 years 256 cores and in 20 years 8192 cores. But in 40 <small>(2062)</small> years we break wall with an order of 1 million cores in a [cpu](https://en.wikipedia.org/wiki/Central_processing_unit).
 
 
 ```
@@ -30,14 +27,26 @@ While data is flowing from one "i/o cell" to the next.
   IN --> [fn(x)(+ x 1)] --> [fn(x y)(+ x y)] --> OUT
 ```
 
+## Data-Flow Hardware
+
+Preliminary Architecture for a Basic Data-Flow Processor[^4].
+
+<small>
+  Processor is described which can achieve highly parallel execution of programs represented in data- flow form. The language implemented incorporates conditional and iteration mechanisms, and the processor is a step toward a practical data-flow processor for a Fortran-level data-flow language. The processor has a unique archi- tecture which avoids the problems of processor switching and memory/processor interconnecion that usually limit the degree of realizable concurrent processing. The architecture offers an unusual solution to the problem of struc- turing and managing a two-level memory system.
+</small>
+
 ## RISC
 
 I should be a small fast, maybe a [RISC](https://en.wikipedia.org/wiki/Reduced_instruction_set_computer) architectire like MMIX[^2].
 
+---
 
-[^1]: ["The Hundred-Year Language" - Paul Graham](http://www.paulgraham.com/hundred.html)
+[^1]: [The Hundred-Year Language - Paul Graham](http://www.paulgraham.com/hundred.html)
 
-[^2]: ["MMIX - A RISC Computer for the 3rd Millennium" - Donald Knuth](https://mmix.cs.hm.edu/index.html)
+[^2]: [MMIX - A RISC Computer for the 3rd Millennium - Donald Knuth](https://mmix.cs.hm.edu/index.html)
 
-[^3]: ["Apple MacBook Air "M1" 8 CPU/8 GPU 13" Specs"](https://everymac.com/systems/apple/macbook-air/specs/macbook-air-m1-8-core-8-core-gpu-13-retina-display-2020-specs.html)
+[^3]: [Apple MacBook Air "M1" 8 CPU/8 GPU 13" Specs](https://everymac.com/systems/apple/macbook-air/specs/macbook-air-m1-8-core-8-core-gpu-13-retina-display-2020-specs.html)
+
+[^4]: [Preliminary Architecture for a Basic Data-Flow Processor](https://dl.acm.org/doi/pdf/10.1145/641675.642111)
+
 

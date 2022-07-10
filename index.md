@@ -3,7 +3,7 @@ layout: default
 title: Home 
 ---
 
-# Christoph Reif
+# SQUIRREL <small>*Christoph Reif*</small>
 
 <div style="width: 667px">
     <img src="/assets/images/squirrel.png" 

@@ -25,8 +25,9 @@ But there is one thing to overcome: *"What you already know, hinders you what yo
 
 [Timeline of Programming Languages](https://en.wikipedia.org/wiki/Timeline_of_programming_languages)
 
-## Mistakes
+<img width="500" src="https://comp-think.github.io/2018-2019/slides/img/languages.png">
 
+## Mistakes in History
 
 ### OO
 
