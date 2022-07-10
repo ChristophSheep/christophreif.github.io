@@ -11,19 +11,22 @@ title: History
 
 # History
 
-The history is a teacher.
+The history is a teacher. The history of computing should teach us something. The history should teach us something that we does not make the same mistakes and grow up.
 
 The history should help to overcome following: "The stupid make always the same mistakes, the smart makes always new ones."
 
-The history of computing should teach us something.
+But there is one thing to overcome: *"What you already know, hinders you what you want you to know"*. Most people believe they already know the truth about a subject, so they does not seek anymore at this place.
 
-The history should teach us something that we does not make the same mistakes and grow up.
+## Operating Systems
 
-## OS
+[Timeline of Operating Systems](https://en.wikipedia.org/wiki/Timeline_of_operating_systems)
 
 ## Programming Languages
 
+[Timeline of Programming Languages](https://en.wikipedia.org/wiki/Timeline_of_programming_languages)
+
 ## Mistakes
+
 
 ### OO
 

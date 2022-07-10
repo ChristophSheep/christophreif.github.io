@@ -36,6 +36,33 @@ If all these people would work together how would it change the computing indust
 * [Go To Statement Considered Harmful](https://homepages.cwi.nl/~storm/teaching/reader/Dijkstra68.pdf)
 
 
+## Jack Dennis (1931)
+
+* [Wiki](https://en.wikipedia.org/wiki/Jack_Dennis)
+* [Essay](http://csg.csail.mit.edu/Users/dennis/essay.htm)
+* [A preliminary architecture for a basic data-flow processor](https://www.deepdyve.com/lp/association-for-computing-machinery/a-preliminary-architecture-for-a-basic-data-flow-processor-Ej0aB8VR5g)
+
+In September 1988 the MIT Laboratory for Computer Science celebrated the thirty-fifth anniversary of Project MAC. At that event I pointed out the limitations of conventional multiprocessor architecture:
+ 
+<small> 
+    "Yet present multiprocessors are very limited in their effective application. Their programming tools are absurdly limited and primitive in contrast to those of Multics. There is no automatic management of memory by the system on behalf of its users. Moreover, within the massive research effort now devoted to parallel architecture, hardly any effort is devoted to the problem of improving programmability in any fundamental sense."
+</small> 
+
+Some wild ideas may be the key to a breakthrough: Functional programming; the idea of a memory that directly supports creation and access to data objects, but does not permit updates; hardware-supported allocation and garbage collection of memory. They need to be seriously explored.
+ 
+At the Project MAC anniversary I explained:
+
+<small> 
+    "... the key idea ... is functional programming: getting away from the burden of sequential programming concepts embedded in our popular programming languages and computer architectures. The ideas to accomplish this advance exist; in fact they have been known for some time. Yet they are not in favor. Why? They do not fall into the current main stream of computer science. They do not solve the multiprocessor cache problem--instead they make it irrelevant. They do not solve the problem of shared objects in object-oriented programming--they eliminate the problem. They do not minimize the overhead of processor synchronization--they make it disappear altogether."
+</small>
+
+Fifteen years later these remarks remain valid. I concluded by saying:
+
+<small> 
+    "The computer systems of today do not realize our original vision from the inception of Project MAC. Yet the opportunity to make our dreams come true is still there. The vision is not obsolete. It is one that will be achieved. I believe the day will come when the ideas are widely accepted and we can move forward to build the Computer Utility. I hope to contribute to its realization and I look forward to enjoying its fruits."
+</small>
+ 
+
 ## M. Douglas McIlroy (1932)
 
 * [Wiki](https://en.wikipedia.org/wiki/Douglas_McIlroy)

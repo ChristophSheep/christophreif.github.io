@@ -15,7 +15,7 @@ title: Home
         Squirrels are smart and fast. They can run, fly and climb.
     </center>
     <br>
-    <small><div style="text-align:right">Copyright © (2000 - 2022)</div></small>
+    <small><div style="text-align: right; padding-right: 0.1em;">Copyright © (2000 - 2022)</div></small>
 <div>
 
 
