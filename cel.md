@@ -3,23 +3,31 @@ layout: default
 title: Cell
 ---
 
-# Draft of (i/o) cell paradigm
+# i/o cells paradigm - draft
 
-Following sentences define the paradigm of so called cells.
+Following sentences define the paradigm of so called [i/o](https://en.wikipedia.org/wiki/Input/output) cells.
 
-Each cell is ...
+According to [i/o](https://en.wikipedia.org/wiki/Input/output) devices. see [Asynchronous I/O](https://en.wikipedia.org/wiki/Asynchronous_I/O)
 
- * is independent
- * is simple and stupid
- * does not know that there are other cells
- * has no side effects
- * has its own memory
- * has 0 to N inputs
- * has 0 to 1 outputs (or M outputs)
- * calculates the output from the inputs
- * runs parallel, but concurrent to other cells
- * has 0 to N in connections to other cells
- * has 0 to M output connections to other cells
+Each cell is ..
+
+ * .. is independent
+ * .. is simple and stupid
+ * .. does not know that there are other cells
+ * .. has no side effects
+ * .. has its own memory
+ * .. has 0 to N inputs
+ * .. has 0 to 1 outputs (or M outputs)
+ * .. calculates the output from the inputs
+ * .. runs parallel, but concurrent to other cells
+ * .. has 0 to N in connections to other cells
+ * .. has 0 to M output connections to other cells
+
+Note: the output could be the input of a cell but
+not at the same time, only t+1.
+So the output at time t can be the input of a
+cell at t+1. Cells lives in time.
+
  
 There are a huge amount of cells that are connected together.
 
@@ -32,9 +40,9 @@ It produces output from input.
 ```
 
         ┌───────┐
-   b ──>│       │
+   b ──>o ┌─<─┐ │
         │  add  o──> c
-   a ──>│       │
+   a ──>o └─>─┘ │
         └───────┘
 
         +-------+

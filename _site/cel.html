@@ -8,7 +8,8 @@
     </head>
 
     <body>
-        <div id="header"><nav>
+        <div id="header-box">
+            <div id="header"><nav>
     <a href="/"><img src="/assets/images/home.png">Home</a>
     <a href="/bio"><img src="/assets/images/person.png">Bio</a>
     <a href="/cel"><img src="/assets/images/components.png">Cel</a>
@@ -17,29 +18,37 @@
     <a href="/books"><img src="/assets/images/books.png">Books</a>
     <a href="/history"><img src="/assets/images/temple.png">History</a>
     <a href="/quotes"><img src="/assets/images/quotes2.png">Quotes</a>
-    <a href="/essays"><img src="/assets/images/quotes2.png">Essays</a>
+    <a href="/essays"><img src="/assets/images/writing2.png">Essays</a>
     <a href="/sustain"><img src="/assets/images/eco.png">Sustain</a>
     <a href="/videos"><img src="/assets/images/videos.png">Videos</a>
 </nav></div>
-        <div id="content"><h1 id="draft-of-io-cell-paradigm">Draft of (i/o) cell paradigm</h1>
+        </div>
+        <div id="content"><h1 id="io-cells-paradigm---draft">i/o cells paradigm - draft</h1>
 
-<p>Following sentences define the paradigm of so called cells.</p>
+<p>Following sentences define the paradigm of so called <a href="https://en.wikipedia.org/wiki/Input/output">i/o</a> cells.</p>
 
-<p>Each cell is …</p>
+<p>According to <a href="https://en.wikipedia.org/wiki/Input/output">i/o</a> devices. see <a href="https://en.wikipedia.org/wiki/Asynchronous_I/O">Asynchronous I/O</a></p>
+
+<p>Each cell is ..</p>
 
 <ul>
-  <li>is independent</li>
-  <li>is simple and stupid</li>
-  <li>does not know that there are other cells</li>
-  <li>has no side effects</li>
-  <li>has its own memory</li>
-  <li>has 0 to N inputs</li>
-  <li>has 0 to 1 outputs (or M outputs)</li>
-  <li>calculates the output from the inputs</li>
-  <li>runs parallel, but concurrent to other cells</li>
-  <li>has 0 to N in connections to other cells</li>
-  <li>has 0 to M output connections to other cells</li>
+  <li>.. is independent</li>
+  <li>.. is simple and stupid</li>
+  <li>.. does not know that there are other cells</li>
+  <li>.. has no side effects</li>
+  <li>.. has its own memory</li>
+  <li>.. has 0 to N inputs</li>
+  <li>.. has 0 to 1 outputs (or M outputs)</li>
+  <li>.. calculates the output from the inputs</li>
+  <li>.. runs parallel, but concurrent to other cells</li>
+  <li>.. has 0 to N in connections to other cells</li>
+  <li>.. has 0 to M output connections to other cells</li>
 </ul>
+
+<p>Note: the output could be the input of a cell but
+not at the same time, only t+1.
+So the output at time t can be the input of a
+cell at t+1. Cells lives in time.</p>
 
 <p>There are a huge amount of cells that are connected together.</p>
 
@@ -51,9 +60,9 @@ It produces output from input.</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
         ┌───────┐
-   b ──&gt;│       │
+   b ──&gt;o ┌─&lt;─┐ │
         │  add  o──&gt; c
-   a ──&gt;│       │
+   a ──&gt;o └─&gt;─┘ │
         └───────┘
 
         +-------+

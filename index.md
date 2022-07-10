@@ -5,16 +5,17 @@ title: Home
 
 # Christoph Reif
 
-<div>
-    <img src="https://www.wildlifeonline.me.uk/assets/ugc/gallery/lawn_grey_squirrel.jpg" 
+<div style="width: 667px">
+    <img src="/assets/images/squirrel.png" 
         alt   = "drawing" 
-        width = "777"
-        style = "border-radius: 0.5em"
+        width = "667"
+        style = "border-radius: 0.5em; margin-bottom: 0.5em;"
         />
     <center>
         Squirrels are smart and fast. They can run, fly and climb.
     </center>
-    <div style="text-align:right">Copyright © (2000 - 2022)</div>
+    <br>
+    <small><div style="text-align:right">Copyright © (2000 - 2022)</div></small>
 <div>
 
 
