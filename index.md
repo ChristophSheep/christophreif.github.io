@@ -12,7 +12,7 @@ title: Home
         style = "border-radius: 0.5em"
         />
     <center>
-        Squirrels are smart, be fast, can run, fly and climb.
+        Squirrels are smart and fast. They can run, fly and climb.
     </center>
     <div style="text-align:right">Copyright © (2000 - 2022)</div>
 <div>

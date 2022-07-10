@@ -11,7 +11,9 @@ If all these people would work together how would it change the computing indust
 
 <img src="./assets/images/test.jpg">
 
-## Paul Graham
+<!-- TODO: TIME LINE -->
+
+## Paul Graham (1964)
 
 * [Homepage](http://www.paulgraham.com/index.html)
 * [The Root of Lisp](http://www.paulgraham.com/rootsoflisp.html)
@@ -86,6 +88,7 @@ If all these people would work together how would it change the computing indust
 * [How JavaScript Works](https://howjavascriptworks.com)
 * [The Post JavaScript Apocalypse](https://www.youtube.com/watch?v=NPB34lDZj3E)
 * [Principles of Security](https://www.youtube.com/watch?v=zKuFu19LgZA)
+* [DEC64](https://www.crockford.com/dec64.html)
 
 ## Niklaus Wirth
 
