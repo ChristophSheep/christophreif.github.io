@@ -93,7 +93,7 @@ body {
     border-right: #777;
 
     /* Number of heading */
-    counter-reset: chapter 1 section 0 slide 0;
+    counter-reset: chapter 1 section 1 slide 1;
 }
 
 h1 {
@@ -129,16 +129,13 @@ h3 {
     /*counter-increment: slide;*/
 }
 
-/*
-h3:before {
-    content: counter(chapter) "." counter(section) "." counter(slide) " ";
-    content: counter(section) "." counter(slide) " ";
-}
-*/
+/* All ulists */
 
 ul {
     list-style-type: square;
 }
+
+/* All links */
 
 a {
     color: rgb(56, 56, 136);
@@ -155,15 +152,11 @@ pre {
     border: 1px solid rgba(230, 230, 230, 0.75);
 }
 
+/* Navigation Menu */
+
 nav img {
-
-    width: 16px;
-    height: 16px;
-
+    width: 16px; height: 16px;
     vertical-align: -20%;
-
-    /*margin-right: 0.17em;*/
-    
 }
 
 nav a {
@@ -172,5 +165,28 @@ nav a {
     text-decoration-color: rgba(56, 56, 136, 0.489);
     text-decoration-style: wavy;
 
-    /*margin-right: 0.4em;*/
 }
+
+nav a:not(:last-of-type) {
+    margin-right: 0.4em;
+}
+
+
+/* Grid for Books */
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container > figure {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 0.5em;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+    font-size: 0.77em;
+    border-radius: 0.5em;
+    padding: 0.5em;
+  }

@@ -40,6 +40,7 @@ If all these people would work together how would it change the computing indust
 
 * [Wiki](https://en.wikipedia.org/wiki/Jack_Dennis)
 * [Essay](http://csg.csail.mit.edu/Users/dennis/essay.htm)
+* [Fresh Breeze: A Novel Multiprocessor Chip](http://csg.csail.mit.edu/Users/dennis/csg-dennis.htm)
 * [A preliminary architecture for a basic data-flow processor](https://www.deepdyve.com/lp/association-for-computing-machinery/a-preliminary-architecture-for-a-basic-data-flow-processor-Ej0aB8VR5g)
 
 In September 1988 the MIT Laboratory for Computer Science celebrated the thirty-fifth anniversary of Project MAC. At that event I pointed out the limitations of conventional multiprocessor architecture:
@@ -53,7 +54,7 @@ Some wild ideas may be the key to a breakthrough: Functional programming; the id
 At the Project MAC anniversary I explained:
 
 <small> 
-    "... the key idea ... is functional programming: getting away from the burden of sequential programming concepts embedded in our popular programming languages and computer architectures. The ideas to accomplish this advance exist; in fact they have been known for some time. Yet they are not in favor. Why? They do not fall into the current main stream of computer science. They do not solve the multiprocessor cache problem--instead they make it irrelevant. They do not solve the problem of shared objects in object-oriented programming--they eliminate the problem. They do not minimize the overhead of processor synchronization--they make it disappear altogether."
+    "... the key idea ... is functional programming: getting away from the burden of sequential programming concepts embedded in our popular programming languages and computer architectures. The ideas to accomplish this advance exist; in fact they have been known for some time. Yet they are not in favor. Why? They do not fall into the current main stream of computer science. They do not solve the *multiprocessor cache problem*--__instead they make it irrelevant__. They do not solve the problem of *shared objects in object-oriented programming*--__they eliminate the problem__. They do not minimize the overhead of *processor synchronization*--__they make it disappear altogether__."
 </small>
 
 Fifteen years later these remarks remain valid. I concluded by saying:
