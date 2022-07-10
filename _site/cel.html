@@ -8,8 +8,9 @@
     </head>
 
     <body>
-        <div id="header-box">
-            <div id="header"><nav>
+        <div id="header-backg">
+            <div id="header-box">
+                <div id="header"><nav>
     <a href="/"><img src="/assets/images/home.png">Home</a>
     <a href="/bio"><img src="/assets/images/person.png">Bio</a>
     <a href="/cel"><img src="/assets/images/components.png">Cel</a>
@@ -22,12 +23,20 @@
     <a href="/sustain"><img src="/assets/images/eco.png">Sustain</a>
     <a href="/videos"><img src="/assets/images/videos.png">Videos</a>
 </nav></div>
+            </div>
         </div>
         <div id="content"><h1 id="io-cells-paradigm---draft">i/o cells paradigm - draft</h1>
 
-<p>Following sentences define the paradigm of so called <a href="https://en.wikipedia.org/wiki/Input/output">i/o</a> cells.</p>
+<p>Following sentences define a the <a href="https://en.wikipedia.org/wiki/Programming_paradigm">programming paradigm</a> with the name <strong><a href="https://en.wikipedia.org/wiki/Input/output">i/o</a> cells</strong>.</p>
+
+<p>It is similar to <a href="https://en.wikipedia.org/wiki/Reactive_programming">reactive programming</a>, but paradigm
+needs a new kind of <a href="/hardware">hardware</a> that does not exists currently (2022).</p>
+
+<p>Currently you can simulate this with i/o channels and green threads.</p>
 
 <p>According to <a href="https://en.wikipedia.org/wiki/Input/output">i/o</a> devices. see <a href="https://en.wikipedia.org/wiki/Asynchronous_I/O">Asynchronous I/O</a></p>
+
+<p><a href="https://en.wikipedia.org/wiki/Dataflow_programming">Data is flowing</a> is flowing through cells.</p>
 
 <p>Each cell is ..</p>
 
@@ -60,16 +69,12 @@ It produces output from input.</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
         ┌───────┐
-   b ──&gt;o ┌─&lt;─┐ │
-        │  add  o──&gt; c
-   a ──&gt;o └─&gt;─┘ │
-        └───────┘
+   b ──&gt;o ┌─&lt;─┐ │     connection      ┌───────┐
+        │  add  o──&gt; c --------- b ──&gt;o ┌─&lt;─┐ │
+   a ──&gt;o └─&gt;─┘ │                     │  add  o──&gt; c
+        └───────┘                a ──&gt;o └─&gt;─┘ │
+                                      └───────┘
 
-        +-------+
-   a --&gt;| +-&lt;-+ |
-        | | + | o--&gt; c
-   b --&gt;| --&gt;-+ |
-        +-------+
 </code></pre></div></div>
 
 <p>When data is flowing through channel a and data is flowing through channel b

@@ -5,9 +5,16 @@ title: Cell
 
 # i/o cells paradigm - draft
 
-Following sentences define the paradigm of so called [i/o](https://en.wikipedia.org/wiki/Input/output) cells.
+Following sentences define a the [programming paradigm](https://en.wikipedia.org/wiki/Programming_paradigm) with the name **[i/o](https://en.wikipedia.org/wiki/Input/output) cells**.
+
+It is similar to [reactive programming](https://en.wikipedia.org/wiki/Reactive_programming), but paradigm
+needs a new kind of [hardware](/hardware) that does not exists currently (2022).
+
+Currently you can simulate this with i/o channels and green threads.
 
 According to [i/o](https://en.wikipedia.org/wiki/Input/output) devices. see [Asynchronous I/O](https://en.wikipedia.org/wiki/Asynchronous_I/O)
+
+[Data is flowing](https://en.wikipedia.org/wiki/Dataflow_programming) is flowing through cells.
 
 Each cell is ..
 
@@ -40,16 +47,12 @@ It produces output from input.
 ```
 
         ┌───────┐
-   b ──>o ┌─<─┐ │
-        │  add  o──> c
-   a ──>o └─>─┘ │
-        └───────┘
+   b ──>o ┌─<─┐ │     connection      ┌───────┐
+        │  add  o──> c --------- b ──>o ┌─<─┐ │
+   a ──>o └─>─┘ │                     │  add  o──> c
+        └───────┘                a ──>o └─>─┘ │
+                                      └───────┘
 
-        +-------+
-   a -->| +-<-+ |
-        | | + | o--> c
-   b -->| -->-+ |
-        +-------+
 ```
    
   When data is flowing through channel a and data is flowing through channel b

@@ -26,7 +26,8 @@ title: Videos
 
 * [Douglas Crockford - Principles of Security](https://www.youtube.com/watch?v=zKuFu19LgZA)
 
+<!--
 ## Other
 
 * [Dave Farley - TODO]
-
+-->
