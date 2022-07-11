@@ -5,7 +5,7 @@ title: Bio
 
 # Bio
 
-<img class="img-container" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Jigsaw_puzzle_01_by_Scouten.jpg/1920px-Jigsaw_puzzle_01_by_Scouten.jpg"/>
+<img class="img-container-right" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Jigsaw_puzzle_01_by_Scouten.jpg/1920px-Jigsaw_puzzle_01_by_Scouten.jpg"/>
 
 My name is __Christoph Reif__ and I am __private researcher__ in computing. The word of a [research](https://www.merriam-webster.com/dictionary/research) als includes the word *search*.
 
@@ -21,7 +21,7 @@ A [desert bloom](https://en.wikipedia.org/wiki/Desert_bloom) is a climatic pheno
 
 ## The future is in the past
 
-<img class="img-container" style="height: 140px" src="assets/images/roundabout.jpg">
+<img class="img-container-right" style="height: 140px" src="assets/images/roundabout3.jpg">
 When you go back in history you can find the point where the whole IT industrie has turned the wrong.
 Like in a [roundabout](https://en.wikipedia.org/wiki/Roundabout), you can enter the roundabout, but you have to decide where to exit the roundabout. Is it going to north? Is it going to south? Is it goind to west or east? Or any other direction. If you choose the wrong direction and you believe you are on the right path then you drive fast. But after 50 years of IT technology you see the fruits. Are the fruits good? Fruits are sign like on the road. That show if you are at the right road. If you drive to south and the sun is not on the right place and you still believe you are drving to south then you should start to think. Are you sure you drive the right directions?
 
@@ -44,22 +44,22 @@ about the signs.
 ## Basic idea
 
 We all have a [neuronal network](https://en.wikipedia.org/wiki/Neural_network) (a real AI) between our ears. This brain is a rule extraction machine. If there are rules in the input, the brain will find the rules. 
-
 We should be careful with which data (=information) we feed our brain(= neuronal network). 
-
-For instance this is how [propaganda](https://www.merriam-webster.com/dictionary/propaganda) works. They feed you with half-truth you can not check.
-Then you start to believe this things as they were true, but it is not.
+For instance this is how [propaganda](https://www.merriam-webster.com/dictionary/propaganda) works. They feed you with half-truth you can not check. Then you start to believe this things as they were true, but it is not.
 
 ## Future of Computing
 
 Moore's law is the observation that the number of transistors in a dense integrated circuit (IC) doubles about every two years. Computers get more and more cores every two year.
 
-Already John Backus described the problem with the [Neumann's bottleneck](https://en.wikipedia.org/wiki/Von_Neumann_architecture#Von_Neumann_bottleneck) 1977.
+John Backus already described the problem with the [Neumann's bottleneck](https://en.wikipedia.org/wiki/Von_Neumann_architecture#Von_Neumann_bottleneck) in 1977.
 
-
-
-Parallel and Concurrent Computing.
+Real parallel and concurrent computing.
 
 Functional programming.
 
 Data Flow Processor Architecture.
+
+---
+
+[^1]: [Concurrent_computing](https://en.wikipedia.org/wiki/Concurrent_computing)
+

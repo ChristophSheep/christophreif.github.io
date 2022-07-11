@@ -15,7 +15,21 @@ If all these people would work together how would it change the computing indust
 
 <!-- TODO: TIME LINE -->
 
-## John Backus
+## Joseph Weizenbaum (1923)
+
+* [Wiki](https://en.wikipedia.org/wiki/Joseph_Weizenbaum)
+* [ELIZA](https://en.wikipedia.org/wiki/ELIZA)
+* [SLIP](https://en.wikipedia.org/wiki/SLIP_(programming_language))
+* [Weizenbaum. Rebel at Work](http://www.ilmarefilm.org/archive/weizenbaum_archiv_E.html)
+* [Plug&Pray](http://plugandpray-film.de/inhalt.html)
+
+> *"Die meisten meiner Kollegen glauben, alles ist berechenbar und wir können eine künstliche Mensche herstellen.
+Das hat auch was mit Größenwahn zu tun."*
+> ...
+> Doch ausgerechnet einer der Pioniere der Computerentwicklung und der künstlichen Intelligenz, der ehemalige MIT-Professor Joseph Weizenbaum, hat sich zum schärfsten Kritiker dieser technologischen Allmachtsvisionen entwickelt. Er betrachtet die weit verbreitete Ansicht, die Natur sei mit Hilfe der Wissenschaft vollkommen zu erfassen und somit objektiv berechenbar, als **katastrophale Fehlentwicklung des menschlichen Denkens**. 
+
+
+## John Backus (1924)
 
 * [Wiki](https://en.wikipedia.org/wiki/John_Backus)
 * [Function level Programming](https://en.wikipedia.org/wiki/Function-level_programming)
@@ -24,6 +38,7 @@ If all these people would work together how would it change the computing indust
 * [EBNF](https://en.wikipedia.org/wiki/Extended_Backus–Naur_form)
 
 <img width="600" src="assets/images/john_backus_neumann.png">
+
 
 ## Doug Engelbart <sup>(1925)</sup> 	
 
@@ -44,6 +59,11 @@ If all these people would work together how would it change the computing indust
 ## Edsger W. Dijkstra (1930)
 
 * [Go To Statement Considered Harmful](https://homepages.cwi.nl/~storm/teaching/reader/Dijkstra68.pdf)
+* [The Humble Programmer (EWD340)](https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html)
+
+<small>
+> The third project I would not like to leave unmentioned is LISP, a fascinating enterprise of a completely different nature. With a few very basic principles at its foundation, it has shown a remarkable stability. Besides that, LISP has been the carrier for a considerable number of in a sense our most sophisticated computer applications. LISP has jokingly been described as “the most intelligent way to misuse a computer”. I think that description a great compliment because it transmits the full flavour of liberation: it has assisted a number of our most gifted fellow humans in thinking previously impossible thoughts.
+<small>
 
 
 ## Jack Dennis (1931)
@@ -94,7 +114,9 @@ Fifteen years later these remarks remain valid. I concluded by saying:
 ## Tony Hoare (1934)
 
 * [Null References: The Billion Dollar Mistake](https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare/)
-
+* [Communicating sequential processes](https://en.wikipedia.org/wiki/Communicating_sequential_processes)
+* [QuickSort](https://en.wikipedia.org/wiki/Quicksort)
+* [Concurrent Computing](https://en.wikipedia.org/wiki/Concurrent_computing)
 
 ## Niklaus Wirth (1934)
 
@@ -118,6 +140,10 @@ Fifteen years later these remarks remain valid. I concluded by saying:
 ## Donald E. Knuth (1938)		
 
 * [Homepage](https://cs.stanford.edu/~knuth/)
+* [TeX](https://en.wikipedia.org/wiki/TeX)
+* [Metafont](https://en.wikipedia.org/wiki/Metafont)
+* [Web](https://en.wikipedia.org/wiki/Web_(programming_system))
+* [Literate Programming](https://en.wikipedia.org/wiki/Literate_programming)
 * [The Art of Computer Programming (TAOCP)](https://cs.stanford.edu/~knuth/taocp.html)
 * [A RISC computer for the new millennium](http://www.mmix.cs.hm.edu)
 

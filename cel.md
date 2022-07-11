@@ -5,10 +5,9 @@ title: Cell
 
 # i/o cells paradigm - draft
 
-Following sentences define a the [programming paradigm](https://en.wikipedia.org/wiki/Programming_paradigm) with the name **[i/o](https://en.wikipedia.org/wiki/Input/output) cells**.
+Following sentences define a the [programming paradigm](https://en.wikipedia.org/wiki/Programming_paradigm) with the name **[i/o](https://en.wikipedia.org/wiki/Input/output) cells**[^1].
 
-It is similar to [reactive programming](https://en.wikipedia.org/wiki/Reactive_programming), but paradigm
-needs a new kind of [hardware](/hardware) that does not exists currently (2022).
+This paradigm need a hardware like [dataflow architecture](https://en.wikipedia.org/wiki/Dataflow_architecture).
 
 Currently you can simulate this with i/o channels and green threads.
 
@@ -26,7 +25,7 @@ Each cell is ..
  * .. has 0 to N inputs
  * .. has 0 to 1 outputs (or M outputs)
  * .. calculates the output from the inputs
- * .. runs parallel, but concurrent to other cells
+ * .. runs parallel, but concurrent[^2] to other cells
  * .. has 0 to N in connections to other cells
  * .. has 0 to M output connections to other cells
 
@@ -57,5 +56,10 @@ It produces output from input.
    
   When data is flowing through channel a and data is flowing through channel b
   then also computed data is flowing out of channel c.
+
+---
+
+[^1]: [Input/output automaton](https://en.wikipedia.org/wiki/Input/output_automaton)
+[^2]: [CSP](https://en.wikipedia.org/wiki/Communicating_sequential_processes)
  
 

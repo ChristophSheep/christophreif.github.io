@@ -21,17 +21,16 @@
     <a href="/history"><img src="/assets/images/temple.png">History</a>
     <a href="/quotes"><img src="/assets/images/quotes2.png">Quotes</a>
     <a href="/essays"><img src="/assets/images/writing2.png">Essays</a>
-    <a href="/sustain"><img src="/assets/images/eco.png">Susble</a>
-    <a href="/videos"><img src="/assets/images/videos.png">Talks</a>
+    <a href="/sustain"><img src="/assets/images/eco.png">Sustain</a>
+    <a href="/videos"><img src="/assets/images/talk4.png">Talks</a>
 </nav></div>
             </div>
         </div>
         <div id="content"><h1 id="io-cells-paradigm---draft">i/o cells paradigm - draft</h1>
 
-<p>Following sentences define a the <a href="https://en.wikipedia.org/wiki/Programming_paradigm">programming paradigm</a> with the name <strong><a href="https://en.wikipedia.org/wiki/Input/output">i/o</a> cells</strong>.</p>
+<p>Following sentences define a the <a href="https://en.wikipedia.org/wiki/Programming_paradigm">programming paradigm</a> with the name <strong><a href="https://en.wikipedia.org/wiki/Input/output">i/o</a> cells</strong><sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
 
-<p>It is similar to <a href="https://en.wikipedia.org/wiki/Reactive_programming">reactive programming</a>, but paradigm
-needs a new kind of <a href="/hardware">hardware</a> that does not exists currently (2022).</p>
+<p>This paradigm need a hardware like <a href="https://en.wikipedia.org/wiki/Dataflow_architecture">dataflow architecture</a>.</p>
 
 <p>Currently you can simulate this with i/o channels and green threads.</p>
 
@@ -50,7 +49,7 @@ needs a new kind of <a href="/hardware">hardware</a> that does not exists curren
   <li>.. has 0 to N inputs</li>
   <li>.. has 0 to 1 outputs (or M outputs)</li>
   <li>.. calculates the output from the inputs</li>
-  <li>.. runs parallel, but concurrent to other cells</li>
+  <li>.. runs parallel, but concurrent<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup> to other cells</li>
   <li>.. has 0 to N in connections to other cells</li>
   <li>.. has 0 to M output connections to other cells</li>
 </ul>
@@ -81,6 +80,18 @@ It produces output from input.</p>
 <p>When data is flowing through channel a and data is flowing through channel b
   then also computed data is flowing out of channel c.</p>
 
+<hr />
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p><a href="https://en.wikipedia.org/wiki/Input/output_automaton">Input/output automaton</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p><a href="https://en.wikipedia.org/wiki/Communicating_sequential_processes">CSP</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 </div>
     </body>
 

@@ -55,7 +55,7 @@ I should be a small fast, maybe a 64-Bit [RISC](https://en.wikipedia.org/wiki/Re
 
 ### High-level Language Computer Architecture
 
-[Lisp Machine]https://en.wikipedia.org/wiki/Lisp_machine
+[Lisp Machine](https://en.wikipedia.org/wiki/Lisp_machine)
 
 ---
 

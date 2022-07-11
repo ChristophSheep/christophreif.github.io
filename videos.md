@@ -5,6 +5,10 @@ title: Videos
 
 # Videos
 
+## Attitude
+
+* [Joseph Weizenbaum - Plug & Pray](https://www.amazon.com/Plug-Pray/dp/B004NCY47G)
+
 ## Sustainable Architecture / Design
 
 * [Robert Martin - The Future of Programming](https://www.youtube.com/watch?v=ecIWPzGEbFc)

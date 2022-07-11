@@ -132,7 +132,11 @@ h3 {
 /* All ulists */
 
 ul {
-    list-style-type: square;
+    list-style-type: square;  
+}
+
+li {
+    line-height: 1.5;
 }
 
 /* All links */
@@ -157,6 +161,7 @@ pre {
 nav img {
     width: 16px; height: 16px;
     vertical-align: -20%;
+    margin-right: 0.1em
 }
 
 nav a {
@@ -194,6 +199,12 @@ nav a:not(:last-of-type) {
 /* Image Container for Texts */
 
 .img-container {
+    float: left;
+    width: 25%; /* three containers (use 25% for four, and 50% for two, etc) */
+    padding: 5px; /* if you want space between the images */
+}
+
+.img-container-right {
     float: right;
     width: 25%; /* three containers (use 25% for four, and 50% for two, etc) */
     padding: 5px; /* if you want space between the images */
