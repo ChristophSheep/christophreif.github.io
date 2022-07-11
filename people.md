@@ -39,8 +39,9 @@ If all these people would work together how would it change the computing indust
 ## Jack Dennis (1931)
 
 * [Wiki](https://en.wikipedia.org/wiki/Jack_Dennis)
-* [Essay](http://csg.csail.mit.edu/Users/dennis/essay.htm)
+* [Home @ MIT](http://csg.csail.mit.edu/Users/dennis/)
 * [Fresh Breeze: A Novel Multiprocessor Chip](http://csg.csail.mit.edu/Users/dennis/csg-dennis.htm)
+* [The Fresh Breeze Model of Thread Execution](http://csg.csail.mit.edu/Users/dennis/pmup-final.pdf)
 * [A preliminary architecture for a basic data-flow processor](https://www.deepdyve.com/lp/association-for-computing-machinery/a-preliminary-architecture-for-a-basic-data-flow-processor-Ej0aB8VR5g)
 
 In September 1988 the MIT Laboratory for Computer Science celebrated the thirty-fifth anniversary of Project MAC. At that event I pointed out the limitations of conventional multiprocessor architecture:

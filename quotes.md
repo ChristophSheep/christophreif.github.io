@@ -18,6 +18,9 @@ Everyone knows it, but nobody do it. Why?
 ### Software development can be very easy when you do it right, but on the others very complicated if you do it wrong.
 *-- Keep it simple thinking*
 
+### If you don't care about dependencies, the dependencies will care on you
+*-- Christoph Reif*
+
 # OO
 
 ### I made up the term 'object-oriented', and I can tell you I didn't have C++ in mind
