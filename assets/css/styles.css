@@ -189,4 +189,12 @@ nav a:not(:last-of-type) {
     font-size: 0.77em;
     border-radius: 0.5em;
     padding: 0.5em;
-  }
+}
+
+/* Image Container for Texts */
+
+.img-container {
+    float: right;
+    width: 25%; /* three containers (use 25% for four, and 50% for two, etc) */
+    padding: 5px; /* if you want space between the images */
+}

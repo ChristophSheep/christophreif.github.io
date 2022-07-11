@@ -3,22 +3,25 @@ layout: default
 title: Hardware
 ---
 
-# Hardware
+# Hardware 
+
+## Moore's Law
 
 In the future according to [Moore's Law](https://en.wikipedia.org/wiki/Moore%27s_law) we with have computer with many [cores](https://en.wikipedia.org/wiki/Central_processing_unit). Today <small>(2022)</small>  we have for instance a MacBook with 8 cores[^3]. If every two the size doubles. Then we have in 10 years 256 cores and in 20 years 8192 cores. But in 40 <small>(2062)</small> years we break wall with an order of 1 million cores in a [cpu](https://en.wikipedia.org/wiki/Central_processing_unit).
 
+## Estimation of cores in future 
 
-```
-   Now                      
-    8, 16, 32, 64, 128, 256 Cores (Now+10 years)
-    256, 512, 1024, 2048, 4096, 8192 Cores (Now+20 years)
+```  
+   8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192  ..  ~1 mio
+   o--------------------------------------------------------------> years
+  Now                       +10                     +20  ..    +40     
 ```
 
 For these new very fast computers we need a different ways of programming[^1].
 
-## New
+## New Architectures needed
 
-A computer with let says 100.000 smalls little simple processors with its own [core memory](https://en.wikipedia.org/wiki/Magnetic-core_memory).
+A computer with millions little and simple processors with its own [core memory](https://en.wikipedia.org/wiki/Magnetic-core_memory).
 
 You can programm each small processors and you can connect the output to input of other processors.
 While data is flowing from one "i/o cell" to the next.
@@ -27,7 +30,18 @@ While data is flowing from one "i/o cell" to the next.
   IN --> [fn(x)(+ x 1)] --> [fn(x y)(+ x y)] --> OUT
 ```
 
-## Data-Flow Hardware
+## Architectures
+
+* [Von Neumann Architecture](https://en.wikipedia.org/wiki/Von_Neumann_architecture#Von_Neumann_bottleneck)
+* [Dataflow Architecture](https://en.wikipedia.org/wiki/Dataflow_architecture)
+* [RISC Architecture](https://en.wikipedia.org/wiki/Reduced_instruction_set_computer)
+* [High-level Language Computer Architecture](https://en.wikipedia.org/wiki/High-level_language_computer_architecture)
+
+### Von Neumann Architecture
+
+One problem with this architecture is the [bottleneck](https://en.wikipedia.org/wiki/Von_Neumann_architecture#Von_Neumann_bottleneck).
+
+### Data-Flow Architecture
 
 Preliminary Architecture for a Basic Data-Flow Processor[^4].
 
@@ -35,9 +49,13 @@ Preliminary Architecture for a Basic Data-Flow Processor[^4].
   Processor is described which can achieve highly parallel execution of programs represented in data- flow form. The language implemented incorporates conditional and iteration mechanisms, and the processor is a step toward a practical data-flow processor for a Fortran-level data-flow language. The processor has a unique archi- tecture which avoids the problems of processor switching and memory/processor interconnecion that usually limit the degree of realizable concurrent processing. The architecture offers an unusual solution to the problem of struc- turing and managing a two-level memory system.
 </small>
 
-## RISC
+### RISC Architecture
 
-I should be a small fast, maybe a 64-Bit [RISC](https://en.wikipedia.org/wiki/Reduced_instruction_set_computer) architectire like MMIX[^2].
+I should be a small fast, maybe a 64-Bit [RISC](https://en.wikipedia.org/wiki/Reduced_instruction_set_computer) architecture like MMIX[^2].
+
+### High-level Language Computer Architecture
+
+[Lisp Machine]https://en.wikipedia.org/wiki/Lisp_machine
 
 ---
 

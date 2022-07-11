@@ -23,6 +23,8 @@ If all these people would work together how would it change the computing indust
 * [BNF](https://en.wikipedia.org/wiki/Backus–Naur_form)
 * [EBNF](https://en.wikipedia.org/wiki/Extended_Backus–Naur_form)
 
+<img width="600" src="assets/images/john_backus_neumann.png">
+
 ## Doug Engelbart <sup>(1925)</sup> 	
 
 * [Wiki](https://en.wikipedia.org/wiki/Douglas_Engelbart)
@@ -73,7 +75,7 @@ Fifteen years later these remarks remain valid. I concluded by saying:
     "The computer systems of today do not realize our original vision from the inception of Project MAC. Yet the opportunity to make our dreams come true is still there. The vision is not obsolete. It is one that will be achieved. I believe the day will come when the ideas are widely accepted and we can move forward to build the Computer Utility. I hope to contribute to its realization and I look forward to enjoying its fruits."
 </small>
  
-## Arvind Prof
+## Prof Arvind
 
 * [Wiki](https://en.wikipedia.org/wiki/Arvind_(computer_scientist))
 * [Journal of Functional Programming](https://en.wikipedia.org/wiki/Journal_of_Functional_Programming)
@@ -221,24 +223,28 @@ Fifteen years later these remarks remain valid. I concluded by saying:
 * [The Art of Unix Programming](https://nakamotoinstitute.org/static/docs/taoup.pdf)
 * [Revolution OS](https://youtu.be/NrI-0u4npGo)
 
+## Manfred Spitzer (1958)
 
-## Aza Raskin (Son Jef Raskin)
+* [Wiki](https://en.wikipedia.org/wiki/Manfred_Spitzer)
+* [Lernen. Gehirnforschung und die Schule des Lebens](https://www.amazon.de/Lernen-Gehirnforschung-die-Schule-Lebens/dp/3827417236)
 
-* [Homepage](https://aza.wtf)
+
+
 
 
 <!--
 
+## Aza Raskin (Son Jef Raskin)
 
-
-
-## Manfred Spitzer		
+* [Homepage](https://aza.wtf)
 
 ## James Gosling		
 
 ## Martin Odersky		
 
 ## Ken Perlin		
+
+* [SIGGRAPH Asia 2011 - Featured Speaker, Ken Perlin](https://www.youtube.com/watch?v=4YnVhTyrYbo)
 
 ## Prof Maurer
 
