@@ -21,11 +21,28 @@ But there is one thing to overcome: *"What you already know, hinders you what yo
 
 [Timeline of Operating Systems](https://en.wikipedia.org/wiki/Timeline_of_operating_systems)
 
+* [Multics](https://en.wikipedia.org/wiki/Multics)
+* [Unix](https://en.wikipedia.org/wiki/Unix)
+* [Plan 9](https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs) (= Unix 2.0)
+* [Minix](https://en.wikipedia.org/wiki/Minix)
+* [Oberon OS](https://en.wikipedia.org/wiki/Oberon_(operating_system))
+
 ## Programming Languages
 
 [Timeline of Programming Languages](https://en.wikipedia.org/wiki/Timeline_of_programming_languages)
 
 <img width="500" src="https://comp-think.github.io/2018-2019/slides/img/languages.png">
+
+* 1957 [Fortran](https://en.wikipedia.org/wiki/Fortran)
+* 1958 [Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language))
+* 1958 [ALGOL](https://en.wikipedia.org/wiki/ALGOL)
+* 1962 [Simula](https://en.wikipedia.org/wiki/Simula)
+* 1975 [Id](https://en.wikipedia.org/wiki/Id_(programming_language))
+* 1978 [C](https://en.wikipedia.org/wiki/The_C_Programming_Language)
+* 1985 [C++](https://en.wikipedia.org/wiki/The_C%2B%2B_Programming_Language)
+* 1987 [Oberon](https://en.wikipedia.org/wiki/Oberon_(programming_language))
+* 2009 [Go](https://en.wikipedia.org/wiki/Go_(programming_language))
+
 
 ## Mistakes in History
 

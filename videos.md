@@ -13,6 +13,7 @@ title: Videos
 * [Robert Martin - Clean Code](https://www.youtube.com/watch?v=7EmboKQH8lM&list=PLmmYSbUCWJ4x1GO839azG_BBw8rkh-zOj)
 * [Gerald Sussman - "We Really Don't Know How to Compute!"](https://www.youtube.com/watch?v=HB5TrK7A4pI)
 * [Gerald Jay Sussman - On Flexible Systems, The Power of Generic Operations](https://www.youtube.com/watch?v=cblhgNUoX9M)
+* [Gerald Jay Sussman - Adventures in advanced Symbolic Programming](https://archive.org/details/adventures-in-advanced-symbolic-programming)
 * [Martin Fowler - Making Architecture Matter](https://www.youtube.com/watch?v=DngAZyWMGR0)
 * [John Ousterhout - A Philosophy of Software Design](https://www.youtube.com/watch?v=bmSAYlu0NcY)
 

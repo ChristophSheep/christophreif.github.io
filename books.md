@@ -6,7 +6,7 @@ tags: Architecture OS Programming
 
 # Books
 
-## Architecture & Usability
+## Software Architecture & Usability
 
 <div class="flex-container">
 
@@ -28,7 +28,19 @@ tags: Architecture OS Programming
 
 </div>
 
-## Ideas & Attitude & Learning
+## Hardware Architecture
+
+<div class="flex-container">
+
+    <figure>
+        <img width="100" src="https://books.google.at/books/content?id=dS4b3i36qsEC&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73eEY9-FqFiySajKUnBf3fw2hk48M285_O0gHrOe6jkSDG4LaTNaU48Gjo_cBzru5diObFPz45OHH9kLVrYS9U6tsrY0u3p23XBCfcnXI3C-0dav2se78VLj7QqPIinMxH8cZeo">
+        <figure-caption>Data Flow Computing</figure-caption>
+    </figure>
+
+</div>
+
+
+## Ideas & Attitude
 
 <div class="flex-container">
 
@@ -41,12 +53,6 @@ tags: Architecture OS Programming
         <img width="100" src="https://geraldmweinberg.com/wp-content/uploads/2019/12/psychology-of-computer-programming.jpg">
         <figure-caption>Psychology of Computer Programming</figure-caption> 
     </figure> 
-
-    <figure>
-        <img width="100" src="http://ecx.images-amazon.com/images/I/41KNnxwUolL._SY344_BO1,204,203,200_.jpg">
-        <figure-caption>Lernen: Gehirnforschung und die Schule des Lebens</figure-caption> 
-    </figure> 
-
 
 </div>
 
@@ -89,6 +95,19 @@ tags: Architecture OS Programming
     <img width="100" src="https://2.bp.blogspot.com/-Htcdqx1NcAI/VuAxaOnQkjI/AAAAAAAABF0/pvneyGTSXpE/s1600/The_C_Programming_Language_download-pdf-freecomputerbookspdf.blogspot.com.png">
     <figure-caption>The C Programming Language</figure-caption> 
 </figure>
+
+</div>
+
+
+## Learning
+
+<div class="flex-container">
+
+    <figure>
+        <img width="100" src="http://ecx.images-amazon.com/images/I/41KNnxwUolL._SY344_BO1,204,203,200_.jpg">
+        <figure-caption>Lernen: Gehirnforschung und die Schule des Lebens</figure-caption> 
+    </figure> 
+
 
 </div>
 

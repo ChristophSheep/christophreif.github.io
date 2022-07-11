@@ -15,6 +15,14 @@ If all these people would work together how would it change the computing indust
 
 <!-- TODO: TIME LINE -->
 
+## John Backus
+
+* [Wiki](https://en.wikipedia.org/wiki/John_Backus)
+* [Function level Programming](https://en.wikipedia.org/wiki/Function-level_programming)
+* [Can programming be liberated from the von Neumann style?: a functional style and its algebra of programs](https://dl.acm.org/doi/10.1145/359576.359579)
+* [BNF](https://en.wikipedia.org/wiki/Backus–Naur_form)
+* [EBNF](https://en.wikipedia.org/wiki/Extended_Backus–Naur_form)
+
 ## Doug Engelbart <sup>(1925)</sup> 	
 
 * [Wiki](https://en.wikipedia.org/wiki/Douglas_Engelbart)
@@ -43,6 +51,7 @@ If all these people would work together how would it change the computing indust
 * [Fresh Breeze: A Novel Multiprocessor Chip](http://csg.csail.mit.edu/Users/dennis/csg-dennis.htm)
 * [The Fresh Breeze Model of Thread Execution](http://csg.csail.mit.edu/Users/dennis/pmup-final.pdf)
 * [A preliminary architecture for a basic data-flow processor](https://www.deepdyve.com/lp/association-for-computing-machinery/a-preliminary-architecture-for-a-basic-data-flow-processor-Ej0aB8VR5g)
+* [Thoughts about Computer Architecture](http://csg.csail.mit.edu/Users/dennis/barc-presentation/sld001.htm)
 
 In September 1988 the MIT Laboratory for Computer Science celebrated the thirty-fifth anniversary of Project MAC. At that event I pointed out the limitations of conventional multiprocessor architecture:
  
@@ -64,6 +73,11 @@ Fifteen years later these remarks remain valid. I concluded by saying:
     "The computer systems of today do not realize our original vision from the inception of Project MAC. Yet the opportunity to make our dreams come true is still there. The vision is not obsolete. It is one that will be achieved. I believe the day will come when the ideas are widely accepted and we can move forward to build the Computer Utility. I hope to contribute to its realization and I look forward to enjoying its fruits."
 </small>
  
+## Arvind Prof
+
+* [Wiki](https://en.wikipedia.org/wiki/Arvind_(computer_scientist))
+* [Journal of Functional Programming](https://en.wikipedia.org/wiki/Journal_of_Functional_Programming)
+* [Term rewriting systems](https://en.wikipedia.org/wiki/Rewriting#Term_rewriting_systems)
 
 ## M. Douglas McIlroy (1932)
 
@@ -128,12 +142,15 @@ Fifteen years later these remarks remain valid. I concluded by saying:
 * [Archy](https://en.wikipedia.org/wiki/Archy_(software))
 * [Zooming User Interface](https://en.wikipedia.org/wiki/Zooming_user_interface)
 
-
 ## Ken Thompson (1943)
 
  * [Go](https://en.wikipedia.org/wiki/Go_(programming_language))
  * [Plan 9](https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs)
 
+## Andy Tanenbaum (1944)
+
+* [Wiki](https://en.wikipedia.org/wiki/Andrew_S._Tanenbaum)
+* [Minix](https://en.wikipedia.org/wiki/Minix)
 
 ## Gerald Jay Sussmann (1947)
 
@@ -145,6 +162,9 @@ Fifteen years later these remarks remain valid. I concluded by saying:
 ## Steve Woz (1950)
 
 * [Wiki](https://en.wikipedia.org/wiki/Steve_Wozniak)
+* [Apple I](https://en.wikipedia.org/wiki/Apple_I)
+* [Apple II](https://en.wikipedia.org/wiki/Apple_II)
+* [Woz.org](http://woz.org)
 
 ## Bjarne Stroustrup (1950)
 

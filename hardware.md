@@ -37,7 +37,7 @@ Preliminary Architecture for a Basic Data-Flow Processor[^4].
 
 ## RISC
 
-I should be a small fast, maybe a [RISC](https://en.wikipedia.org/wiki/Reduced_instruction_set_computer) architectire like MMIX[^2].
+I should be a small fast, maybe a 64-Bit [RISC](https://en.wikipedia.org/wiki/Reduced_instruction_set_computer) architectire like MMIX[^2].
 
 ---
 
@@ -47,6 +47,7 @@ I should be a small fast, maybe a [RISC](https://en.wikipedia.org/wiki/Reduced_i
 
 [^3]: [Apple MacBook Air "M1" 8 CPU/8 GPU 13" Specs](https://everymac.com/systems/apple/macbook-air/specs/macbook-air-m1-8-core-8-core-gpu-13-retina-display-2020-specs.html)
 
-[^4]: [Preliminary Architecture for a Basic Data-Flow Processor](https://dl.acm.org/doi/pdf/10.1145/641675.642111)
+[^4]: [Preliminary Architecture for a Basic Data-Flow Processor - Jack Dennis](https://dl.acm.org/doi/pdf/10.1145/641675.642111)
 
+[^5]: [The Fresh Breeze Model of Thread Execution - Jack Dennis](http://csg.csail.mit.edu/Users/dennis/pmup-final.pdf)
 
