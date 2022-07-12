@@ -5,15 +5,13 @@ title: Cell
 
 # i/o cells paradigm - draft
 
-Following sentences define a the [programming paradigm](https://en.wikipedia.org/wiki/Programming_paradigm) with the name **[i/o](https://en.wikipedia.org/wiki/Input/output) cells**[^1].
+Following sentences define a the [programming paradigm](https://en.wikipedia.org/wiki/Programming_paradigm) with the name i/o[^4] cells[^1].
 
-This paradigm need a hardware like [dataflow architecture](https://en.wikipedia.org/wiki/Dataflow_architecture).
+This paradigm need a hardware like dataflow architecture[^3].
 
-Currently you can simulate this with i/o channels and green threads.
+According to [i/o](https://en.wikipedia.org/wiki/Input/output) devices. 
 
-According to [i/o](https://en.wikipedia.org/wiki/Input/output) devices. see [Asynchronous I/O](https://en.wikipedia.org/wiki/Asynchronous_I/O)
-
-[Data is flowing](https://en.wikipedia.org/wiki/Dataflow_programming) is flowing through cells.
+Data is flowing[^3] through cells.
 
 Each cell is ..
 
@@ -34,8 +32,13 @@ not at the same time, only t+1.
 So the output at time t can be the input of a
 cell at t+1. Cells lives in time.
 
- 
 There are a huge amount of cells that are connected together.
+
+Cells are like nerve cells[^3] who produce an output signal from incoming signals from other cells.
+
+## Simulate
+
+Currently you can simulate this with i/o channels[^2] and green threads.
 
 ## Example
 
@@ -48,18 +51,23 @@ It produces output from input.
         ┌───────┐
    b ──>o ┌─<─┐ │     connection      ┌───────┐
         │  add  o──> c --------- b ──>o ┌─<─┐ │
-   a ──>o └─>─┘ │                     │  add  o──> c
+   a ──>o └─>─┘ │       channel       │  add  o──> c
         └───────┘                a ──>o └─>─┘ │
-                                      └───────┘
+                                       └───────┘
 
 ```
    
-  When data is flowing through channel a and data is flowing through channel b
-  then also computed data is flowing out of channel c.
+  When data is flowing through channel[^2] a and data is flowing through channel b
+  then also computed *data is flowing*[^3] out of channel c.
 
 ---
 
 [^1]: [Input/output automaton](https://en.wikipedia.org/wiki/Input/output_automaton)
 [^2]: [CSP](https://en.wikipedia.org/wiki/Communicating_sequential_processes)
+[^3]: [Dataflow Architecture](https://en.wikipedia.org/wiki/Dataflow_architecture)
+[^4]: [Input/ouput](https://en.wikipedia.org/wiki/Input/output)
+[^5]: [Asynchronous I/O](https://en.wikipedia.org/wiki/Asynchronous_I/O)
+[^6]: [Neuron or nerve cell](https://en.wikipedia.org/wiki/Neuron)
+
  
 

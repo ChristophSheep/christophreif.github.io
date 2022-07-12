@@ -126,13 +126,18 @@ called byte streams. In Unix everything is a file (a stream of bytes).
 
 #### Layers of Abstraction
 
+``` 
+                                       a c
+  -------------- LayerN  more concrete 0 3
+  +------------+ Layer2  less concrete 1 2
+  | +--------+ | Layer1  less abstract 2 1
+  | | [core] | | Layer0  most abstract 3 0
+  | +--------+ | Layer1  less abstract 2 1
+  +------------+ Layer2  less concrete 1 2
+  -------------- LayerN  more concrete 0 3
+
 ```
-  +------------+ Layer2
-  | +--------+ | Layer1
-  | | [core] | | Layer0
-  | +--------+ | Layer1
-  +------------+ Layer2
-```
+
 Layers of abstraction is a very important concept to make your
 software architecture sustainable. The core (layer0) is your
 most abstract layer. The higher in goes the less abstract it goes
@@ -158,7 +163,23 @@ Then you build a button with a link and a box
     </a>
   </div>
 ```
+
+#### Bottom-Up Design
+
+Bottom-Up design lays hand in hand with the concept of *layers of abstraction*[^4].
+Bottom-Up design is coupled with a macros[^5] and macros expansion. Macros are like template of code, so you can create you own language inside the language.
+
+> Experienced Lisp programmers divide up their programs differently. As well as top-down design, they follow a principle which could be called bottom-up design-- changing the language to suit the problem. In Lisp, you don't just write your program down toward the language, you also build the language up toward your program. As you're writing a program you may think "I wish Lisp had such-and-such an operator." So you go and write it. Afterward you realize that using the new operator would simplify the design of another part of the program, and so on. Language and program evolve together.
+
 #### Examples
 
- - Paul Graham talk about bottom up design of Arc or Bel. 
- - How TeX is build by Donald Knuth.
+ - Paul Graham talk about *bottom up design*[^1] of Arc or Bel. 
+ - How *TeX*[^2] is build by Donald Knuth? TeX documents are written and programmed using an unusual macro language[^3].
+
+---
+
+[^1]: [Programming Bottom-Up](http://www.paulgraham.com/progbot.html)
+[^2]: [TeX](https://en.wikipedia.org/wiki/TeX)
+[^3]: [TeX - Macro lanugage](https://en.wikipedia.org/wiki/TeX#Macro_language)
+[^4]: [Abstraction Layer](https://en.wikipedia.org/wiki/Abstraction_layer)
+[^5]: [On Lisp - Chapter 7: "Macros"](http://www.paulgraham.com/onlisp.html)

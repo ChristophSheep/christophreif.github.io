@@ -150,12 +150,17 @@ called byte streams. In Unix everything is a file (a stream of bytes).</p>
 
 <h4 id="layers-of-abstraction">Layers of Abstraction</h4>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  +------------+ Layer2
-  | +--------+ | Layer1
-  | | [core] | | Layer0
-  | +--------+ | Layer1
-  +------------+ Layer2
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>                                       a c
+  -------------- LayerN  more concrete 0 3
+  +------------+ Layer2  less concrete 1 2
+  | +--------+ | Layer1  less abstract 2 1
+  | | [core] | | Layer0  most abstract 3 0
+  | +--------+ | Layer1  less abstract 2 1
+  +------------+ Layer2  less concrete 1 2
+  -------------- LayerN  more concrete 0 3
+
 </code></pre></div></div>
+
 <p>Layers of abstraction is a very important concept to make your
 software architecture sustainable. The core (layer0) is your
 most abstract layer. The higher in goes the less abstract it goes
@@ -178,12 +183,44 @@ Like</p>
     &lt;/a&gt;
   &lt;/div&gt;
 </code></pre></div></div>
+
+<h4 id="bottom-up-design">Bottom-Up Design</h4>
+
+<p>Bottom-Up design lays hand in hand with the concept of <em>layers of abstraction</em><sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote" rel="footnote">1</a></sup>.
+Bottom-Up design is coupled with a macros<sup id="fnref:5" role="doc-noteref"><a href="#fn:5" class="footnote" rel="footnote">2</a></sup> and macros expansion. Macros are like template of code, so you can create you own language inside the language.</p>
+
+<blockquote>
+  <p>Experienced Lisp programmers divide up their programs differently. As well as top-down design, they follow a principle which could be called bottom-up design– changing the language to suit the problem. In Lisp, you don’t just write your program down toward the language, you also build the language up toward your program. As you’re writing a program you may think “I wish Lisp had such-and-such an operator.” So you go and write it. Afterward you realize that using the new operator would simplify the design of another part of the program, and so on. Language and program evolve together.</p>
+</blockquote>
+
 <h4 id="examples">Examples</h4>
 
 <ul>
-  <li>Paul Graham talk about bottom up design of Arc or Bel.</li>
-  <li>How TeX is build by Donald Knuth.</li>
+  <li>Paul Graham talk about <em>bottom up design</em><sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">3</a></sup> of Arc or Bel.</li>
+  <li>How <em>TeX</em><sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">4</a></sup> is build by Donald Knuth? TeX documents are written and programmed using an unusual macro language<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">5</a></sup>.</li>
 </ul>
+
+<hr />
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:4" role="doc-endnote">
+      <p><a href="https://en.wikipedia.org/wiki/Abstraction_layer">Abstraction Layer</a> <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:5" role="doc-endnote">
+      <p><a href="http://www.paulgraham.com/onlisp.html">On Lisp - Chapter 7: “Macros”</a> <a href="#fnref:5" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:1" role="doc-endnote">
+      <p><a href="http://www.paulgraham.com/progbot.html">Programming Bottom-Up</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p><a href="https://en.wikipedia.org/wiki/TeX">TeX</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p><a href="https://en.wikipedia.org/wiki/TeX#Macro_language">TeX - Macro lanugage</a> <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 </div>
     </body>
 
