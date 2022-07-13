@@ -37,7 +37,7 @@ Das hat auch was mit Größenwahn zu tun."*
 * [BNF](https://en.wikipedia.org/wiki/Backus–Naur_form)
 * [EBNF](https://en.wikipedia.org/wiki/Extended_Backus–Naur_form)
 
-<img width="600" src="assets/images/john_backus_neumann.png">
+> <img width="600" src="assets/images/john_backus_neumann.png">
 
 
 ## Doug Engelbart <sup>(1925)</sup> 	
@@ -75,23 +75,23 @@ Das hat auch was mit Größenwahn zu tun."*
 * [A preliminary architecture for a basic data-flow processor](https://www.deepdyve.com/lp/association-for-computing-machinery/a-preliminary-architecture-for-a-basic-data-flow-processor-Ej0aB8VR5g)
 * [Thoughts about Computer Architecture](http://csg.csail.mit.edu/Users/dennis/barc-presentation/sld001.htm)
 
-In September 1988 the MIT Laboratory for Computer Science celebrated the thirty-fifth anniversary of Project MAC. At that event I pointed out the limitations of conventional multiprocessor architecture:
+> In September 1988 the MIT Laboratory for Computer Science celebrated the thirty-fifth anniversary of Project MAC. At that event I pointed out the limitations of conventional multiprocessor architecture:
  
-<small> 
+> <small> 
     "Yet present multiprocessors are very limited in their effective application. Their programming tools are absurdly limited and primitive in contrast to those of Multics. There is no automatic management of memory by the system on behalf of its users. Moreover, within the massive research effort now devoted to parallel architecture, hardly any effort is devoted to the problem of improving programmability in any fundamental sense."
 </small> 
 
-Some wild ideas may be the key to a breakthrough: Functional programming; the idea of a memory that directly supports creation and access to data objects, but does not permit updates; hardware-supported allocation and garbage collection of memory. They need to be seriously explored.
+> Some wild ideas may be the key to a breakthrough: Functional programming; the idea of a memory that directly supports creation and access to data objects, but does not permit updates; hardware-supported allocation and garbage collection of memory. They need to be seriously explored.
  
-At the Project MAC anniversary I explained:
+> At the Project MAC anniversary I explained:
 
-<small> 
+> <small> 
     "... the key idea ... is functional programming: getting away from the burden of sequential programming concepts embedded in our popular programming languages and computer architectures. The ideas to accomplish this advance exist; in fact they have been known for some time. Yet they are not in favor. Why? They do not fall into the current main stream of computer science. They do not solve the *multiprocessor cache problem*--__instead they make it irrelevant__. They do not solve the problem of *shared objects in object-oriented programming*--__they eliminate the problem__. They do not minimize the overhead of *processor synchronization*--__they make it disappear altogether__."
 </small>
 
-Fifteen years later these remarks remain valid. I concluded by saying:
+> Fifteen years later these remarks remain valid. I concluded by saying:
 
-<small> 
+> <small> 
     "The computer systems of today do not realize our original vision from the inception of Project MAC. Yet the opportunity to make our dreams come true is still there. The vision is not obsolete. It is one that will be achieved. I believe the day will come when the ideas are widely accepted and we can move forward to build the Computer Utility. I hope to contribute to its realization and I look forward to enjoying its fruits."
 </small>
  

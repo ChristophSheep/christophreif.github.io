@@ -1,3 +1,81 @@
+@font-face {
+    font-family: 'CMU Sans Serif';
+    src: url('/assets/fonts/cm-unicode-0.7.0/cmunss.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'CMU Classical Serif';
+    src: url('/assets/fonts/cm-unicode-0.7.0/cmunci.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'CMU Typewriter Text';
+    src: url('/assets/fonts/cm-unicode-0.7.0/cmuntt.ttf') format('truetype');
+}
+
+/* Set defaults */
+
+ul  { list-style-type: square;  }
+li  { line-height: 1.5; }
+a   {
+    color: rgb(56, 56, 136);
+    text-decoration-style: wavy;
+}
+pre {
+    background-color: rgba(230, 230, 230, 0.25);
+    border: 1px solid rgba(230, 230, 230, 0.75);
+    border-radius: 0.5em;
+}
+body {
+    line-height: 1.25;
+    margin-top: 5em;
+    margin-left: 2em;
+    margin-right: 50%;
+    background-color: rgba(204, 226, 210, 0.11);
+}
+
+.footnotes li p {
+    line-height: 1.0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* Set fonts */
+
+body { font-size: 12pt;  }
+h1   { font-size: 2em;   }
+h2   { font-size: 1.5em; }
+h3   { font-size: 1.2em; }
+
+body { font-family: 'CMU Sans Serif', 'Helvetica Neue', sans-serif;}
+code { font-family: 'CMU Typewriter Text', Menlo, 'Courier New', Courier, monospace; }
+
+/* Set Colors */
+
+h1 { color: rgb(190, 190, 190); color: green; }
+h2 { color: #777; color: rgb(46, 46, 255);}
+h3 { color: #777;}
+
+/* Set counters for heading */
+
+body { counter-reset: 
+        h1 0 
+        h2 0 
+        h3 0 
+        h4 0;
+}
+
+h1 { counter-reset: h2 }
+h2 { counter-reset: h3 }
+h3 { counter-reset: h4 }
+
+h1:before { counter-increment: h1; /*content: counter(h1) ". ";*/  }
+h2:before { counter-increment: h2; content: /*counter(h1) "."*/ counter(h2) " "; }
+h3:before { counter-increment: h3; content: /*counter(h1) "."*/ counter(h2) "." counter(h3) " "; }
+h4:before { counter-increment: h4; content: /*counter(h1) "."*/ counter(h2) "." counter(h3) "." counter(h4) " "; }
+
+/* Set header menu */
+
 #header-backg {
    
     display: block;
@@ -16,7 +94,6 @@
 #header-box {
 
     padding: 0.25em;
-    
     display: block;
 
     background-color: rgba(240, 240, 240, 0.90);
@@ -37,6 +114,24 @@
     padding: 0.2em;
 }
 
+#header > nav img {
+    width: 16px; height: 16px;
+    vertical-align: -20%;
+    margin-right: 0.1em
+}
+
+#header > nav a {
+    text-decoration: underline;
+    text-decoration-color: rgba(56, 56, 136, 0.489);
+    text-decoration-style: wavy;
+}
+
+#header > nav a:not(:last-of-type) {
+    margin-right: 0.4em;
+}
+
+/* Set template 'default' */
+
 #content {
 
     width: 724px;
@@ -46,13 +141,14 @@
  
 }
 
+/* 2 Column Layout for Essays */
+
 .two-columns {
-    
     column-count: 2;
-    /*
+    
     column-gap: 20px;
     column-rule: 2px solid gainsboro; 
-    */
+    
 }
 
 .two-columns::first-letter { 
@@ -63,13 +159,10 @@
 .left {
     float: none;
     display: block;
-    text-align: center;
-    /*padding: 0 20px 20px 0;*/
 }
 
 .right {
     float: right;
-    /*padding: 0 20px 20px 0;*/
 }
 
 .middle {
@@ -78,104 +171,6 @@
     margin-top: 1em;
     margin-bottom: 1em;
 }
-
-body {
-
-    font-size: 11pt;
-    font-family: system-ui, -apple-system, 'Helvetica Neue', sans-serif;
-    
-    line-height: 1.25;
-    
-    margin-top: 5em;
-    margin-left: 2em;
-    margin-right: 50%;
-   
-    border-right: #777;
-
-    /* Number of heading */
-    counter-reset: chapter 1 section 1 slide 1;
-}
-
-h1 {
-    color: rgb(190, 190, 190);
- 
-    font-size: 2em;
-}
-
-/*
-h1:before {
-    content: counter(chapter) ". ";
-}
-*/
-
-h2 {
-    color: #777;
-    
-    font-size: 1.5em;
-
-    counter-reset: slide 0;
-    counter-increment: section;
-}
-
-/*
-h2:before {
-    content: counter(chapter) "." counter(section) " ";
-    content: counter(section) " ";
-}
-*/
-
-h3 {
-    color: #777;
-    /*counter-increment: slide;*/
-}
-
-/* All ulists */
-
-ul {
-    list-style-type: square;  
-}
-
-li {
-    line-height: 1.5;
-}
-
-/* All links */
-
-a {
-    color: rgb(56, 56, 136);
-    text-decoration-style: wavy;
-}
-
-code {
-    font-family:  Menlo, 'Courier New', Courier, monospace;
-}
-
-pre {
-    background-color: rgba(230, 230, 230, 0.25);
-    border-radius: 0.5em;
-    border: 1px solid rgba(230, 230, 230, 0.75);
-}
-
-/* Navigation Menu */
-
-nav img {
-    width: 16px; height: 16px;
-    vertical-align: -20%;
-    margin-right: 0.1em
-}
-
-nav a {
-    
-    text-decoration: underline;
-    text-decoration-color: rgba(56, 56, 136, 0.489);
-    text-decoration-style: wavy;
-
-}
-
-nav a:not(:last-of-type) {
-    margin-right: 0.4em;
-}
-
 
 /* Grid for Books */
 

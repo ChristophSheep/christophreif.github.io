@@ -7,7 +7,7 @@ title: Hardware
 
 ## Moore's Law
 
-In the future according to [Moore's Law](https://en.wikipedia.org/wiki/Moore%27s_law) we with have computer with many [cores](https://en.wikipedia.org/wiki/Central_processing_unit). Today <small>(2022)</small>  we have for instance a MacBook with 8 cores[^3]. If every two the size doubles. Then we have in 10 years 256 cores and in 20 years 8192 cores. But in 40 <small>(2062)</small> years we break wall with an order of 1 million cores in a [cpu](https://en.wikipedia.org/wiki/Central_processing_unit).
+In the future according to [Moore's Law](https://en.wikipedia.org/wiki/Moore%27s_law) we with have computers with a huge amount of transistor and with many many [cores](https://en.wikipedia.org/wiki/Central_processing_unit). Today <small>(2022)</small>  we have for instance a MacBook with 8 cores[^3]. If every two years the amount of core doubles. Then we have in 10 years 256 cores and in 20 years 8192 cores. But in 40 <small>(2062)</small> years we break wall with (O 10^6) cores in a [cpu](https://en.wikipedia.org/wiki/Central_processing_unit).
 
 ## Estimation of cores in future 
 
@@ -21,14 +21,21 @@ For these new very fast computers we need a different ways of programming[^1].
 
 ## New Architectures needed
 
-A computer with millions little and simple processors with its own [core memory](https://en.wikipedia.org/wiki/Magnetic-core_memory).
+A computer with millions little and simple processors with its own memory like [core memory](https://en.wikipedia.org/wiki/Magnetic-core_memory).
 
 You can programm each small processors and you can connect the output to input of other processors.
-While data is flowing from one "i/o cell" to the next.
+While data is flowing from one *i/o cell* to the next.
 
 ```
-  IN --> [fn(x)(+ x 1)] --> [fn(x y)(+ x y)] --> OUT
+            cell 1       connection       cell2
+  IN --> [fn(x)(+ x 1)]  --------->  [fn(x y)(+ x y)] --> OUT
 ```
+
+Each cell is a small lisp machine[^6] with memory to store the lisp environment.
+There are millions or billion of this. Each cell produce output from inputs 
+and send the output to the connected cells and so on. Each cell runs independend 
+and wait for input to produce output. So each cell runs parallel and not in a
+thread. Each cell is like a thread.
 
 ## Architectures
 
@@ -68,4 +75,6 @@ I should be a small fast, maybe a 64-Bit [RISC](https://en.wikipedia.org/wiki/Re
 [^4]: [Preliminary Architecture for a Basic Data-Flow Processor - Jack Dennis](https://dl.acm.org/doi/pdf/10.1145/641675.642111)
 
 [^5]: [The Fresh Breeze Model of Thread Execution - Jack Dennis](http://csg.csail.mit.edu/Users/dennis/pmup-final.pdf)
+
+[^6]: [Lisp Machine](https://en.wikipedia.org/wiki/Lisp_machine)
 

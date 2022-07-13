@@ -5,26 +5,23 @@ title: Lisp
 
 # LISP
 
-Lisp is a programmable programming language[^2].
+* Lisp can be written in itself[^1].
+* Lisp is a programmable programming language[^2].
+* Lisp wasn't designed to fix the mistakes in Fortran; it came about more as the byproduct of an attempt to axiomatize computation[^5].
+* Lisp is not an invention, but more of a discovery[^1].
+* Lisp is unique and different[^4], because all languages heading towards to Lisp[^1].
+* Lisp can be a secreat weapon[^3].
+* Lisp has a [macro system](https://en.wikipedia.org/wiki/Macro_(computer_science)) no other language has[^5].
+* Lisp is like atoms to build chemical materials. Bottom-Up Design[^2].
+* Lisp has no syntax, because you work on [abstract syntax tree](https://en.wikipedia.org/wiki/Abstract_syntax_tree).
 
-Lisp is unique and different[^5], because all languages heading towards to Lisp[^1].
+## Pitfalls of imperative programming (SICP - Page 317)
 
-Lisp has no syntax, because you work on [abstract syntax tree](https://en.wikipedia.org/wiki/Abstract_syntax_tree).
-
-Lisp has a [macro system](https://en.wikipedia.org/wiki/Macro_(computer_science)) no other language has.
-
-Lisp is like atoms to build chemical materials. Bottom-Up Design[^2].
-
-Lisp is not an invention, but more of a discovery[^1].
-
-Lisp is a secreat weapon[^3].
-
-Lisp can be written in itself[^1].
+In contrast to functional programming, programming that makes extensive use of assignment is known as imperative programming. In addition to raising complications about computational models, programs written in imperative style are susceptible to bugs that **cannot** occur in functional programs.
 
 ---
 
 [^1]: [Root of Lisp](http://www.paulgraham.com/rootsoflisp.html)
 [^2]: [On Lisp](http://www.paulgraham.com/onlisp.html)
 [^3]: [Beating the Average](http://www.paulgraham.com/avg.html)
-[^4]: [Lambda function](https://en.wikipedia.org/wiki/Lambda_calculus)
-[^5]: [What made Lisp different](http://www.paulgraham.com/diff.html)
+[^4]: [What made Lisp different](http://www.paulgraham.com/diff.html)
