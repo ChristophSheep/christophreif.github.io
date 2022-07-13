@@ -15,7 +15,9 @@ title: Lisp
 * Lisp is like atoms to build chemical materials. Bottom-Up Design[^2].
 * Lisp has no syntax, because you work on [abstract syntax tree](https://en.wikipedia.org/wiki/Abstract_syntax_tree).
 
-## Pitfalls of imperative programming (SICP - Page 317)
+## About Lisp
+
+### Pitfalls of imperative programming (SICP - Page 317)
 
 In contrast to functional programming, programming that makes extensive use of assignment is known as imperative programming. In addition to raising complications about computational models, programs written in imperative style are susceptible to bugs that **cannot** occur in functional programs.
 

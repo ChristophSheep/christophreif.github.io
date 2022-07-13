@@ -21,16 +21,17 @@ Each cell is ..
  * .. has its own memory, but can forget
  * .. can be a group of other cells
 
-Note: the output could be the input of a cell but
-not at the same time, only t+1.
-So the output at time t can be the input of a
-cell at t+1. Cells lives in time.
+Note: the output could be the input of a cell but not at the same time, only t+1. So the output at time t can be the input of a cell at t+1. Cells lives in time.
 
-There are a huge amount of cells that are connected together.
+There are a huge amount of cells that are connected together. Connections can be programmed.
+I/O cells are like nerve cells[^3] who produce an output signal from incoming signals from other cells.
 
-Connection can be programmed.
+But this i/o cell paradigm has nothing to do with AI or brain stuff. I agree with Joseph Weizenbaum
+who said in the movie [Plug&Pray](http://plugandpray-film.de/inhalt.html) that it is a big mistake that
+people believe everything can be computed. But we can learn from the way our brain is build. 
+Like we learned from birds and build areoplanes.
 
-Cells are like nerve cells[^3] who produce an output signal from incoming signals from other cells.
+Basically a computer is an I/O device. With inputs like keyboard and mouse and ouputs like screen or speaker.
 
 ## Simulate
 

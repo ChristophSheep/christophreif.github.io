@@ -8,7 +8,7 @@ tags: Architecture OS Programming
 
 ## Software Architecture & Programming
 
-<div class="flex-container">
+<div class="book-flex-container">
 
     <!-- Clean Architecture -->
     <figure>
@@ -33,7 +33,7 @@ tags: Architecture OS Programming
 
 ## User Interface Design & Usability
 
-<div class="flex-container">
+<div class="book-flex-container">
  
     <!-- The Humane Interface -->
     <figure>
@@ -64,7 +64,7 @@ tags: Architecture OS Programming
 
 ## Hardware Architecture
 
-<div class="flex-container">
+<div class="book-flex-container">
 
     <!-- Data Flow Computing -->
     <figure>
@@ -77,7 +77,7 @@ tags: Architecture OS Programming
 
 ## Ideas & Attitude
 
-<div class="flex-container">
+<div class="book-flex-container">
 
     <!-- Hacker & Painters -->
     <figure>
@@ -95,7 +95,7 @@ tags: Architecture OS Programming
 
 ## Operating Systems
 
-<div class="flex-container">
+<div class="book-flex-container">
 
     <!-- Project Oberon -->
     <figure>
@@ -113,7 +113,7 @@ tags: Architecture OS Programming
 
 ## Programming Technique 
 
-<div class="flex-container">
+<div class="book-flex-container">
 
     <!-- Little Schemer -->
     <figure>
@@ -149,7 +149,7 @@ tags: Architecture OS Programming
 
 ## Learning & Brain Research
 
-<div class="flex-container">
+<div class="book-flex-container">
 
     <!-- Lernen: Gehirnforschung ..-->
     <figure>

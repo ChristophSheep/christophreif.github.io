@@ -1,3 +1,5 @@
+/* Load custom fonts - Modern font from LaTeX */
+
 @font-face {
     font-family: 'CMU Sans Serif';
     src: url('/assets/fonts/cm-unicode-0.7.0/cmunss.ttf') format('truetype');
@@ -53,16 +55,16 @@ code { font-family: 'CMU Typewriter Text', Menlo, 'Courier New', Courier, monosp
 /* Set Colors */
 
 h1 { color: rgb(190, 190, 190); color: green; }
-h2 { color: #777; color: rgb(46, 46, 255);}
-h3 { color: #777;}
+h2 { color: #777; color: rgb(0, 128, 177);}
+h3 { color: #777; color: rgb(117, 0, 21);}
 
 /* Set counters for heading */
 
 body { counter-reset: 
-        h1 0 
-        h2 0 
-        h3 0 
-        h4 0;
+    h1 0 
+    h2 0 
+    h3 0 
+    h4 0;
 }
 
 h1 { counter-reset: h2 }
@@ -174,12 +176,12 @@ h4:before { counter-increment: h4; content: /*counter(h1) "."*/ counter(h2) "." 
 
 /* Grid for Books */
 
-.flex-container {
+.book-flex-container {
     display: flex;
     flex-wrap: wrap;
 }
 
-.flex-container > figure {
+.book-flex-container > figure {
     background-color: #f1f1f1;
     width: 100px;
     margin: 0.5em;

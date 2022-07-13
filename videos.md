@@ -21,6 +21,11 @@ title: Videos
 * [Martin Fowler - Making Architecture Matter](https://www.youtube.com/watch?v=DngAZyWMGR0)
 * [John Ousterhout - A Philosophy of Software Design](https://www.youtube.com/watch?v=bmSAYlu0NcY)
 
+## Abstraction
+
+* [Barbara Liskov - The Power of Abstraction](https://www.youtube.com/watch?v=GDVAHA0oyJU)
+* [Barbara Liskov - How Data Abstraction changed Computing forever  TEDxMIT](https://www.youtube.com/watch?v=_jTc1BTFdIo)
+
 ## Programming Language
 
 * [Robert Martin - The Last Programming Language](https://www.youtube.com/watch?v=P2yr-3F6PQo)

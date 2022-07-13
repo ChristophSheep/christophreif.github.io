@@ -11,7 +11,7 @@ If all these people would work together how would it change the computing indust
 
 [List of pioneers in computer science](https://en.wikipedia.org/wiki/List_of_pioneers_in_computer_science)
 
-<img src="./assets/images/test.jpg">
+<img src="./assets/images/pioneers.jpg">
 
 <!-- TODO: TIME LINE -->
 
@@ -28,6 +28,13 @@ Das hat auch was mit Größenwahn zu tun."*
 > ...
 > Doch ausgerechnet einer der Pioniere der Computerentwicklung und der künstlichen Intelligenz, der ehemalige MIT-Professor Joseph Weizenbaum, hat sich zum schärfsten Kritiker dieser technologischen Allmachtsvisionen entwickelt. Er betrachtet die weit verbreitete Ansicht, die Natur sei mit Hilfe der Wissenschaft vollkommen zu erfassen und somit objektiv berechenbar, als **katastrophale Fehlentwicklung des menschlichen Denkens**. 
 
+## Alan Perlis (1922 - 1990)
+
+* [In Praise of APL:A Language for Lyrical Programming](https://www.jsoftware.com/papers/perlis77.htm)
+
+> ... The second issue is of a different kind. I am firmly convinced that __APL and LISP are related__ to each other along an important axis of language design and that acquiring simultaneous expertise in both languages is possible and desirable for the beginning student. Were they unified, the set of tasks that succumb to terse, flexible and expressive descriptions will enlarge enormously without overly increasing the intellectual burden on the student over his initial 16 week contact period. ...
+
+* [Alan Perlis Papers 1942-1989](https://archives.lib.umn.edu/repositories/3/resources/58#)
 
 ## John Backus (1924)
 
@@ -37,13 +44,11 @@ Das hat auch was mit Größenwahn zu tun."*
 * [BNF](https://en.wikipedia.org/wiki/Backus–Naur_form)
 * [EBNF](https://en.wikipedia.org/wiki/Extended_Backus–Naur_form)
 
-> <img width="600" src="assets/images/john_backus_neumann.png">
-
+> <img width="600" src="assets/images/people/john_backus_neumann.png">
 
 ## Doug Engelbart <sup>(1925)</sup> 	
 
 * [Wiki](https://en.wikipedia.org/wiki/Douglas_Engelbart)
-
 
 ## John McCarthy (1927)
 
@@ -54,7 +59,14 @@ Das hat auch was mit Größenwahn zu tun."*
 * [Garbage Collection](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science))
 * [John McCarthy, on Philosophy of AI](https://www.youtube.com/watch?v=K13_sWm_gZw)
 * [AI winter](https://en.wikipedia.org/wiki/AI_winter)
+* [Picture 1960 Algol conference in Paris](http://www-formal.stanford.edu/jmc/pictures.html)
 
+## Peter Naur (1928)
+
+* [Homepage](http://www.naur.com)
+* [Wiki](https://en.wikipedia.org/wiki/Peter_Naur)
+* [ALGOL60](https://en.wikipedia.org/wiki/ALGOL_60)
+* [Peter Naur 2005 - "Computing vs. Human Thinking"](https://www.youtube.com/watch?v=mYivRwrATTA)
 
 ## Edsger W. Dijkstra (1930)
 
@@ -64,7 +76,6 @@ Das hat auch was mit Größenwahn zu tun."*
 <small>
 > The third project I would not like to leave unmentioned is LISP, a fascinating enterprise of a completely different nature. With a few very basic principles at its foundation, it has shown a remarkable stability. Besides that, LISP has been the carrier for a considerable number of in a sense our most sophisticated computer applications. LISP has jokingly been described as “the most intelligent way to misuse a computer”. I think that description a great compliment because it transmits the full flavour of liberation: it has assisted a number of our most gifted fellow humans in thinking previously impossible thoughts.
 <small>
-
 
 ## Jack Dennis (1931)
 
@@ -105,11 +116,9 @@ Das hat auch was mit Größenwahn zu tun."*
 
 * [Wiki](https://en.wikipedia.org/wiki/Douglas_McIlroy)
 
-
 ## Gerald M. Weinberg (1933)
 
 * [The Psychology of Computer Programming](https://geraldmweinberg.com/Site/Programming_Psychology.html)
-
 
 ## Tony Hoare (1934)
 
@@ -123,10 +132,11 @@ Das hat auch was mit Größenwahn zu tun."*
 * [Home at ETH Zürich](https://people.inf.ethz.ch/wirth/)
 * [A Plea for Lean Software](https://cr.yp.to/bib/1995/wirth.pdf)
 * [Oberon](https://people.inf.ethz.ch/wirth/Oberon/index.html)
+* [Project Oberon (New Edition 2013)](https://people.inf.ethz.ch/wirth/ProjectOberon/index.html)
 * [Project Oberon - The Design of an Operating System, a Compiler, and a Computer](https://people.inf.ethz.ch/wirth/ProjectOberon/PO.System.pdf)
 * [Compiler Construction](https://people.inf.ethz.ch/wirth/CompilerConstruction/CompilerConstruction1.pdf)
 * [Algorithms and Data Structures](https://people.inf.ethz.ch/wirth/AD.pdf)
-
+* [Computer-Pionier Niklaus Wirth: 80 und aktiv](https://www.srf.ch/radio-srf-3/digital/computer-pionier-niklaus-wirth-80-und-aktiv)
 
 ## Donald E. Norman	(1935)
 
@@ -140,24 +150,26 @@ Das hat auch was mit Größenwahn zu tun."*
 ## Donald E. Knuth (1938)		
 
 * [Homepage](https://cs.stanford.edu/~knuth/)
+* [Wiki](https://en.wikipedia.org/wiki/Donald_Knuth)
 * [TeX](https://en.wikipedia.org/wiki/TeX)
 * [Metafont](https://en.wikipedia.org/wiki/Metafont)
+* [Computer_Modern](https://en.wikipedia.org/wiki/Computer_Modern)
 * [Web](https://en.wikipedia.org/wiki/Web_(programming_system))
 * [Literate Programming](https://en.wikipedia.org/wiki/Literate_programming)
 * [The Art of Computer Programming (TAOCP)](https://cs.stanford.edu/~knuth/taocp.html)
 * [A RISC computer for the new millennium](http://www.mmix.cs.hm.edu)
 
-
 ## Barbara Liskov (1939)
 
 * [Homepage](https://pmg.csail.mit.edu/~liskov/)
+* [Wiki](https://en.wikipedia.org/wiki/Barbara_Liskov)
+* [CLU](https://en.wikipedia.org/wiki/CLU_(programming_language))
 * [How Data Abstraction changed Computing forever](https://www.youtube.com/watch?v=_jTc1BTFdIo)
-
+* [The Power of Abstraction](https://www.youtube.com/watch?v=GDVAHA0oyJU)
 
 ## Alan Kay (1940)
 
 * [Power of Simplicity](https://www.youtube.com/watch?v=NdSD07U5uBs)
-
 
 ## Dennis Ritchie (1941)
 
@@ -198,7 +210,6 @@ Das hat auch was mit Größenwahn zu tun."*
 
 * [Wiki](https://de.wikipedia.org/wiki/Bjarne_Stroustrup)
 
-
 ## Douglas Crockford (1955)
 
 * [Homepage](https://www.crockford.com/)
@@ -208,13 +219,11 @@ Das hat auch was mit Größenwahn zu tun."*
 * [Principles of Security](https://www.youtube.com/watch?v=zKuFu19LgZA)
 * [DEC64](https://www.crockford.com/dec64.html)
 
-
 ## Rob Pike (1956)
 
 * [The Good, the Bad, and the Ugly: The Unix Legacy](http://herpolhode.com/rob/ugly.pdf)
 * [Go](https://en.wikipedia.org/wiki/Go_(programming_language))
 * [Plan 9](https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs)
-
 
 ## Paul Graham (1964)
 
@@ -226,7 +235,6 @@ Das hat auch was mit Größenwahn zu tun."*
 * [Arc](http://paulgraham.com/arc.html)
 * [Bel](http://paulgraham.com/bel.html)
 
-
 ## Robert C. Martin (1952)
 
 * [About](http://cleancoder.com/files/about.md)
@@ -235,9 +243,13 @@ Das hat auch was mit Größenwahn zu tun."*
 * [Clean Architecture and Design](https://www.youtube.com/watch?v=2dKZ-dWaCiU)
 * [The Last Programming Language](https://www.youtube.com/watch?v=P2yr-3F6PQo)
 
+> <img width="600" src="assets/images/people/clean-architecture.png">
+
 ## Steve Jobs (1955)
 
 * [Wiki](https://en.wikipedia.org/wiki/Steve_Jobs)
+* [Apple](https://en.wikipedia.org/wiki/Apple_Inc.)
+* [NeXT](https://en.wikipedia.org/wiki/NeXT)
 
 ## Tim Berners-Lee (1955)
 
@@ -253,9 +265,6 @@ Das hat auch was mit Größenwahn zu tun."*
 
 * [Wiki](https://en.wikipedia.org/wiki/Manfred_Spitzer)
 * [Lernen. Gehirnforschung und die Schule des Lebens](https://www.amazon.de/Lernen-Gehirnforschung-die-Schule-Lebens/dp/3827417236)
-
-
-
 
 
 <!--
