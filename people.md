@@ -164,7 +164,7 @@ Das hat auch was mit Größenwahn zu tun."*
 * [Homepage](https://pmg.csail.mit.edu/~liskov/)
 * [Wiki](https://en.wikipedia.org/wiki/Barbara_Liskov)
 * [CLU](https://en.wikipedia.org/wiki/CLU_(programming_language))
-* [How Data Abstraction changed Computing forever](https://www.youtube.com/watch?v=_jTc1BTFdIo)
+* [How Data Abstraction changed Computing forever - TEDx](https://www.youtube.com/watch?v=_jTc1BTFdIo)
 * [The Power of Abstraction](https://www.youtube.com/watch?v=GDVAHA0oyJU)
 
 ## Alan Kay (1940)

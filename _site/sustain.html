@@ -8,8 +8,8 @@
     </head>
 
     <body>
-        <div id="header-backg">
-            <div id="header-box">
+        <div id="header-container">
+            <div id="header-rounded-box">
                 <div id="header"><nav>
     <a href="/"><img src="/assets/images/home.png"></a>
     <a href="/bio"><img src="/assets/images/person.png">Bio</a>
@@ -26,6 +26,7 @@
 </nav></div>
             </div>
         </div>
+        <!--<div class="my-name">CHRISTOPH  REIF</div>-->
         <div id="content"><h1 id="sustainable">Sustainable</h1>
 
 <h2 id="code">Code</h2>
@@ -176,6 +177,40 @@ Bottom-Up design is coupled with a macros<sup id="fnref:5" role="doc-noteref"><a
   <li><a href="https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare/">Null-References - The Billion Dollar Mistake - Tony Hoare </a></li>
 </ul>
 
+<h2 id="technics">Technics</h2>
+
+<h3 id="decomposition">Decomposition</h3>
+
+<p>Barbara Liskov exaplain in her TEDx talk<sup id="fnref:6" role="doc-noteref"><a href="#fn:6" class="footnote" rel="footnote">6</a></sup> how see started to decompose a big system with
+a technic see called <em>partitions</em>.</p>
+
+<p>Decomposition is a natural things for building bigger things where many companies work together.
+For instance if you build a Boing 777. Then you get parts from other companies that have a
+specifiation and an interface. We believe technics in software development are something new.
+No they are not new. They already existing before and are so called <em>common sense</em>.</p>
+
+<h3 id="interfaces">Interfaces</h3>
+
+<p>Today we have interfaces, interfaces hide you implementation. They are your specification of you module.</p>
+
+<p>For instance a simple lighbulb has an interface we call E14 oder E27 thread. Thomas Edison invented this interface called <em>Edison screw</em><sup id="fnref:7" role="doc-noteref"><a href="#fn:7" class="footnote" rel="footnote">7</a></sup>. Currently we use LED lighbulb. And this is only a different implementation with the same interface. Interfaces are needed for plugins. A lightbulb is a plugin.</p>
+
+<p>Interfaces are important that you can change later things you even not know that they will invented. For instance before None-SQL data storage were invented, people often use the filesystem or SQL database. But often you have object that does not fit well into a relational database. But now with this interface you can plugin out the old SQL storage and plugin a new None-SQL storage.</p>
+
+<p>This is the same with USB you plug out your old harddisk and plug in a brand new fast 1 TB SSD drive.</p>
+
+<p>Also with screws, a screw is a part that is manufactored very cheap today and the <em>ISO metric screw</em><sup id="fnref:9" role="doc-noteref"><a href="#fn:9" class="footnote" rel="footnote">8</a></sup> thread is a interface. So you can screw in worldwide a M5 screw for instance.</p>
+
+<h3 id="compatibility-with-old-code">Compatibility with old code</h3>
+
+<p>We can not right always everything new, when a new langauge come on the market.</p>
+
+<p>Robert Martin said, should we not stop to invent all the time new languages and start to grow up and concentrate of other tings like Clean Architecture.</p>
+
+<p>We can hide old code behind an interface and create a black box for instance with a rest service. If later we want to change.</p>
+
+<p>Tony Hoare said in this talk about the subject “Null References: The Billion Dollar Mistake” that is important that we are compatible to old code. We can bot write everything new all the time.</p>
+
 <hr />
 
 <div class="footnotes" role="doc-endnotes">
@@ -194,6 +229,15 @@ Bottom-Up design is coupled with a macros<sup id="fnref:5" role="doc-noteref"><a
     </li>
     <li id="fn:3" role="doc-endnote">
       <p><a href="https://en.wikipedia.org/wiki/TeX#Macro_language">TeX - Macro lanugage</a> <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:6" role="doc-endnote">
+      <p><a href="https://www.youtube.com/watch?v=_jTc1BTFdIo">How Data Abstraction changed Computing forever - TEDx</a> <a href="#fnref:6" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:7" role="doc-endnote">
+      <p><a href="https://en.wikipedia.org/wiki/Edison_screw">Edison screw</a> <a href="#fnref:7" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:9" role="doc-endnote">
+      <p><a href="https://en.wikipedia.org/wiki/ISO_metric_screw_thread">ISO Metric Screw Thread</a> <a href="#fnref:9" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
 </div>

@@ -50,9 +50,10 @@ We all have a [neuronal network](https://en.wikipedia.org/wiki/Neural_network) (
 
 [John Backus](https://en.wikipedia.org/wiki/John_Backus) already described the problem with the [Neumann's bottleneck](https://en.wikipedia.org/wiki/Von_Neumann_architecture#Von_Neumann_bottleneck) in 1977.
 
-Real parallel and concurrent computing. Functional programming. Data Flow Processor Architecture.
+I believe we need real parallel and concurrent computing[^1]. Which implies functional programming and for hardware something like a dataflow processor architecture[^2].
 
 ---
 
 [^1]: [Concurrent_computing](https://en.wikipedia.org/wiki/Concurrent_computing)
+[^2]: [Dataflow Architecture](https://en.wikipedia.org/wiki/Dataflow_architecture)
 

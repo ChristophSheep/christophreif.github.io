@@ -146,6 +146,41 @@ Bottom-Up design is coupled with a macros[^5] and macros expansion. Macros are l
 * [Null Pointer](https://en.wikipedia.org/wiki/Null_pointer)
 * [Null-References - The Billion Dollar Mistake - Tony Hoare ](https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare/)
 
+## Technics
+
+### Decomposition
+
+Barbara Liskov exaplain in her TEDx talk[^6] how see started to decompose a big system with
+a technic see called *partitions*.
+
+Decomposition is a natural things for building bigger things where many companies work together.
+For instance if you build a Boing 777. Then you get parts from other companies that have a
+specifiation and an interface. We believe technics in software development are something new.
+No they are not new. They already existing before and are so called *common sense*.
+
+### Interfaces
+
+Today we have interfaces, interfaces hide you implementation. They are your specification of you module.
+
+For instance a simple lighbulb has an interface we call E14 oder E27 thread. Thomas Edison invented this interface called *Edison screw*[^7]. Currently we use LED lighbulb. And this is only a different implementation with the same interface. Interfaces are needed for plugins. A lightbulb is a plugin.
+
+Interfaces are important that you can change later things you even not know that they will invented. For instance before None-SQL data storage were invented, people often use the filesystem or SQL database. But often you have object that does not fit well into a relational database. But now with this interface you can plugin out the old SQL storage and plugin a new None-SQL storage.
+
+This is the same with USB you plug out your old harddisk and plug in a brand new fast 1 TB SSD drive.
+
+Also with screws, a screw is a part that is manufactored very cheap today and the *ISO metric screw*[^9] thread is a interface. So you can screw in worldwide a M5 screw for instance.
+
+### Compatibility with old code
+
+We can not right always everything new, when a new langauge come on the market.
+
+Robert Martin said, should we not stop to invent all the time new languages and start to grow up and concentrate of other tings like Clean Architecture. 
+
+We can hide old code behind an interface and create a black box for instance with a rest service. If later we want to change.
+
+Tony Hoare said in this talk about the subject "Null References: The Billion Dollar Mistake" that is important that we are compatible to old code. We can bot write everything new all the time.
+
+
 ---
 
 [^1]: [Programming Bottom-Up](http://www.paulgraham.com/progbot.html)
@@ -153,3 +188,7 @@ Bottom-Up design is coupled with a macros[^5] and macros expansion. Macros are l
 [^3]: [TeX - Macro lanugage](https://en.wikipedia.org/wiki/TeX#Macro_language)
 [^4]: [Abstraction Layer](https://en.wikipedia.org/wiki/Abstraction_layer)
 [^5]: [On Lisp - Chapter 7: "Macros"](http://www.paulgraham.com/onlisp.html)
+[^6]: [How Data Abstraction changed Computing forever - TEDx](https://www.youtube.com/watch?v=_jTc1BTFdIo)
+[^7]: [Edison screw](https://en.wikipedia.org/wiki/Edison_screw)
+[^8]: [Null References: The Billion Dollar Mistake](https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare/
+[^9]: [ISO Metric Screw Thread](https://en.wikipedia.org/wiki/ISO_metric_screw_thread)

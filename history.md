@@ -14,7 +14,6 @@ title: History
 The [history](https://en.wikipedia.org/wiki/History) is one of our teachers[^1]. The history of computers should teach us something. History should teach us something that we don't make the same mistakes and grow up.
 
 
-
 ## Overcomer
 
 But there some things to overcome: 
@@ -25,13 +24,13 @@ Most people believe they already know the truth about a subject, so they doesn't
 
 > *"The stupid make always the same mistakes, the smart makes always new ones."*
 
-## What Google says?
+## Why history is important?
 
-### Google: "Why is the study of history important?"
+### Google for "Why is the study of history important?"
 
 Studying history helps us understand how events in the past made things the way they are today. With lessons from the past, we not only learn about ourselves and how we came to be, but also develop the ability to avoid mistakes and create better paths for our societies.
 
-### Google: "What are the 10 reasons to learn history?"
+### Google for "What are the 10 reasons to learn history?"
 
 10 Reasons to Study History at Oxford
 1. Learn with the world's experts. ...
@@ -42,7 +41,6 @@ Studying history helps us understand how events in the past made things the way 
 6. Learn in amazing places. ...
 7. Be independent. ...
 8. Join a community of diverse historians.
-
 
 ## History of Operating Systems
 
