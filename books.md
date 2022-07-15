@@ -6,6 +6,28 @@ tags: Architecture OS Programming
 
 # Books
 
+Some thoughts:
+
+> *“Most people don't read books like this. But reading this book will give you a good change to broaden your thinking about software. Only humble people always learn more, but a proud person already knows everything. There's just one problem, there's always a better way of doing things.”*
+
+## Ideas & Attitude
+
+<div class="book-flex-container">
+
+    <!-- Hacker & Painters -->
+    <figure>
+        <img width="100" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F51foanUeChL._SY445_QL70_.jpg&f=1&nofb=1">
+        <figure-caption>Hacker & Painters</figure-caption> 
+    </figure> 
+
+    <!-- Psychology of Computer Programming -->
+    <figure>
+        <img width="100" src="https://geraldmweinberg.com/wp-content/uploads/2019/12/psychology-of-computer-programming.jpg">
+        <figure-caption>Psychology of Computer Programming</figure-caption> 
+    </figure> 
+
+</div>
+
 ## Software Architecture & Programming
 
 <div class="book-flex-container">
@@ -28,6 +50,48 @@ tags: Architecture OS Programming
         <figure-caption>The Art of UNIX Programming</figure-caption>
     </figure>
 
+
+    <!-- Little Schemer -->
+    <figure>
+        <img width="100" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F41nq8D8ESjL._SX218_BO1%2C204%2C203%2C200_QL40_ML2_.jpg&f=1&nofb=1">
+        <figure-caption>The Little Schemer</figure-caption> 
+    </figure>
+
+    <!-- SICP -->
+    <figure>
+        <img width="100" src="https://i2.wp.com/www.ossblog.org/wp-content/uploads/2017/01/SICP.jpg?resize=200%2C290&ssl=1">
+        <figure-caption>Structure and Interpretation of Computer Programs</figure-caption> 
+    </figure>
+
+    <!-- Design Patterns -->
+    <figure>
+        <img width="100" src="https://upload.wikimedia.org/wikipedia/en/7/78/Design_Patterns_cover.jpg">
+        <figure-caption>Design Patterns: Elements of Reusable Object-Oriented Software</figure-caption> 
+    </figure>
+
+    <!-- The C Programming Language -->
+    <figure>
+        <img width="100" src="https://2.bp.blogspot.com/-Htcdqx1NcAI/VuAxaOnQkjI/AAAAAAAABF0/pvneyGTSXpE/s1600/The_C_Programming_Language_download-pdf-freecomputerbookspdf.blogspot.com.png">
+        <figure-caption>The C Programming Language</figure-caption> 
+    </figure>
+
+    <!-- On Lisp -->
+    <figure>
+        <img width="100" src="https://sep.yimg.com/ca/I/paulgraham_2202_3475946">
+        <figure-caption>On Lisp</figure-caption> 
+    </figure>
+
+    <!-- How JavaScript works -->
+    <figure>
+        <img width="100" src="https://images-na.ssl-images-amazon.com/images/I/51OtdTsaPRL._SY291_BO1,204,203,200_QL40_ML2_.jpg">
+        <figure-caption>How JavaScript works</figure-caption> 
+    </figure>
+
+    <!-- JavaScript: The good parts -->
+    <figure>
+        <img width="100" src="https://images-na.ssl-images-amazon.com/images/I/518QVtPWA7L._SX258_BO1,204,203,200_.jpg">
+        <figure-caption>JavaScript: The good parts </figure-caption> 
+    </figure>
 
 </div>
 
@@ -75,23 +139,7 @@ tags: Architecture OS Programming
 </div>
 
 
-## Ideas & Attitude
 
-<div class="book-flex-container">
-
-    <!-- Hacker & Painters -->
-    <figure>
-        <img width="100" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F51foanUeChL._SY445_QL70_.jpg&f=1&nofb=1">
-        <figure-caption>Hacker & Painters</figure-caption> 
-    </figure> 
-
-    <!-- Psychology of Computer Programming -->
-    <figure>
-        <img width="100" src="https://geraldmweinberg.com/wp-content/uploads/2019/12/psychology-of-computer-programming.jpg">
-        <figure-caption>Psychology of Computer Programming</figure-caption> 
-    </figure> 
-
-</div>
 
 ## Operating Systems
 
@@ -113,54 +161,6 @@ tags: Architecture OS Programming
     <figure>
         <img width="100" src="https://upload.wikimedia.org/wikipedia/en/4/43/English4.gif">
         <figure-caption>The Unix Programming Environment</figure-caption> 
-    </figure>
-
-</div>
-
-## Programming Technique 
-
-<div class="book-flex-container">
-
-    <!-- Little Schemer -->
-    <figure>
-        <img width="100" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F41nq8D8ESjL._SX218_BO1%2C204%2C203%2C200_QL40_ML2_.jpg&f=1&nofb=1">
-        <figure-caption>The Little Schemer</figure-caption> 
-    </figure>
-
-    <!-- SICP -->
-    <figure>
-        <img width="100" src="https://i2.wp.com/www.ossblog.org/wp-content/uploads/2017/01/SICP.jpg?resize=200%2C290&ssl=1">
-        <figure-caption>Structure and Interpretation of Computer Programs</figure-caption> 
-    </figure>
-
-    <!-- Design Patterns -->
-    <figure>
-        <img width="100" src="https://upload.wikimedia.org/wikipedia/en/7/78/Design_Patterns_cover.jpg">
-        <figure-caption>Design Patterns: Elements of Reusable Object-Oriented Software</figure-caption> 
-    </figure>
-
-    <!-- The C Programming Language -->
-    <figure>
-        <img width="100" src="https://2.bp.blogspot.com/-Htcdqx1NcAI/VuAxaOnQkjI/AAAAAAAABF0/pvneyGTSXpE/s1600/The_C_Programming_Language_download-pdf-freecomputerbookspdf.blogspot.com.png">
-        <figure-caption>The C Programming Language</figure-caption> 
-    </figure>
-
-    <!-- On Lisp -->
-    <figure>
-        <img width="100" src="https://sep.yimg.com/ca/I/paulgraham_2202_3475946">
-        <figure-caption>On Lisp</figure-caption> 
-    </figure>
-
-    <!-- How JavaScript works -->
-    <figure>
-        <img width="100" src="https://images-na.ssl-images-amazon.com/images/I/51OtdTsaPRL._SY291_BO1,204,203,200_QL40_ML2_.jpg">
-        <figure-caption>How JavaScript works</figure-caption> 
-    </figure>
-
-    <!-- JavaScript: The good parts -->
-    <figure>
-        <img width="100" src="https://images-na.ssl-images-amazon.com/images/I/518QVtPWA7L._SX258_BO1,204,203,200_.jpg">
-        <figure-caption>JavaScript: The good parts </figure-caption> 
     </figure>
 
 </div>
