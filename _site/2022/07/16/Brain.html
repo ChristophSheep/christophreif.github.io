@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Brain</title>
+        <link rel="stylesheet" href="/assets/css/styles.css">
+    </head>
+
+    <body>
+        <div id="header-container">
+            <div id="header-rounded-box">
+                <div id="header"><nav>
+    <a href="/"><img src="/assets/images/home.png"></a>
+    <a href="/bio"><img src="/assets/images/person.png">Bio</a>
+    <a href="/cel"><img src="/assets/images/components.png">Cel</a>
+    <a href="/lisp"><img src="/assets/images/lambda.png" style="margin-right: 0px;">LISP</a>
+    <a href="/hardware"><img src="/assets/images/chip.png">HW</a>
+    <a href="/people"><img src="/assets/images/people.png">People</a>
+    <a href="/books"><img src="/assets/images/books.png">Books</a>
+    <a href="/history"><img src="/assets/images/temple.png">History</a>
+    <a href="/quotes"><img src="/assets/images/quotes2.png">Quotes</a>
+    <a href="/essays"><img src="/assets/images/writing2.png">Essays</a>
+    <a href="/sustain"><img src="/assets/images/eco.png">Sustain</a>
+    <a href="/videos"><img src="/assets/images/talk4.png">Talks</a>
+</nav></div>
+            </div>
+        </div>
+        <!--<div class="my-name">CHRISTOPH  REIF</div>-->
+        <div id="content"><div class="my-name">CHRISTOPH  REIF</div>
+
+<h1 style="margin-bottom: -0.1em;">Brain</h1>
+<small>16 Jul 2022</small>
+
+<!--small>16 Jul 2022 - chre</small-->
+
+<div class="two-columns"><p>Our human <strong>brain</strong> is a wonderful thing when understood and used properly. Some say the computer is modeled after the human brain, but if you read how the brain works in general, you’ll see that it’s different. What do I mean in simple terms why is it different? Our brain can process an extremely large amount of data in real time and stores an extremely large amount of data over the course of a lifetime. Some believe that all computers combined are not as good as a single human brain. So why is it different. Computers usually process information very quickly, but one at a time. Currently (2022) a standard computer CPU has only 8 cores. So you can really run a maximum of 8 things in parallel. But our human brain works fully parallel and simultaneously. Each individual cell is a small CPU. And it’s a network of cells through which data flows, producing an output from the input. To me it’s basically an <a href="https://en.wikipedia.org/wiki/Input/output">I/O device</a> and each little neuron cell is an I/O device. Brain researchers say the brain isn’t very fast (100MB/s)<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">1</a></sup>, so why can it process so much data? The brain works extremely parallel and slow compared to a CPU which works extremely fast and serial. Which is better - do one thing at a time with a very fast CPU or process a huge amount of data in parallel with billions of small cells (CPUs)?</p>
+
+<h2 id="data-flow-processor-architecture">Data flow processor architecture</h2>
+
+<p>Jack Dennis was working on a data flow architecture that seems to me work more like a human brain architecture. Data flows through the brain and producing output from input. If you read the abstract of the article <a href="https://www.deepdyve.com/lp/association-for-computing-machinery/a-preliminary-architecture-for -a-basic- data-flow-processor-Ej0aB8VR5g">“A Preliminary Architecture for a Basic Dataflow Processor”</a><sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">2</a></sup> you can see that the architecture sound is different from the <a href="https://en.wikipedia.org/wiki/Von_Neumann_architecture">von Neumann architecture</a><sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">3</a></sup> we use today in most CPUs. Even when we have Multi-Core Systems they are still Von-Neumann style <a href="https://en.wikipedia.org/wiki/Central_processing_unit">CPUs</a> on a <a href="https://en.wikipedia.org/wiki/Die_(integrated_circuit)">die</a> connected together.</p>
+
+<p><em>Abstract:</em></p>
+
+<blockquote>
+  <p><em>A processor is described which can achieve <strong>highly parallel</strong> execution of programs represented in data-flow form. The language implemented incorporates conditional and iteration mechanisms, and the processor is a step toward a practical data-flow processor for a Fortran-level data-flow language. The processor has a <strong>unique architecture</strong> which <strong>avoids the problems of processor switching</strong> and <strong>memory/processor interconnecion</strong> that usually <strong>limit the degree of realizable concurrent processing</strong>. The architecture offers an unusual solution to the problem of structuring and managing a two-level memory system.</em></p>
+</blockquote>
+
+<p>It’s clear that modern AI systems (like <a href="https://kinara.ai">kinara</a> or <a href="https://hailo.ai">hailo</a>) would use eventually such dataflow processor architecture.</p>
+
+<hr />
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:3" role="doc-endnote">
+      <p><a href="https://www.amazon.de/Lernen-Gehirnforschung-die-Schule-Lebens/dp/3827417236">Lernen: Gehirnforschung und die Schule des Lebens</a> <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:1" role="doc-endnote">
+      <p><a href="https://www.deepdyve.com/lp/association-for-computing-machinery/a-preliminary-architecture-for-a-basic-data-flow-processor-Ej0aB8VR5g">“A preliminary architecture for a basic data-flow processor”</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p><a href="https://en.wikipedia.org/wiki/Von_Neumann_architecture">Von Neumann architecture</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+</div></div>
+    </body>
+
+</html>

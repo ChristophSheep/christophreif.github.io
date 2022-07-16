@@ -15,6 +15,7 @@ If all these people would work together how would it change the computing indust
 
 <!-- TODO: TIME LINE -->
 
+
 ## Joseph Weizenbaum (1923)
 
 * [Wiki](https://en.wikipedia.org/wiki/Joseph_Weizenbaum)
@@ -112,9 +113,24 @@ Das hat auch was mit Größenwahn zu tun."*
 * [Journal of Functional Programming](https://en.wikipedia.org/wiki/Journal_of_Functional_Programming)
 * [Term rewriting systems](https://en.wikipedia.org/wiki/Rewriting#Term_rewriting_systems)
 
-## M. Douglas McIlroy (1932)
+
+
+
+## Douglas_McIlroy (1932)
 
 * [Wiki](https://en.wikipedia.org/wiki/Douglas_McIlroy)
+* [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy)
+* [Unix Pipes](https://en.wikipedia.org/wiki/Pipeline_(Unix))
+* [Macro Processor](https://en.wikipedia.org/wiki/General-purpose_macro_processor)
+
+> <small>McIlroy is attributed the quote "__The real hero of programming__ is the one who writes negative code,"[32] where the meaning of negative code is taken to be similar to the famous Apple developer, Bill Atkinson, team anecdote[33] (i.e., when a change in a program source makes the number of lines of code decrease ('negative' code), while its overall quality, readability or speed improves).
+</small>
+
+> <small>Conversely, __McIlroy has criticized modern Linux__ as having __software bloat__, remarking that, "adoring admirers have fed Linux goodies to a disheartening state of obesity."[8] He contrasts this with the earlier approach taken at Bell Labs when developing and revising Research Unix:[9]
+</small>
+
+> <small>Everything was small... and my heart sinks for Linux when I see the size of it. [...] The manual page, which really used to be a manual page, is now a small volume, with a thousand options... We used to sit around in the Unix Room saying, 'What can we throw out? Why is there this option?' It's often because there is some deficiency in the basic design — you didn't really hit the right design point. Instead of adding an option, think about what was forcing you to add that option.
+</small>
 
 ## Gerald M. Weinberg (1933)
 
@@ -260,6 +276,28 @@ Das hat auch was mit Größenwahn zu tun."*
 
 * [The Art of Unix Programming](https://nakamotoinstitute.org/static/docs/taoup.pdf)
 * [Revolution OS](https://youtu.be/NrI-0u4npGo)
+
+> <small>Eric Raymond's 17 Unix Rules[edit]
+In his book __The Art of Unix Programming__ that was first published in 2003,[11] Eric S. Raymond (open source advocate and programmer) summarizes the Unix philosophy as KISS Principle of "Keep it Simple, Stupid."[12] He provides a series of design rules:</small>
+> <small> Build modular programs</small>
+> <small> | Write readable programs</small>
+> <small> | Use composition</small>
+> <small> | Separate mechanisms from policy</small>
+> <small> | Write simple programs</small>
+> <small> | Write small programs</small>
+> <small> | Write transparent programs</small>
+> <small> | Write robust programs</small>
+> <small> | Make data complicated when required, not the program</small>
+> <small> | Build on potential users' expected knowledge</small>
+> <small> | Avoid unnecessary output</small>
+> <small> | Write programs which fail in a way that is easy to diagnose</small>
+> <small> | Value developer time over machine time</small>
+> <small> | Write abstract programs that generate code instead of writing code by hand</small>
+> <small> | Prototype software before polishing it</small>
+> <small> | Write flexible and open programs</small>
+> <small> | Make the program and protocols extensible. </small>
+
+# Pioneers of Brain Research
 
 ## Manfred Spitzer (1958)
 

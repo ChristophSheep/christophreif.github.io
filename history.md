@@ -20,9 +20,15 @@ But there some things to overcome:
 
 > *"What you already know, hinders you from what I want you to know."* 
 
-Most people believe they already know the truth about a subject, so they doesn't seek anymore at this place. Here is another one problem.
+Most people believe they already know the truth about a subject, so they doesn't seek anymore at this place. Here is another problem.
 
 > *"The stupid make always the same mistakes, the smart makes always new ones."*
+
+And if you are pride instead of humble, you stop seeking and learning, because you don't believe following.
+
+> *"There is always a better way of doing something."*
+
+Really good computer scientists often describe themselves as humble. Humility is not a state where you lay down and let everyone walk over you. It's an attitude that you don't know everything yet and there's always something new to discover.
 
 ## Why history is important?
 
@@ -85,14 +91,20 @@ Studying history helps us understand how events in the past made things the way 
 
 ### OO
 
-* I made up the term 'object-oriented', and I can tell you I didn't have C++ in mind
-  -- Alan Kay, OOPSLA '97
+Alan Kay, one of the developers of [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk), did following statement:
+
+> *"I made up the term 'object-oriented', and I can tell you I didn't have C++ in mind"*
+
+Object orientated thinking is a good thing, if you really understand it. But if you derive a class 20 times and collect more and more methods and end with a class that has a huge amount of methods, then propably you don't really understand the essence of
+object orientation. Jonathan Rees gave Paul Graham an interesting [response about OO](http://www.paulgraham.com/reesoo.html).
 
 ### Lisp
 
-* People do not like Lisp because of the parenthises, because they do not understand why they are there.
+And this is what I see about Lisp:
 
-## Stuff
+> *"People don't like Lisp because of all the parentheses, because they don't understand why they're there"*
+
+## Others
 
 * [AI Winter](https://en.wikipedia.org/wiki/AI_winter)
 * [Null Pointer](https://en.wikipedia.org/wiki/Null_pointer)
