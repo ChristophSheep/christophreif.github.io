@@ -158,6 +158,10 @@ For instance if you build a Boing 777. Then you get parts from other companies t
 specifiation and an interface. We believe technics in software development are something new.
 No they are not new. They already existing before and are so called *common sense*.
 
+### Composability 
+
+[Composability](https://en.wikipedia.org/wiki/Composability) is a very important concept, for instance of Unix. Instead of creating a big monolitic system. You create many small components that can be composed together.
+
 ### Interfaces
 
 Today we have interfaces, interfaces hide you implementation. They are your specification of you module.

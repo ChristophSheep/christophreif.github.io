@@ -21,25 +21,23 @@ A [quotation](https://en.wikipedia.org/wiki/Quotation)[^2] is the repetition of 
 
     -- Alan Kay
 
-## Some thoughs
+## Some thoughs from me
 
 * “The short-term driver gets a single point for the fastest lap, but the long-term driver wins the race or even the season.”
 
-    -- Christoph Reif - Formula One Thinking
+    -- Formula One Thinking
 
 * “Software development can be very easy, when you do it right, but on the others very complicated, if you do it wrong.”
 
-    -- Christoph Reif
+    -- My experience
 
 * “If you don't care about dependencies, the dependencies will care on you.”
 
-    -- Christoph Reif
+    -- My experience
 
 * “Legacy code is an attidute. It starts with your attitude the first day you start coding, do you want legacy or you want sustainable code.“
 
-    -- Christoph Reif
-
-
+    -- My experience
 
 ---
 
