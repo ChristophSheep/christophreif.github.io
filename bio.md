@@ -19,11 +19,13 @@ There are parts that are true and parts that are not true. They only seems true 
 Truth never get killed. It is like a seed in the dessert. If the rain comes, the flowers with grow.
 A [desert bloom](https://en.wikipedia.org/wiki/Desert_bloom) is a climatic phenomenon that occurs in various deserts around the world. 
 
-## The Future always builds on past
+## The Future always builds on the past
 
 <img class="img-container-right" style="height: 140px" src="assets/images/roundabout3.jpg">
 When you go back in history you can find the point where the whole IT industrie has turned the wrong.
 Like in a [roundabout](https://en.wikipedia.org/wiki/Roundabout), you can enter the roundabout, but you have to decide where to exit the roundabout. Is it going to north? Is it going to south? Is it goind to west or east? Or any other direction. If you choose the wrong direction and you believe you are on the right path then you drive fast. But after 50 years of IT technology you see the fruits. Are the fruits good? Fruits are sign like on the road. That show if you are at the right road. If you drive to south and the sun is not on the right place and you still believe you are drving to south then you should start to think. Are you sure you drive the right directions?
+
+In the 70s they did a lot of invention, but did not have the hardware we have today. So computer where slow and you have to things you would not do today. These are things that can change. Because now we have the computer power and the reason why we have a lot of things is gone. So todays computer can be 10 times simpler made. The question is why you does not want to remove things that have fallen out of time. We are now 2020 folks and heading 2030 oder 2040. IT industry had to start from scretch otherwise it can not go into a sustainable direction and things get more worse.
 
 ## Good or bad Signs 
 

@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Unix Pipes</title>
+        <title>Composable</title>
         <link rel="stylesheet" href="/assets/css/styles.css">
     </head>
 
@@ -29,25 +29,20 @@
         <!--<div class="my-name">CHRISTOPH  REIF</div>-->
         <div id="content"><div class="my-name">CHRISTOPH  REIF</div>
 
-<h1 style="margin-bottom: -0.1em;">Unix Pipes</h1>
-<small>16 Jul 2022</small>
+<h1 style="margin-bottom: -0.1em;">Composable</h1>
+<small>17 Jul 2022</small>
 
-<!--small>16 Jul 2022 - chre</small-->
+<!--small>17 Jul 2022 - chre</small-->
 
-<div class="two-columns"><p><strong>Unix Pipes</strong> are a very important concept of Unix. Pipes are just ordinary files. There are named pipe and unnamed pipes.</p>
+<div class="two-columns"><p><strong>Composable</strong> architecture or thinking is very important to keep a system small and flexible and evolvable.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cat test.txt | grep "foo" | tee result.txt | wc -l
-</code></pre></div></div>
+<h2 id="examples">Examples</h2>
 
-<p>For instance above chain of commands are connected by pipes.</p>
+<h3 id="lego">Lego</h3>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     out  in    out  in   out  in
-[ cat ]--&gt;[ grep ]--&gt;[ tee ]--&gt;[ wc ]
-</code></pre></div></div>
+<h3 id="unix">Unix</h3>
 
-<p>So process are again i/o device. Which takes the input from a pipe do something and put the result to output. The next process in the chain take the output as input and so on.</p>
-
-<p><a href="https://en.wikipedia.org/wiki/Pipeline_(Unix)">Unix Pipes</a> are invented by <a href="https://en.wikipedia.org/wiki/Douglas_McIlroy">Douglas McIlroy</a></p>
+<h3 id="lectron">Lectron</h3>
 </div></div>
     </body>
 

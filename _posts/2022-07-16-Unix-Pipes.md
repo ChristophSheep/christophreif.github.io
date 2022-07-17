@@ -16,8 +16,6 @@ For instance above chain of commands are connected by pipes.
 [ cat ]-->[ grep ]-->[ tee ]-->[ wc ]
 ```
 
-So process are again i/o device. Which takes the input from a pipe do something
-and put the result to output. The next process in the chain take the output as
-input and so on.
+So process are again i/o device. Which takes the input from a pipe do something and put the result to output. The next process in the chain take the output as input and so on.
 
 [Unix Pipes](https://en.wikipedia.org/wiki/Pipeline_(Unix)) are invented by [Douglas McIlroy](https://en.wikipedia.org/wiki/Douglas_McIlroy) 
