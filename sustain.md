@@ -29,13 +29,13 @@ All these stuff is so important, but often not teached in classes.
 
 ### Flexible
 
-How to get you source code flexible. Flexible means that you can change you code if the enviroment change so you are flexible to the world outside around you.
+This way you get your source code flexibly. Flexible means you can adapt your code as the environment changes, giving you flexibility for the world around you.
 
-Some create flexible code by making plugins. Plugins are often build around a small abstract core. For plugins you need an future safe abstract interface.
+Some create flexible code by making plugins. Plugins are often built around a small abstract core. For plugins you need a future-proof abstract stable interface because you don't know what the future will bring.
 
-Because you does not know what the future will bring.
+Interfaces or the idea of an interface therefore play a major role. Interfaces are something like templates.
 
-So interfaces or the concept of an interface create a big role. Interfaces are something like template.
+It has to be abstract because they cannot know the concrete future. But abstraction enables you to implement concrete parts without breaking the code in the future.
 
 ```
   (deftem obj id 0 name "not set")
@@ -44,44 +44,44 @@ So interfaces or the concept of an interface create a big role. Interfaces are s
 
 ### Robust
 
-A sustainable needs not to be flexible, but also robust. If you only flexible alone that you can not stand against a storm. A robust things does not break in a storm. 
+A sustainable system must not only be flexible, but also robust. If you're just flexible, you can't withstand a storm. A sturdy thing doesn't break in a storm.
 
-I always use the picture of our humane body. We have bones for robustness and muscle for flexibility. Both things work hand in hand. Without bones the muscle have nothing to attach. The bones alone without muscle can not move or rotate. And the flesh and the skin glue everything together.
+I always use the image of our human body. We have bones for strength and muscles for flexibility. Both things work hand in hand. Without bones, muscles have nothing to attach to. The bones alone without muscle cannot move or rotate. And the flesh and skin stick everything together.
 
-A robust software has a very small and simple abstract core. This core is very stable over the time.
+Robust software has a very small and simple abstract core. This core is very stable over time.
 
 ### Changeable
 
-Because you does not know what the future brings. You need to be able to change the software.
+Because you don't know what the future will bring. You must be able to change the software.
 
-For instance you will change you database from MSSQL or Oracle to Postgre or MySQL. Or even to other None-SQL data storages. Another example would be to user interface web framework. Because there is knew very good on the market.
-So that it is so important that your design and archicture allow to change things later.
+For example, you will migrate your database from MS-SQL or Oracle to PostgreSQL or MySQL. Or even to other non-SQL data stores. Another example would be changing the web framework for the user interface, because there are new very good ones on the market.
+
+That's why it's so important that your design and architecture allow things to be changed later.
 
 ### Simple
 
-Eric Raymond wrote in his book about "The Art of Unix programming" that robustness is a child of simplicity. Nearly every said keep it simple. And Einstein said: Keep it simple, as possible. So everything could not be very simple. But it is an attitude to keep things simple. Only pride people believe they can handle a huge amount of complicated things. We can handle complex things, but only by divide it into smaller simpler things in form of layers.
+Eric Raymond wrote in his book The Art of Unix Programming that robustness is a child of simplicity. Almost know the saying: "Keep it simple" And Einstein said: "Keep it as simple as possible, but no simpler". But it's an attitude of wanting to keep things simple. Only proud people believe they can handle a huge amount of complicated code. We can handle complex systems, but only by breaking them down into smaller, simpler layers, where each layer builds on the others below.
 
 ## Clear
 
-A software should be clear. Clear means that it is clear to understand. Clear also means clear as a glass compared to a foggy or nebulous view of things. So clarity is really very important.
+Software should be clear. Clear means it is clear and understandable. Clear also means crystal clear in contrast to a foggy or nebulous view of the system. So clarity is really very important. If you don't explain in a few words, simply and clearly, what a module does, for example, so that even a child or a grandmother can understand it, it's not clear.
 
 ### Readable
 
-Readability is very important. All say we read more software the we write. For instance if you have a document and nobody could read your handwriting then this is a problem.
+Readability is also very important. Many say we read more code than we write code. For example, if you can't read a handwritten document because of the writing, how are you ever going to understand what the content is?
 
 ### Understandable
 
-Understandable is a child of readability. If you can not read the code then it is impossible to understand the code. Understandable has more to do with getting an overview and the relationsship of the parts of the software and what the software is doing or what it should doing.
-Often only the implementer understand what they did and new developer they joined later to the project does not understand or have hard time to understand.
+Understandable is a child of readability. If you cannot read the code, it is impossible to understand the code. Comprehensible has more to do with getting an overview and understanding the relationships between the parts of the software and what the software does or should do.
+Often only the developer understands what he has done, and new developers coming later into the project have difficulty understanding the system through the code.
 
 ### Maintainable
 
-No software is fully free of bugs. But if believe you can develope software in a way that you have not many bugs.
+No software is completely bug-free. But if you believe that you can develop software in such a way that you don't have many bugs. Paul Graham wrote in his books Hacker & Painter that his ViaWeb never had more than 10 errors. And because they publish it on the server, the bug was often found and fixed early. Because the faster you find a bug, the cheaper it is. A bug that is only fixed years later is very very expensive. If you've just created the code and find the bug a few days later, you won't remember very well. Years later this no longer works and maybe the bug will be fixed by a developer who doesn't understand the code at all. It then takes days or weeks to find the error.
 
 ### Independent
 
-Sometimes you need the opposite to understand a concept. The opposite of independent is depent. A dependet code is better known as "spagetti code". Everthing depend on anything and so if you change later something
-you break the whole things. To manage your dependencies in a software project is very important things to make your software __changeable__ and __flexible__.
+Sometimes you need the opposite to understand a concept. The opposite of "independent" is "dependent". Code with many dependencies is better known as "spagetti code". Everything depends on everything and if you change something later, you probably break a lot in the worst case. Managing your dependencies in a software system is very important to keep your software __changeable__ and __flexible__.
 
 __Technics:__
 
@@ -89,7 +89,7 @@ __Technics:__
 
 ### Abstract
 
-Abstract is the power you need to make a sustainable code. Because you don't know the future. But if you make an abstract data type for instance Animal you can later add Dogs, Lions, Birds, Cats whatever. All these objects fit into the abstract type Animal. And the most abstract data type is an Object. And the all most abstract data type are list of bytes. So called byte streams. In Unix everything is a file (a stream of bytes).
+Abstraction is the power you need to create sustainable code because you don't know the future. But if you create an abstract data type, say animal, you can later add concrete types like dogs, birds, bats, whatever you need. All of these objects fit into the abstract type of an animal. And the most abstract data type is an object with attributes. And the most abstract data type are lists of bytes. So-called byte streams. In Unix, everything is a file or a stream of bytes. That's why.
 
 #### Layers of Abstraction
 
@@ -105,16 +105,20 @@ Abstract is the power you need to make a sustainable code. Because you don't kno
 
 ```
 
-Layers of abstraction is a very important concept to make your software architecture sustainable. The core (layer0) is your most abstract layer. The higher in goes the less abstract it goes
-and the layer gets more concrete to fullfill your business.
+Abstraktionsschichten sind ein sehr wichtiges Konzept, um Ihre Softwarearchitektur nachhaltig zu gestalten. Der Kern (layer0) ist Ihre abstrakteste Ebene. Je höher es geht, desto weniger abstrakt wird es
+und die Schicht wird konkreter, um Ihr Geschäft zu erfüllen.
 
-For instance in layer core there is a string class or module. This string module does not anything about for what it is used. Then you build an object with attributes. 
+Zum Beispiel gibt es im Layer-Kern eine String-Klasse oder ein Modul. Dieses String-Modul weiß nicht für was sie benutzt wird, Vielleicht wird damit ein Personen Klasse gebaut mit Attributen Vorname und Nachname von Typ String. Diese Personen-Klasse, weiß nichts davon, wo Sie in eine UseCase Klasse verwendet wird usw.
+
 Like 
+
 ```
   <obj attr1 attr2> 
   <obj key1=value1 key2=value2>
 ```  
+
 No you build concrete types like an image object in html 
+
 ``` 
   <img src="./foo.png" "style="color:red">
 ```  
@@ -129,8 +133,8 @@ Then you build a button with a link and a box
 
 #### Bottom-Up Design
 
-Bottom-Up design lays hand in hand with the concept of *layers of abstraction*[^4].
-Bottom-Up design is coupled with a macros[^5] and macros expansion. Macros are like template of code, so you can create you own language inside the language.
+Bottom-up design goes hand-in-hand with the concept of *layers of abstraction*[^4].
+The bottom-up design is coupled with functions, macros[^5] and macro expansion. Macros are like code templates, allowing you to create your own language within the language. Therefore, Lisp is extremely well suited for this without any additional syntax.
 
 > Experienced Lisp programmers divide up their programs differently. As well as top-down design, they follow a principle which could be called bottom-up design-- changing the language to suit the problem. In Lisp, you don't just write your program down toward the language, you also build the language up toward your program. As you're writing a program you may think "I wish Lisp had such-and-such an operator." So you go and write it. Afterward you realize that using the new operator would simplify the design of another part of the program, and so on. Language and program evolve together.
 
@@ -150,40 +154,42 @@ Bottom-Up design is coupled with a macros[^5] and macros expansion. Macros are l
 
 ### Decomposition
 
-Barbara Liskov exaplain in her TEDx talk[^6] how see started to decompose a big system with
-a technic see called *partitions*.
+In her TEDx talk[^6], Barbara Liskov explains how see started by decomposing a large system
+a technique called *partitions*.
 
-Decomposition is a natural things for building bigger things where many companies work together.
-For instance if you build a Boing 777. Then you get parts from other companies that have a
-specifiation and an interface. We believe technics in software development are something new.
-No they are not new. They already existing before and are so called *common sense*.
+Disassembly is a natural thing to build bigger things that many companies are collaborating on. For example, if you are building a Boeing 777. Then you get parts from other companies that have a specification and an interface. We believe in techniques to share something new. No they are not new. They already exist and are so-called *common sense*. It was only discovered how to use it for software development with many people.
 
 ### Composability 
 
-[Composability](https://en.wikipedia.org/wiki/Composability) is a very important concept, for instance of Unix. Instead of creating a big monolitic system. You create many small components that can be composed together.
+[Composability](https://en.wikipedia.org/wiki/Composability) is a very important concept, for instance of Unix. Instead of creating a big monolitic system. You create many small components, small commands, that can be composed together.
+
+For example, this command select first 7 lines through (head -7) command and that will be input to (tail -5) command which will finally print last 5 lines from that 7 lines. 
+
+```
+> cat sample2.txt | head -7 | tail -5
+```
 
 ### Interfaces
 
-Today we have interfaces, interfaces hide you implementation. They are your specification of you module.
+Today we have interfaces, interfaces hide their implementations. With the interface you come into contact with the module.
 
-For instance a simple lighbulb has an interface we call E14 oder E27 thread. Thomas Edison invented this interface called *Edison screw*[^7]. Currently we use LED lighbulb. And this is only a different implementation with the same interface. Interfaces are needed for plugins. A lightbulb is a plugin.
+For example, a simple lightbulb has an interface that we call an E14 or E27 thread. Thomas Edison invented this interface with the name *Edison screw*[^7]. Currently we often use LED lightbulbs, this is another implementation with the same interface.
 
-Interfaces are important that you can change later things you even not know that they will invented. For instance before None-SQL data storage were invented, people often use the filesystem or SQL database. But often you have object that does not fit well into a relational database. But now with this interface you can plugin out the old SQL storage and plugin a new None-SQL storage.
+Interfaces are required for plugins. A lightbulb is a plugin for your lighting system.
 
-This is the same with USB you plug out your old harddisk and plug in a brand new fast 1 TB SSD drive.
+Interfaces are also important so that you can later change things that will only be invented in the future. For example, before the invention of non-SQL data storage, the file system or SQL database was commonly used. But often you have objects that don't fit well in a relational database. But now, with data tier interface, you can unplug the old SQL storage and plug in a new non-SQL storage.
 
-Also with screws, a screw is a part that is manufactored very cheap today and the *ISO metric screw*[^9] thread is a interface. So you can screw in worldwide a M5 screw for instance.
+Same with USB, you unplug your old spinning hard drive and plug in a brand new fast 1TB SSD.
+
+The *metric ISO screws*[^9] thread of a screw is also an interface. For example, you can buy an M5 screw anywhere in the world and screw it in somewhere at home.
 
 ### Compatibility with old code
 
-We can not right always everything new, when a new langauge come on the market.
+We can't always rewrite everything when a new language comes out.
 
-Robert Martin said, should we not stop to invent all the time new languages and start to grow up and concentrate of other tings like Clean Architecture. 
+Robert Martin said we as an industry should stop inventing new languages all the time. Stop looking for the holy grail and start growing up and focusing on other things like clean architecture. Architecture is fundamentally language-independent.
 
-We can hide old code behind an interface and create a black box for instance with a rest service. If later we want to change.
-
-Tony Hoare said in this talk about the subject "Null References: The Billion Dollar Mistake" that is important that we are compatible to old code. We can bot write everything new all the time.
-
+Tony Hoare also said in his talk on Null References: The Billion Dollar Mistake that it is important that we are compatible with legacy code. We can't always rewrite everything.
 
 ---
 

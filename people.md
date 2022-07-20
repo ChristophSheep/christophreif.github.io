@@ -86,6 +86,7 @@ Das hat auch was mit Größenwahn zu tun."*
 * [The Fresh Breeze Model of Thread Execution](http://csg.csail.mit.edu/Users/dennis/pmup-final.pdf)
 * [A preliminary architecture for a basic data-flow processor](https://www.deepdyve.com/lp/association-for-computing-machinery/a-preliminary-architecture-for-a-basic-data-flow-processor-Ej0aB8VR5g)
 * [Thoughts about Computer Architecture](http://csg.csail.mit.edu/Users/dennis/barc-presentation/sld001.htm)
+* [How It All Began](http://csg.csail.mit.edu/Dataflow/talks/DennisTalk.pdf)
 
 > In September 1988 the MIT Laboratory for Computer Science celebrated the thirty-fifth anniversary of Project MAC. At that event I pointed out the limitations of conventional multiprocessor architecture:
  

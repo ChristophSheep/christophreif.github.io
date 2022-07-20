@@ -3,7 +3,7 @@ layout: post
 author: chre
 ---
 
-__Composable__ architecture or learn to think composable is very important to keep a system small and flexible and evolvable and all together sustainable.
+An architecture of __composable__ components is important to keep a system small, maintainable, flexible, evolving and above all sustainable.
 
 ## Examples
 
