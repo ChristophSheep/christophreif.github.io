@@ -7,7 +7,7 @@ title: Quotes
 
 A [quotation](https://en.wikipedia.org/wiki/Quotation)[^2] is the repetition of a sentence, phrase, or passage from speech or text that someone has said or written.
 
-## From famous people
+## From (famous) people
 
 * “The best way to predict your future is to create it.”
 
@@ -20,6 +20,10 @@ A [quotation](https://en.wikipedia.org/wiki/Quotation)[^2] is the repetition of 
 * “I made up the term 'object-oriented', and I can tell you I didn't have C++ in mind.”
 
     -- Alan Kay
+
+* "More computing sins are committed in the name of efficiency (without necessarily achieving it) that for any other single reason -- including blind stupidity"
+
+    -- William A. Wulf <small>(read at "The Power of the Paradigm" - Douglas Crockford)</small>
 
 ## Some thoughs from me
 
@@ -35,7 +39,7 @@ A [quotation](https://en.wikipedia.org/wiki/Quotation)[^2] is the repetition of 
 
     -- My experience
 
-* “Legacy code is an attidute. It starts with your attitude the first day you start coding, do you want legacy or you want sustainable code.“
+* “Legacy code is an attidute. It starts with your attitude the first day you start coding, do you want legacy or you want clean sustainable code.“
 
     -- My experience
 

@@ -16,6 +16,7 @@ If all these people would work together how would it change the computing indust
 <!-- TODO: TIME LINE -->
 
 
+
 ## Joseph Weizenbaum (1923)
 
 * [Wiki](https://en.wikipedia.org/wiki/Joseph_Weizenbaum)
@@ -114,9 +115,6 @@ Das hat auch was mit Größenwahn zu tun."*
 * [Journal of Functional Programming](https://en.wikipedia.org/wiki/Journal_of_Functional_Programming)
 * [Term rewriting systems](https://en.wikipedia.org/wiki/Rewriting#Term_rewriting_systems)
 
-
-
-
 ## Douglas_McIlroy (1932)
 
 * [Wiki](https://en.wikipedia.org/wiki/Douglas_McIlroy)
@@ -191,7 +189,14 @@ Das hat auch was mit Größenwahn zu tun."*
 ## Dennis Ritchie (1941)
 
 * [Homepage](https://www.bell-labs.com/usr/dmr/www/)
+* [Wiki](https://en.wikipedia.org/wiki/Dennis_Ritchie)
 * [The C Programming Language, Second Edition](https://s3-us-west-2.amazonaws.com/belllabs-microsite-dritchie/cbook/index.html)
+
+## Brian Kernighan (1942)
+
+* [Wiki](https://en.wikipedia.org/wiki/Brian_Kernighan)
+* [Unix](https://en.wikipedia.org/wiki/Unix)
+* [The C Programming Language](https://en.wikipedia.org/wiki/The_C_Programming_Language)
 
 ## Jef Raskin (1943)
 
@@ -201,8 +206,14 @@ Das hat auch was mit Größenwahn zu tun."*
 
 ## Ken Thompson (1943)
 
+ * [Wiki](https://en.wikipedia.org/wiki/Ken_Thompson)
+ * [Unix](https://en.wikipedia.org/wiki/Unix)
  * [Go](https://en.wikipedia.org/wiki/Go_(programming_language))
  * [Plan 9](https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs)
+ * [Brian Kernighan interviews Ken Thompson](https://www.youtube.com/watch?v=EY6q5dv_B-o)
+
+    > Ken Thompson: "One week, one week, one week and we had Unix."
+    > Brian Kernighan: "I think programmers weren't quit productive like these days."
 
 ## Andy Tanenbaum (1944)
 
@@ -233,6 +244,7 @@ Das hat auch was mit Größenwahn zu tun."*
 * [JavaScript: The World's Most Misunderstood Programming Language](http://www.crockford.com/javascript/javascript.html)
 * [How JavaScript Works](https://howjavascriptworks.com)
 * [The Post JavaScript Apocalypse](https://www.youtube.com/watch?v=NPB34lDZj3E)
+* [The Power of the Paradigm](https://www.youtube.com/watch?v=X3ExqafLgwk)
 * [Principles of Security](https://www.youtube.com/watch?v=zKuFu19LgZA)
 * [DEC64](https://www.crockford.com/dec64.html)
 
@@ -241,6 +253,9 @@ Das hat auch was mit Größenwahn zu tun."*
 * [The Good, the Bad, and the Ugly: The Unix Legacy](http://herpolhode.com/rob/ugly.pdf)
 * [Go](https://en.wikipedia.org/wiki/Go_(programming_language))
 * [Plan 9](https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs)
+* [Concurrency is not Parallelism](https://www.youtube.com/watch?v=oV9rvDllKEg)
+* [The Go Programming Language and Environment](https://www.youtube.com/watch?v=YXV7sa4oM4I)
+* [History of Unix](https://www.youtube.com/watch?v=_2NI6t2r_Hs)
 
 ## Paul Graham (1964)
 

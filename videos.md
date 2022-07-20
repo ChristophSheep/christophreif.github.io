@@ -31,13 +31,17 @@ title: Videos
 * [Robert Martin - The Last Programming Language](https://www.youtube.com/watch?v=P2yr-3F6PQo)
 * [Douglas Crockford - The Post JavaScript Apocalypse](https://www.youtube.com/watch?v=NPB34lDZj3E)
 * [Douglas Crockford - The JSON Saga](https://www.youtube.com/watch?v=-C-JoyNuQJs)
+* [Douglas Crockford - The Power of the Paradigm](https://www.youtube.com/watch?v=X3ExqafLgwk)
+
+## Operating Systems
+
+* [Rob Pike - History of Unix](https://www.youtube.com/watch?v=_2NI6t2r_Hs)
 
 ## Security
 
 * [Douglas Crockford - Principles of Security](https://www.youtube.com/watch?v=zKuFu19LgZA)
 
-<!--
-## Other
+## History
 
-* [Dave Farley - TODO]
--->
+* [Brian Kernighan interviews Ken Thompson](https://www.youtube.com/watch?v=EY6q5dv_B-o)
+

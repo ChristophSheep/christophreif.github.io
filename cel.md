@@ -12,14 +12,17 @@ Each cell is ..
  * .. is independent
  * .. is simple and stupid
  * .. does not know about outside
- * .. calculates the output from the inputs
+ * .. calculates the output(s) from the input(s)
  * .. has no side effects
  * .. has 0 to N inputs
  * .. has 0 to 1 outputs (or M outputs)
- * .. has 0 to N in connections to other cells
+ * .. has 0 to N incoming connections from other cells
  * .. has 0 to M output connections to other cells
- * .. has its own memory, but can forget
- * .. can be a group of other cells
+ 
+ Each cell can ..
+
+ * .. be a group of other cells
+ * .. have its own memory, but can forget
 
 Note: the output could be the input of a cell but not at the same time, only t+1. So the output at time t can be the input of a cell at t+1. Cells lives in time.
 
