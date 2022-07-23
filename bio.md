@@ -14,10 +14,14 @@ I am just *search*ing for peaces that fit together to build a picture about the 
 ## True and Truth
 
 <img class="img-container" src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Namaqualand%2C_Goegap_1035.jpg">
-There are parts that are true and parts that are not true. They only seems true to our reasoning. But when you test it properly, you see that this parts are not really true. If you remove and all not true parts and set the true parts together you will see a picture. Truth is hard to find today, because everybody has an opinion today. We have a sayings: "Opinions are like noses, everyone has one!"
+There are parts that are true and parts that are not true. They only seems true to our reasoning. But when you test it properly, you see that this parts are not really true. If you remove and all not true parts and set the true parts together you will see a clear picture. Truth is hard to find today, because everybody has an opinion today. We have a sayings: "Opinions are like noses, everyone has one!"
 
 Truth never get killed. It is like a seed in the dessert. If the rain comes, the flowers with grow.
 A [desert bloom](https://en.wikipedia.org/wiki/Desert_bloom) is a climatic phenomenon that occurs in various deserts around the world. 
+
+> "What you already know, hinders you, from what I want you to know."
+
+Some people does not seek for truth, because they believe they already know the truth about a subject. So they do not look behind stones (like Paul Graham said). They will often react, if someone came with the truth, because their mind says, this can not be true, because what I believe is the truth. If some reacts he mostly does not have the truth, but mostly protecting a lie.
 
 ## The Future always builds on the past
 
