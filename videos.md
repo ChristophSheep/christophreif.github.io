@@ -32,6 +32,7 @@ title: Videos
 * [Douglas Crockford - The Post JavaScript Apocalypse](https://www.youtube.com/watch?v=NPB34lDZj3E)
 * [Douglas Crockford - The JSON Saga](https://www.youtube.com/watch?v=-C-JoyNuQJs)
 * [Douglas Crockford - The Power of the Paradigm](https://www.youtube.com/watch?v=X3ExqafLgwk)
+* [Brian Kernighan - On successful language design](https://www.youtube.com/watch?v=Sg4U4r_AgJU)
 
 ## Operating Systems
 
