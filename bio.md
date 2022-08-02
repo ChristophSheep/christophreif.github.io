@@ -7,7 +7,7 @@ title: Bio
 
 <img class="img-container-right" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Jigsaw_puzzle_01_by_Scouten.jpg/1920px-Jigsaw_puzzle_01_by_Scouten.jpg"/>
 
-My name is Christoph Reif and I am researcher in computer science. The word of a [research](https://www.merriam-webster.com/dictionary/research) als includes the word *search*.
+My name is Christoph Reif and I am (private) researcher in computer science. The word of a [research](https://www.merriam-webster.com/dictionary/research) als includes the word *search*.
 
 I am just *search*ing for peaces that fit together to build a picture about the [truth](https://www.merriam-webster.com/dictionary/truth) and future of computing. Like in a [jigsaw puzzle](https://www.merriam-webster.com/dictionary/jigsaw%20puzzle). You just put the [right](https://www.merriam-webster.com/dictionary/right) [parts](https://www.merriam-webster.com/dictionary/parts) that fits together until you see the [whole](https://www.merriam-webster.com/dictionary/whole) image.
 
@@ -21,7 +21,9 @@ A [desert bloom](https://en.wikipedia.org/wiki/Desert_bloom) is a climatic pheno
 
 > "What you already know, hinders you, from what I want you to know."
 
-Some people does not seek for truth, because they believe they already know the truth about a subject. So they do not look behind stones (like Paul Graham said). They will often react, if someone came with the truth, because their mind says, this can not be true, because what I believe is the truth. If some reacts he mostly does not have the truth, but mostly protecting a lie.
+Some people does not seek for truth, because they believe they already know the truth about a subject. So they do not look behind stones (like Paul Graham said). They will often react, if someone came with the truth, because their mind says, this can not be true, because what I believe is the truth. If some reacts he mostly does not have the truth, but mostly protecting a lie. 
+
+Also Douglas Crockford said in his talk "The Power of the Paradigm"[^3] about the problem of the conformation bias. If new data comes into your brain and it is incompatible with paradigm in your head, you will reject it.
 
 ## The Future always builds on the past
 
@@ -62,4 +64,5 @@ I believe we need real parallel and concurrent computing[^1]. Which implies func
 
 [^1]: [Concurrent_computing](https://en.wikipedia.org/wiki/Concurrent_computing)
 [^2]: [Dataflow Architecture](https://en.wikipedia.org/wiki/Dataflow_architecture)
+[^3]: [The Power of the Paradigm - Douglas Crockford](https://www.youtube.com/watch?v=X3ExqafLgwk)
 

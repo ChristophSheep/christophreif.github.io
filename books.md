@@ -32,6 +32,12 @@ Some thoughts:
 
 <div class="book-flex-container">
 
+    <!-- The Annotated Turing -->
+    <figure>
+        <img width="100" src="https://img.thriftbooks.com/api/images/m/51efeda07f5fb0396116939f6206797d8a840bf5.jpg">
+        <figure-caption>The Annotated Turing</figure-caption>
+    </figure>
+
     <!-- Clean Architecture -->
     <figure>
         <img width="100" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F41SV6NlvMvL._SX258_BO1%2C204%2C203%2C200_.jpg&f=1&nofb=1">

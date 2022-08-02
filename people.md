@@ -238,6 +238,12 @@ Das hat auch was mit Größenwahn zu tun."*
 
 * [Wiki](https://de.wikipedia.org/wiki/Bjarne_Stroustrup)
 
+## Guy Lewis Steele Jr. (1954)
+
+* [Wiki](https://en.wikipedia.org/wiki/Guy_L._Steele_Jr.)
+* [Lambda Papers](https://en.wikipedia.org/wiki/History_of_the_Scheme_programming_language#The_Lambda_Papers)
+* [ECMAScript](https://en.wikipedia.org/wiki/ECMAScript)
+
 ## Douglas Crockford (1955)
 
 * [Homepage](https://www.crockford.com/)
@@ -276,6 +282,13 @@ Das hat auch was mit Größenwahn zu tun."*
 * [The Last Programming Language](https://www.youtube.com/watch?v=P2yr-3F6PQo)
 
 > <img width="600" src="assets/images/people/clean-architecture.png">
+
+## John_Ousterhout (1954)
+
+* [Wiki](https://en.wikipedia.org/wiki/John_Ousterhout)
+* [Tk](https://en.wikipedia.org/wiki/Tk_(software))
+* [Magic](https://en.wikipedia.org/wiki/Magic_(software))
+
 
 ## Steve Jobs (1955)
 
