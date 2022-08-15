@@ -15,7 +15,12 @@ title: Lisp
 * Lisp is like atoms to build chemical materials. Bottom-Up Design[^2].
 * Lisp has no syntax, because you work on [abstract syntax tree](https://en.wikipedia.org/wiki/Abstract_syntax_tree). That's why there are so many round brackets.
 
-## About Lisp
+## The last language
+
+Why LISP will be the last language? Because it is no language. It is a way to express code.
+So you can write Lisp in Lisp. You can write functional, object-oriented in Lisp. You can write functional programming in lisp. You can write any paradigm in lisp, even those that not even invented yet.
+
+## Stuff about Lisp
 
 ### Pitfalls of imperative programming (SICP - Page 317)
 

@@ -11,6 +11,7 @@ title: Videos
 
 ## Sustainable Architecture / Design
 
+* [Robert Martin - The Principles of Clean Architecture](https://www.youtube.com/watch?v=o_TH-Y78tt4)
 * [Robert Martin - The Future of Programming](https://www.youtube.com/watch?v=ecIWPzGEbFc)
 * [Robert Martin - The Future of Programming - with Q&A](https://www.youtube.com/watch?v=uOVoWCPOcUY)
 * [Robert Martin - The Future of Programming - Talk](https://www.youtube.com/watch?v=pXJvY3UT04M)
@@ -41,6 +42,7 @@ title: Videos
 ## Security
 
 * [Douglas Crockford - Principles of Security](https://www.youtube.com/watch?v=zKuFu19LgZA)
+* [Douglas Crockford - Seif Project](https://www.youtube.com/watch?v=0w6tZEbrHIY)
 
 ## History
 
